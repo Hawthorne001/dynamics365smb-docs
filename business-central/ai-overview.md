@@ -10,8 +10,9 @@ ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ---
-<!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 # Marketing text suggestions with Copilot overview
+
+<!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 This article gives an overview the AI-powered capability provided by Copilot in Business Central.
 
