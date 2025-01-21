@@ -11,8 +11,6 @@ ms.collection:
   - bap-ai-copilot
 ---
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
-![Shows the icon for chat with Copilot pane with callouts](media/banner.png)
-
 # Marketing text suggestions with Copilot overview
 
 This article gives an overview the AI-powered capability provided by Copilot in Business Central.
