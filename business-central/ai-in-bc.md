@@ -34,13 +34,22 @@ Benefits of using Copilot in Business Central
 
 No matter your role, task, or the industry you work in, Copilot is ready to help you get work done. 
 
-### Chat 
+### Chat
 
-1 paragraph 
+Engage in natural language conversations directly within the Business Central interface to:
 
-Video 
+**Find, organize, and summarize business data for your company** Look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, and items. For example, ask: "Show me the latest sales order for Adatum." Group records or do calculations like adding or averaging in an analysis tab. For example, ask, "Show me the latest sales orders for Adatum" or "Which customers got the most discounts."
 
-Feature docs, AI FAQ 
+**Get explanations and step-by-step guidance on various tasks** For example, ask: "Help me understand dimensions" or "How do I post a sales order?" Learn the purpose and use of each field. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name, and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
+
+**Learn the purpose and use of fields** Select **Ask Copilot** in a tooltip for a field to get information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
+
+> [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
+
+Learn more in:
+
+[Chat with Copilot](chat-with-copilot.md)
+[Responsible AI FAQs Chat with Copilot](faqs-chat-with-copilot.md)
 
 ### Analysis assist 
 
@@ -54,7 +63,7 @@ Feature docs, AI FAQ
 
 1 paragraph 
 
-Video 
+#### Video 
 
 Feature docs, AI FAQ 
 
@@ -67,13 +76,102 @@ Video
 Feature docs, AI FAQ 
 
 
-> [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
+## For finance 
 
-*The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
-  
+Whether you’re in Accounts Payable or Accounts Receivable, there’s AI to help you eliminate those tedious tasks 
+
+### Bank account reconciliation assist
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+### E-document matching 
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+### Copilot for Finance 
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+## For inventory and supply chain management 
+
+### Item substitute suggestions 
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+### Sustainability  
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+## For sales, customer service and marketing 
+
+### Sales Order agent
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+### Sales Line Suggestions
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+### Marketing text suggestions 
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+### Simplifying company setup 
+
+Whether you’re onboarding to Business Central for the first time, or expanding to new branches or subsidiaries, Copilot helps you get to doing business faster. 
+
+No. Series suggestions 
+
+1 paragraph 
+
+Video 
+
+Feature docs, AI FAQ 
+
+## Other AI-powered features in Business Central
+
+Business Central also includes various features that do not use generative AI, but use other AI models to help you work through specific tasks. 
+
+### Inventory forecasting  
+
+### Late payment prediction  
+
+### Cash flow analysis  
+
 ## Related information
 
+[Frequently asked questions about Copilot](copilot-overview.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  
-[Add marketing text to items with Copilot](item-marketing-text.md)  
-[FAQ for marketing text suggestions](faqs-marketing-text.md)  
-[Get Started with the Shopify Connector](shopify/get-started.md)  
+[Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
