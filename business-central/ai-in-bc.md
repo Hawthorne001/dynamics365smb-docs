@@ -51,7 +51,7 @@ Learn more in:
 [Chat with Copilot](chat-with-copilot.md)
 [Responsible AI FAQs Chat with Copilot](faqs-chat-with-copilot.md)
 
-### Analysis assist 
+### Analysis assist
 
 1 paragraph 
 
