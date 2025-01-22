@@ -52,10 +52,10 @@ Engage in natural language conversations directly within the Business Central in
 <br><br>
 > [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
 
-Learn more in:
+**Learn more in:**
 
-[Chat with Copilot](chat-with-copilot.md)
-[Responsible AI FAQs Chat with Copilot](faqs-chat-with-copilot.md)
+- [Chat with Copilot](chat-with-copilot.md)
+- [Responsible AI FAQs Chat with Copilot](faqs-chat-with-copilot.md)
 
 ### Analysis assist
 
