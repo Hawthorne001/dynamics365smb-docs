@@ -48,7 +48,11 @@ Engage in natural language conversations directly within the Business Central in
 
 <br><br>
 
-> [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
+
+
+> [!Video https://youtu.be/j5ULVClJaKU?list=PL1FESh9FqyhT3WHs2IoXSd0GM4_NQY_bc]
+
+
 
 **Learn more in:**
 
@@ -152,6 +156,7 @@ Feature docs, AI FAQ
 1 paragraph 
 
 Video 
+> [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
 
 Feature docs, AI FAQ 
 
