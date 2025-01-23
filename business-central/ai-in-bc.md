@@ -42,7 +42,7 @@ Engage in natural language conversations directly within the Business Central in
 
   For example, ask: "Show me the latest sales order for Adatum.", "show me customers grouped by their country and zipcode", or "Which customers got the most discounts."
 
-  <!--Look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, and items. For example, ask: "Show me the latest sales order for Adatum." Group records or do calculations like adding or averaging in an analysis tab. For example, ask, "Show me the latest sales orders for Adatum" or "Which customers got the most discounts."
+  <!--Look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, and items. For example, ask: "Show me the latest sales order for Adatum." Group records or do calculations like adding or averaging in an analysis tab. For example, ask, "Show me the latest sales orders for Adatum" or "Which customers got the most discounts."-->
 
 - Get explanations and step-by-step guidance on various tasks
 
