@@ -1,5 +1,5 @@
 ---
-title: Marketing text suggestions with Copilot overview
+title: AI in Business Central
 description: Get an overview of the AI content-generating capabilities in Business Central.  
 author: jswymer 
 ms.author: jswymer 
@@ -14,9 +14,9 @@ ms.collection:
 
 # AI in Business Central 
 
-![Shows the icon for chat with Copilot pane with callouts](media/banner.png)
+Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks.
 
-Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. 
+![Shows the icon for chat with Copilot pane with callouts](media/banner.png)
 
 Agents work autonomously with or alongside you to get work done <elaborate>. 
 
