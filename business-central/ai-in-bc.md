@@ -76,7 +76,7 @@ Feature docs, AI FAQ
 
 ### Autofill 
 
-1 paragraph 
+Get suggested values for editable fields when creating or modifying records. Autofill is available for fields in card and document pages, such as sales orders, items, and custom pages.
 
 Video 
 
@@ -85,11 +85,11 @@ Feature docs, AI FAQ
 
 ## For finance 
 
-Whether you’re in Accounts Payable or Accounts Receivable, there’s AI to help you eliminate those tedious tasks 
+Whether you're in Accounts Payable or Accounts Receivable, there's AI to help you eliminate those tedious tasks.
 
 ### Bank account reconciliation assist
 
-1 paragraph 
+Reconcile bank transactions with their accounting records  
 
 Video 
 
