@@ -2495,7 +2495,7 @@ ms.service: dynamics-365-business-central
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot and AI capabilities
-## [Copilot and AI in Business Central](ai-in-bc-overview.md)
+## [Copilot and AI in Business Central](ai-in-bc.md)
 ## [Common questions about Copilot in Business Central](copilot-overview.md)
 ## Manage Copilot and AI capabilities
 ### [Configure Copilot and AI capabilities](enable-ai.md)
