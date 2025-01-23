@@ -46,13 +46,7 @@ Engage in natural language conversations directly within the Business Central in
 
 - Learn the purpose and use of fields. Select **Ask Copilot** in a tooltip for a field to get information about it.
 
-<br><br>
-
-
-
-> [!Video https://youtu.be/j5ULVClJaKU?list=PL1FESh9FqyhT3WHs2IoXSd0GM4_NQY_bc]
-
-
+[Video](https://youtu.be/j5ULVClJaKU?list=PL1FESh9FqyhT3WHs2IoXSd0GM4_NQY_bc)
 
 **Learn more in:**
 
