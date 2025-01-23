@@ -89,7 +89,7 @@ Whether you're in Accounts Payable or Accounts Receivable, there's AI to help yo
 
 ### Bank account reconciliation assist
 
-Reconcile bank transactions with their accounting records  
+Get assistance in reconciling bank transactions with ledger entries. It offers two main tasks  
 
 Video 
 
