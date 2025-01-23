@@ -106,4 +106,5 @@ Currently, because of technical limitations, we can't offer Copilot to customers
 [Create marketing text with Copilot](item-marketing-text.md)  
 [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)  
 [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)  
+
 [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
