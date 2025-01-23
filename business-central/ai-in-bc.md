@@ -40,15 +40,18 @@ Engage in natural language conversations directly within the Business Central in
 
 - Find, organize, and summarize business data for your company
 
-  Look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, and items. For example, ask: "Show me the latest sales order for Adatum." Group records or do calculations like adding or averaging in an analysis tab. For example, ask, "Show me the latest sales orders for Adatum" or "Which customers got the most discounts."
+  For example, ask: "Show me the latest sales order for Adatum.", "show me customers grouped by their country and zipcode", or "Which customers got the most discounts."
+
+  <!--Look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, and items. For example, ask: "Show me the latest sales order for Adatum." Group records or do calculations like adding or averaging in an analysis tab. For example, ask, "Show me the latest sales orders for Adatum" or "Which customers got the most discounts."
 
 - Get explanations and step-by-step guidance on various tasks
 
-  For example, ask: "Help me understand dimensions" or "How do I post a sales order?" Learn the purpose and use of each field. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name, and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
+  For example, ask: "help me understand dimensions" or "how do I post a sales order?"
 
 - Learn the purpose and use of fields
 
-  Select **Ask Copilot** in a tooltip for a field to get information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
+  Select **Ask Copilot** in a tooltip for a field to get information about it.
+
 <br><br>
 > [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
 
@@ -61,7 +64,12 @@ Engage in natural language conversations directly within the Business Central in
 
 Use natural language in analysis mode to arrange, summarize, and pivot data in list pages for examination.
 
-Feature docs, AI FAQ 
+> [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
+
+**Learn more in:**
+
+- [Chat with Copilot](chat-with-copilot.md)
+- [Responsible AI FAQs Chat with Copilot](faqs-chat-with-copilot.md)
 
 ### Summarize 
 
