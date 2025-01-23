@@ -59,15 +59,7 @@ Engage in natural language conversations directly within the Business Central in
 
 ### Analysis assist
 
-
-Analysis assist is a Copilot for the analysis mode on list pages in Business Central. Analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in analysis mode, you create an analysis tab where you transform the data to display the desired aggregations and summarizations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. With analysis assist, instead of doing this task manually, you achieve much of the same—or least as a start—by using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category," analysis assist uses AI to generate a suggested layout on an analysis tab.
-
-Use natural language in the anaysis mode to arrange, summarize, and pivot data in lists pages for examination and analysis. y analysis mode to analyze data on list pages isnusing analysis assist, you can use natural language to achieve similar results. For example, say "sort on quantity from smallest to largest" or "show average cost per category," and analysis assist uses AI to generate a suggested layout on an analysis tab.
-Analysis assist is a Copilot for analysis mode on list pages in Business Central. Analysis mode lets you calculate, summarize, and examine data interactively. To analyze data, create an analysis tab to display the desired aggregations and summarizations. For example, arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. 
-
-When to Use Analysis Assist
-Use Analysis Assist when you need to quickly analyze data on list pages, such as customer lists, sales statistics, or inventory data. It's particularly useful for creating different views or tasks, like "My customers" or "Sales statistics," without altering the underlying data1
-Video 
+Use natural language in analysis mode to arrange, summarize, and pivot data in list pages for examination.
 
 Feature docs, AI FAQ 
 
