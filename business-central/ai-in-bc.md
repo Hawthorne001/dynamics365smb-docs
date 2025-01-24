@@ -80,7 +80,6 @@ Video
 
 Feature docs, AI FAQ 
 
-
 ## For finance 
 
 Whether you're in Accounts Payable or Accounts Receivable, there's AI to help you eliminate those tedious tasks.
