@@ -1,5 +1,5 @@
 ---
-title: Connect to Microsoft Dataverse (contains video)
+title: Connect to Microsoft Dataverse
 description: Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 business app.
 author: brentholtorf
 ms.author: bholtorf
@@ -126,7 +126,7 @@ The following procedure describes how to set up the connection manually on the *
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=eebe94d1-5ead-4943-b720-ca403d111e9d]
 
 -->
 
