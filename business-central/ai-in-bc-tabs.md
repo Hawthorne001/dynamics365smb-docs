@@ -171,7 +171,7 @@ Feature docs, AI FAQ
 
 ---
 
-## [Other AI-powered features in Business Central](#tab/other)
+## Other AI-powered features in Business Central
 
 Business Central also includes various features that do not use generative AI, but use other AI models to help you work through specific tasks. 
 
