@@ -16,19 +16,19 @@ ms.collection:
 
 Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. Take a look when you get a chance.
 
-png 780 x 113 px
+<!--png 780 x 113 px
 
-![Shows the icon for chat with Copilot pane with callouts](media/banner-780.png)
+![Shows the icon for chat with Copilot pane with callouts](media/banner-780.png)-->
 
-png 800 x 115 px
+<!--png 800 x 115 px
 
 ![Shows the icon for chat with Copilot pane with callouts](media/banner-800.png)
 
-png 850 x 122 px
+png 850 x 122 px-->
 
 ![Shows the icon for chat with Copilot pane with callouts](media/banner-850.png)
 
-
+<!--
 png 1000 x 155 px
 
 ![Shows the icon for chat with Copilot pane with callouts](media/banner.png)
@@ -36,7 +36,7 @@ png 1000 x 155 px
 
 svg 1200 X 300 px
 
-![Shows the icon for chat with Copilot pane with callouts](media/banner.svg)
+![Shows the icon for chat with Copilot pane with callouts](media/banner.svg)-->
 
 
 Agents work autonomously with or alongside you to get work done <elaborate>. 
