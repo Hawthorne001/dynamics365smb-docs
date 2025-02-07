@@ -26,7 +26,7 @@ png 800 x 115 px
 
 png 850 x 122 px
 
-![Shows the icon for chat with Copilot pane with callouts](media/banner-800.png)
+![Shows the icon for chat with Copilot pane with callouts](media/banner-850.png)
 
 
 png 1000 x 155 px
