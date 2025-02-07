@@ -14,7 +14,7 @@ ms.collection:
 
 # AI in Business Central 
 
-Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks.
+Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. Take a look when you get a chance.
 
 png 780 x 113 px
 
