@@ -72,7 +72,7 @@ Use natural language in analysis mode to arrange, summarize, and pivot data in l
 
 Feature docs, AI FAQ 
 
-### Autofill 
+### [Autofill](#tab/Autofill)
 
 Get suggested values for editable fields when creating or modifying records. Autofill is available for fields in card and document pages, such as sales orders, items, and custom pages.
 
