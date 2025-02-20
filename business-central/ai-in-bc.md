@@ -130,11 +130,11 @@ Feature docs, AI FAQ
 
 ### Sales Order agent
 
-1 paragraph 
+The Sales Order Agent automates sales orders by handling customer requests via email. From an email requesting a quote, the agent identifies the contact in Business Central, finds the request, and generates a quote for you to review and send. When the contact confirms the quote, the agent converts the quote into an order.
 
-Video 
+[Video](https://www.youtube.com/watch?v=I7i25zBfyEQ)
 
-Feature docs, AI FAQ 
+[Learn more](sales-order-agent.md)
 
 ### Sales Line Suggestions
 
