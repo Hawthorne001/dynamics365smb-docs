@@ -57,8 +57,6 @@ Engage in natural language conversations directly within the Business Central in
 
 Use natural language in analysis mode to arrange, summarize, and pivot data in list pages for examination.
 
-> [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
-
 **Learn more in:**
 
 - [Analyze data in lists with Copilot](analysis-assist.md)
