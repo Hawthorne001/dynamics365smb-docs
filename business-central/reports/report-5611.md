@@ -4,7 +4,7 @@ description: Review the net change posted in the fixed asset ledger entries for 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5611_Primary
 ms.date: 11/11/2024
@@ -58,7 +58,7 @@ Try the report here: [FA Posting Group - Net Change Report](https://businesscent
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Fixed assets report overview](../fa-reports.md)  
 [Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  

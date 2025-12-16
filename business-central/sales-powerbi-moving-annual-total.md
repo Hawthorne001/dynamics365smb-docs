@@ -1,10 +1,10 @@
 ---
 title: Moving Annual Total (Power BI Report)
-description: The *Moving Annual Total* report provides a total of sales over the last 12 months. 
+description: The Moving Annual Total report provides a total of sales over the last 12 months. 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37001_Primary
 ms.date: 10/26/2024
@@ -21,7 +21,7 @@ The report showcases the sales amount moving annual total (MAT), and compares it
 
 :::image type="content" source="media/powerbi/sales/sales-moving-annual-total.png" alt-text="Screenshot of the Moving Annual Total Power BI report" lightbox="media/powerbi/sales/sales-moving-annual-total.png":::
 
-## How to use the report
+## Use the report
 
 Business leaders and managers use the report to identify how the MAT is performing across the period.
 
@@ -41,7 +41,7 @@ The report includes the following key performance indicators (KPIs) and measures
 - [**Previous Year Moving Annual Total (PYMAT)**](sales-powerbi-sales-kpis.md#sales-amount-pymat-fiscal)
 - [**Moving Annual Total Growth Amount**](sales-powerbi-sales-kpis.md#sales-amount-matg-fiscal)
 - [**Moving Annual Total Growth %**](sales-powerbi-sales-kpis.md#sales-amount-matg--fiscal)
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -51,8 +51,10 @@ The report includes the following key performance indicators (KPIs) and measures
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Sales Line
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
 
 ## Try the report
 
@@ -60,7 +62,7 @@ Try the report here: [Moving Annual Total](https://businesscentral.dynamics.com?
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)  

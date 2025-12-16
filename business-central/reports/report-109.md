@@ -4,7 +4,7 @@ description: This report is a legacy version of an accounts receivables aging re
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_109_Primary
 ms.date: 10/18/2024
@@ -34,7 +34,7 @@ There are several other ways to analyze your aged accounts receivables. To learn
 - [Using data analysis to analyze accounts receivable](../ad-hoc-analysis-finance.md#example-finance-accounts-receivable)
 - [Aged Accounts Receivable Excel report](report-4402.md)
 
-## See also
+## Related information
 
 [Aged Accounts Receivables (report)](report-120.md)  
 [Accounts receivable report overview](../receivables-reports.md)  

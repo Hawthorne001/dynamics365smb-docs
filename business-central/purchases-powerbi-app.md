@@ -4,9 +4,9 @@ description: The Power BI Purchases app provides comprehensive analysics on purc
 author: kennieNP
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
-ms.search.form: 37061_Primary, 37009, 37010, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021
+ms.search.form: 37061_Primary, 37009, 37010, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37112, 37115, 37116, 37117, 37118
 ms.date: 10/31/2024
 ms.service: dynamics-365-business-central
 ---
@@ -91,7 +91,7 @@ The following table describes how you can use the reports in the Power BI Purcha
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
-## See also
+## Related information
 
 [Installing Power BI apps for Business Central](across-powerbi-install-business-central-apps.md)   
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  

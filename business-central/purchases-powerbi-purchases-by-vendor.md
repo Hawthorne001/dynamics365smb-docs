@@ -4,7 +4,7 @@ description: The Purchases by Vendor report provides an overview of purchasing a
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37018_Primary
 ms.date: 10/31/2024
@@ -31,10 +31,12 @@ Purchasers can use this report to monitor purchasing activities and identify the
 
 The *Purchases by Vendor* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 - [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
-- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
-- [**% GT Purchase Amount PY (Fiscal)**](purchases-powerbi-kpis.md#-gt-purchase-amount-py-fiscal)
+- [**% GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**% GT Purchase Amount PY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-py-fiscal)
+- [**Pareto Cumulative Purchase (LCY) %**](purchases-powerbi-kpis.md#pareto-cumulative-purchase-lcy-)
+- [**% GT Pareto Cumulative Purchase (LCY) %**](purchases-powerbi-kpis.md#pareto-cumulative-purchase-lcy-)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -46,8 +48,9 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Vendor
 - Item
-- Value Entry
-- Purchase Line
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 
 ## Try the report
 
@@ -55,7 +58,7 @@ Try the report here: [Purchases by Vendor](https://businesscentral.dynamics.com?
 
 [!INCLUDE [ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

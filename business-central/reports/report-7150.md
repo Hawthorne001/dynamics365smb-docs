@@ -4,7 +4,7 @@ description: Analyze item entries with dimension details by building groups of d
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_7150_Primary
 ms.date: 10/18/2024
@@ -83,7 +83,7 @@ Try the report here: [Item Dimensions - Detail](https://businesscentral.dynamics
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 
-## See also
+## Related information
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)  
 [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  

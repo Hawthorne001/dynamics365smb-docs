@@ -4,7 +4,7 @@ description: Get detailed transaction information and reference data for your as
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5604_Primary
 ms.date: 10/23/2024
@@ -34,7 +34,7 @@ There are several other ways to analyze your fixed assets. To learn more, go to:
 - [Fixed Asset Details Excel](report-4411.md) 
 - [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
 
-## See also
+## Related information
 
 [Fixed assets report overview](../fa-reports.md)    
 [Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  

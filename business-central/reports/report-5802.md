@@ -4,7 +4,7 @@ description: Helps you track the costs of the production process.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5802_Primary
 ms.date: 11/1/2024
@@ -79,7 +79,7 @@ Try the report here: [Production Order - WIP](https://businesscentral.dynamics.c
 
 - [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
-## See also
+## Related information
 
 [Production report overview](../production-reports.md)  
 

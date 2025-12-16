@@ -8,7 +8,8 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/01/2024
+ms.date: 09/28/2025
+ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 
@@ -36,9 +37,18 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
 [!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
+## Operational limits
+
+Depending on the version of [!INCLUDE [prod_short](includes/prod_short.md)] you have, this feature has operational limits. The following table describes the limits.
+
+|Version  |Description  |
+|---------|---------|
+|2025 release wave 1 and earlier     | The number of open bank account ledger entries with posting date between the bank statement minimum transaction date (minus one day) and the bank statement maximum transaction date can't exceed around 1000. This number can vary, depending on the length of the description texts on the bank account ledger entries.   |
+|2025 release wave 2 and later     | The number of open bank account ledger entries with posting dates between the bank statement minimum transaction date (minus one day) and bank statement maximum transaction date can't exceed around 3000. This number can vary, depending on the length of the description texts on the bank account ledger entries.  |
+
 ## Prerequisites
 
-- The **Bank account reconciliation** capability is activated. An administrator must complete this task. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
+- The **Bank account reconciliation** capability is activated. An administrator must complete this task. Learn more in [Configure Copilot and agent capabilities](enable-ai.md).
 - You're familiar with bank account reconciliation in Business Central. Learn more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
 ## Reconcile bank accounts with Copilot
@@ -56,7 +66,7 @@ You can use two approaches to reconcile bank accounts with Copilot:
 
 For this approach, you create and reconcile a new bank account reconciliation from scratch. This approach requires that you select the bank account. If the bank account isn't linked to an online account, you must also import the bank statement file.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Account Reconciliations**, and then select the related link.
 1. Select ![Shows the copilot icon](media/copilot-icon.png) **Start a Copilot prompt action** > **Reconcile** to open the **Reconcile with Copilot** window.
 1. Set the **Perform reconciliation for this bank account** field to the bank account that you want to reconcile.
 
@@ -73,7 +83,7 @@ For this approach, you create and reconcile a new bank account reconciliation fr
 
 For this approach, you use Copilot either on a new bank account reconciliation that you manually create or by editing an existing reconciliation.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then select the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Bank Account Reconciliations**, and then select the related link.
 1. Follow one of these steps:
 
     - Select **New** to start a new reconciliation. Add the statement lines, either manually or by using **Suggest Lines** action to get a copy of the bank ledger entries as a starting point.
@@ -154,9 +164,9 @@ This section explains how to use Copilot to post unreconciled bank account state
 
 [Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)
 
-## See also
+## Related information
 
-[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Troubleshoot Copilot and agent capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  

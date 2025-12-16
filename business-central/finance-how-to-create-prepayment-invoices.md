@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/23/2024
+ms.date: 10/13/2025
 ms.custom: bap-template
 ms.search.form: 42, 50, 9305, 9307
 ms.service: dynamics-365-business-central
@@ -22,7 +22,7 @@ The following procedure describes how to invoice a prepayment for a sales order.
 
 ## To create a prepayment invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Create a new sales order for the relevant customer. For more information, see [Sell Products](sales-how-sell-products.md).  
 
     On the **Prepayment** FastTab, the **Prepayment %** field specifies the percentage to use to calculate the prepayment amount. If there's a default prepayment percentage on the customer card, the field is filled in automatically. You can change the percentage. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -73,9 +73,9 @@ You can issue other prepayment invoices for the order. To issue another invoice,
 
 ## Update the status of prepaid orders and invoices automatically
 
-You can speed up order and invoice processing by setting up job queue entries that automatically update the status of those documents. When a prepayment invoice is paid, the job queue entries can automatically change the document status from **Pending Prepayment** to **Released**. When you set up the job queue entries, the codeunits you'll need to use are **384 Upd. Pending Prepmt. Sales** and **384 Upd. Pending Prepmt. Purchase**. We recommend that you schedule the entries to run frequently, for example, every minute. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+You can speed up order and invoice processing by setting up job queue entries that automatically update the status of those documents. When a prepayment invoice is paid, the job queue entries can automatically change the document status from **Pending Prepayment** to **Released**. When you set up the job queue entries, the codeunits you'll need to use are **383 Upd. Pending Prepmt. Sales** and **384 Upd. Pending Prepmt. Purchase**. We recommend that you schedule the entries to run frequently, for example, every minute. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## See also
+## Related information
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

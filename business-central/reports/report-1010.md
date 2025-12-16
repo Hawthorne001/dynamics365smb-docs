@@ -4,7 +4,7 @@ description: Get an overview of the status of ongoing projects in your company's
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1010_Primary
 ms.date: 10/23/2024
@@ -60,7 +60,7 @@ Try the report here: [Project WIP to G/L](https://businesscentral.dynamics.com?r
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Project Reports](../project-reports.md)  
 [Project management analytics overview](../projects-analytics-overview.md)  

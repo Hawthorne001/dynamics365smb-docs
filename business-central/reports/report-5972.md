@@ -4,7 +4,7 @@ description: Generate a service contract quote document that you can send to you
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5972_Primary
 ms.date: 11/2/2024
@@ -68,7 +68,7 @@ Try the report here: [Service Contract Quote](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Service management report overview](../service-reports.md)  
 [Service management](../service-service.md)  

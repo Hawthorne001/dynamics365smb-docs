@@ -1,14 +1,16 @@
 ---
 title: Workflows in Dynamics 365 Business Central
-description: Use built-in workflow capabilities to set up approval workflows to supplement automated workflows based on Power Automate. You can set up steps to assign tasks to different people as part of different business-process tasks. 
+description: Use built-in workflow capabilities to set up approval workflows to supplement automated workflows based on Power Automate.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: jswymer
+ms.reviewer: v-soumramani
 ms.service: dynamics-365-business-central
-ms.topic: conceptual
-ms.date: 06/13/2024
+ms.search.keywords: workflows, approval workflows, approval workflow, automate 
+ms.topic: article
+ms.date: 10/22/2025
 ms.custom: bap-template 
 ---
+
 # Workflows in Business Central
 
 You can set up and use workflows to connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows. System tasks can be preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
@@ -26,11 +28,11 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 
   On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many preconfigured workflows represented by workflow templates you can copy to create new ones. When you open a template from the **Workflow Templates** page, and the workflow name starts with *MS-*, then the template was added by Microsoft.
 
-## Power Automate flows
+## Power automate flows
 
 With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for Power Automate to build powerful automated workflows. You run those workflows from inside [!INCLUDE [prod_short](includes/prod_short.md)]. The flows can connect internal and external data sources and tools, without coding knowledge.
 
-|**To** |**See**|
+|To... |Go to...|
 |-------|-------|
 |Get started with Power Automate, creating flows, and running instant flows|[Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
 |Learn details of how to create, edit, and manage flows|[Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) and [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
@@ -49,7 +51,7 @@ Examples of approval workflow events include the creation of sales or purchase o
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-| **To** | **See** |
+| To... | Go to... |
 |--|--|
 | Set up approval workflow users, specify how users get notified, and create new workflows. (To create new workflows for unsupported scenarios, implement the required workflow elements by customizing the application code.) | [Set Up Approval Workflows](across-set-up-workflows.md) |
 | Enable approval workflows, act on workflow notifications, including requesting and approving a workflow step. Archive and delete workflows. | [Use Approval Workflows](across-use-workflows.md) |
@@ -57,13 +59,12 @@ Examples of approval workflow events include the creation of sales or purchase o
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## See also
+## Related information
 
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Managing Projects](projects-manage-projects.md)  
+[Manage Projects](projects-manage-projects.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows](across-flow-troubleshoot.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,11 +4,12 @@ description: The Project Profitability report highlights cost and pricing inform
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37035_Primary
-ms.date: 10/28/2024
+ms.date: 09/25/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Project Profitability (Power BI Report)
@@ -29,15 +30,20 @@ Leadership teams use the report to identify high and low performing projects, an
 
 The *Project Profitability* report includes the following KPIs:
 
-- [**Actual Profit**](projects-powerbi-kpis.md#actual-profit)
-- [**Actual (Total Cost)**](projects-powerbi-kpis.md#actual-total-cost)
-- [**Actual Profit Margin %**](projects-powerbi-kpis.md#actual-profit-margin-)
-- [**Billable (Invoiced Price)**](projects-powerbi-kpis.md#billable-invoiced-price)
-- [**Budget (Total Price)**](projects-powerbi-kpis.md#budget-total-price)
-- [**Budget (Total Cost)**](projects-powerbi-kpis.md#budget-total-cost)
-- [**Budget Profit Margin %**](projects-powerbi-kpis.md#budget-profit-margin-)
+- [Total Invoiced Profit Margin %](projects-powerbi-kpis.md#total-invoiced-profit-margin-)
+- [Total Usage Profit Margin %](projects-powerbi-kpis.md#total-usage-profit-margin-)
+- [Total Usage Profit](projects-powerbi-kpis.md#total-usage-profit)
+- [Total Budget Profit](projects-powerbi-kpis.md#total-budget-profit)
+- [Total Invoiced Profit](projects-powerbi-kpis.md#total-invoiced-profit)
+- [Total Usage Cost](projects-powerbi-kpis.md#total-usage-cost)
+- [Total Usage Price](projects-powerbi-kpis.md#total-usage-price)
+- [Total Budget Price](projects-powerbi-kpis.md#total-budget-price)
+- [Total Budget Cost](projects-powerbi-kpis.md#total-budget-cost)
+- [Total Invoiced Costs](projects-powerbi-kpis.md#total-invoiced-costs)
+- [Total Invoiced Price](projects-powerbi-kpis.md#total-invoiced-profit)
+- [Budget Profit Margin %](projects-powerbi-kpis.md#budget-profit-margin-)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -45,9 +51,9 @@ The *Project Profitability* report includes the following KPIs:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Project
-- Project Ledger Entries
-- Tasks
+- Job
+- Job Task
+- Job Ledger Entries
 
 ## Try the report
 
@@ -55,7 +61,7 @@ Try the report here: [Project Profitability](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Projects app](projects-powerbi-app.md)  

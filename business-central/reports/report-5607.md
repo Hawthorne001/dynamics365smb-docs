@@ -4,7 +4,7 @@ description: Review projected depreciation amounts and book value for a future p
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5607_Primary
 ms.date: 11/11/2024
@@ -50,7 +50,7 @@ There are several other ways to analyze your fixed assets. To learn more, go to:
 - [Fixed Asset Projected Value Excel](report-4413.md)
 - [Using data analysis to analyze fixed assets data](../ad-hoc-analysis-fa.md)  
 
-## See also
+## Related information
 
 [Fixed assets report overview](../fa-reports.md)  
 [Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  

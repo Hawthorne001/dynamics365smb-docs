@@ -4,7 +4,7 @@ description: Document a project register's contents for internal or external aud
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1015_Primary
 ms.date: 11/2/2024
@@ -62,7 +62,7 @@ Try the report here: [Project Register](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Project Reports](../project-reports.md)  
 [Project management analytics overview](../projects-analytics-overview.md)  

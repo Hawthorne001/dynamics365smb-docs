@@ -4,9 +4,9 @@ description: The Actual vs. Budget report provides a clear overview of your orga
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
-ms.search.form: 37008_Primary
+ms.search.form: 37007_Primary
 ms.date: 10/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -34,14 +34,10 @@ Salespeople can monitor the variance metrics to ensure that you meet your sales 
 
 The **Actual vs Budget** report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales Quantity**](sales-powerbi-sales-kpis.md#sales-quantity)  
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)  
-- [**Budget Quantity**](sales-powerbi-sales-kpis.md#budget-quantity)  
+- [**Sales (LCY)**](sales-powerbi-sales-kpis.md#sales-lcy)  
 - [**Budget Amount**](sales-powerbi-sales-kpis.md#budget-amount)  
 - [**Budget Amount Variance**](sales-powerbi-sales-kpis.md#budget-amount-variance)  
-- [**Budget Amount Variance %**](sales-powerbi-sales-kpis.md#budget-amount-variance-percent)  
-- [**Budget Quantity Variance**](sales-powerbi-sales-kpis.md#budget-quantity-variance)  
-- [**Budget Quantity Variance %**](sales-powerbi-sales-kpis.md#budget-quantity-variance-percent)  
+- [**Budget Amount Variance %**](sales-powerbi-sales-kpis.md#budget-amount-variance-percent)   
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -53,17 +49,20 @@ The **Actual vs Budget** report uses data from the following tables in [!INCLUDE
 
 - Item
 - Item Category
-- Value Entry
-- Sales Line
 - Item Budget Entry
-
+- Sales Value Entries
+- Sales Invoice Lines
+- Sales Credit Lines
+- Project Ledger Entries
+- Salesperson/Purchaser
+ 
 ## Try the report
 
-Try the report here: [Actual vs Budget](https://businesscentral.dynamics.com?page=37008)
+Try the report here: [Actual vs Budget](https://businesscentral.dynamics.com?page=37007)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  

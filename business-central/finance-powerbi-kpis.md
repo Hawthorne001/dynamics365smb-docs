@@ -4,7 +4,7 @@ description: Get an overview of all the KPIs and measures in the semantic model 
 author: kennienp
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 
 ms.date: 10/31/2024
@@ -65,7 +65,7 @@ Each KPI and measure is described, including how it is calculated and what data 
 
 ### Average Collection Period (Days) 
 **Formula**  
-( [No. of Days](#no-of-days) * [Accounts Receivable (Average)](#accounts-receivable-average) ) / [Revenue](#revenue)
+( [No. of Days](#no-of-days) * [Accounts Receivable (Net Change)](#accounts-receivable-net-change) ) / [Revenue](#revenue)
 
 **Data Sources**
 - Date
@@ -139,6 +139,7 @@ The No. of Days measure calculates the total number of days within a selected pe
 - [Accounts Receivable](#accounts-receivable)   
 - [Accounts Receivable (Average)](#accounts-receivable-average)   
 - [Accounts Receivable (Beginning Balance)](#accounts-receivable-beginning-balance)   
+- [Accounts Receivable (Net Change)](#accounts-receivable-net-change)
 - [Assets](#assets)
 - [Capital Employed](#capital-employed)   
 - [Current Assets](#current-assets)   
@@ -197,6 +198,15 @@ The Accounts Receivable measure calculates the [Balance at Date](#balance-at-dat
 ### Accounts Receivable (Beginning Balance) 
 **Formula**  
 The Accounts Receivable (Beginning Balance) measure calculates the [Balance at Date](#balance-at-date) for [accounts receivable](#accounts-receivable) up to the earliest date in the selected period. The measure calculates the beginning balance by identifying the earliest date in the selected period, removing any existing date filters to consider all historical dates, and then limiting results to transactions on or before this earliest date. This approach yields the balance as of the start of the selected period.
+
+**Data Sources**
+- G/L Entry
+- G/L Account Category
+- Account Categories
+
+### Accounts Receivable (Net Change) 
+**Formula**  
+The Accounts Receivable (Net Change) measure calculates the [Net Change](#net-change) for general ledger accounts categorized as *Accounts Receivable* on the [G/L Account Category](https://businesscentral.dynamics.com?page=790) page and where this category is mapped to the **Accounts Receivable (Level 3 Category)** on the [Power BI Account Categories](https://businesscentral.dynamics.com?page=36961) page. 
 
 **Data Sources**
 - G/L Entry
@@ -931,6 +941,11 @@ The Tax Expense (Beginning Balance) measure calculates the [Balance at Date](#ba
 - [Amount Receivable (LCY)](#amount-receivable-lcy)
 - [Balance (Accounts Receivable)](#balance-accounts-receivable)
 - [Original Amount (LCY)](#original-amount-lcy)
+- [Late Payment Amount](#late-payment-amount)
+- [Late Payment %](#late-payment-percent)
+- [Average Days Late](#average-days-late)
+- [No. of Payments](#no-of-payments)
+- [No. of Late Payments](#no-of-late-payments)
 
 ### Bucket 1 (Receivables)
 **Formula**   
@@ -996,6 +1011,46 @@ The Balance (Accounts Receivable) measure calculates the total balance of accoun
 ### Original Amount (LCY)
 **Formula**   
 The Original Amount (LCY) measure calculates the total amount of original entries for customers in the local currency. The measure sums up the amount (in local currency) of the Customer Ledger Entries table, but only includes entries with the entry type of "Initial Entry".
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### Late Payment Amount
+**Formula**   
+The Late Payment Amount measure sums up the amount (in local currency) of the Customer Ledger Entries table, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### Late Payment Percent
+**Formula**   
+The Late Payment % measure calculates the [No. of Late Payments](#no-of-late-payments) divided by the total [No. of Payments](#no-of-payments).
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### Average Days Late
+**Formula**   
+The Average Days Late measure calculates the average number of days between the Due Date and Posting Date, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### No. of Payments
+**Formula**   
+The No. of Payments measure calculates a distinct count of the **Document No.** column, where **Document Type** is **Payment**.
+
+**Data Sources**
+- Customer Ledger Entry
+- Detailed Customer Ledger Entry
+
+### No. of Late Payments
+**Formula**   
+The No. of Late Payments measure calculates a distinct count of the **Document No.** column, where **Document Type** is **Payment** and Posting Date exceeds Due Date.
 
 **Data Sources**
 - Customer Ledger Entry
@@ -1173,7 +1228,7 @@ The Budget Balance at Date measure calculates the budgeted balance at a specific
 **Data Sources**
 - G/L Budget Entry
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI finance app](finance-powerbi-app.md)  

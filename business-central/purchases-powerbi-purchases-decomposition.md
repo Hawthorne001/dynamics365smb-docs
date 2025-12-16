@@ -4,7 +4,7 @@ description: The Purchases Decomposition report provides a comprehensive breakdo
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37010_Primary
 ms.date: 10/31/2024
@@ -35,7 +35,9 @@ Purchasers can use this report to analyze the purchasing activities for a specif
 
 The *Purchases Decomposition* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**%GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**%GT Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -47,12 +49,12 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Item
 - Item Category
-- Vendor
-- Purchase Header
-- Location
 - Salesperson/Purchaser
-- Vendor Posting Group
-- Value Entry
+- Vendor
+- Location
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 
 ## Try the report
 
@@ -60,7 +62,7 @@ Try the report here: [Purchases Decomposition](https://businesscentral.dynamics.
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

@@ -4,7 +4,7 @@ description: Get an overview of basic information for your customers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_101_Primary
 ms.date: 10/18/2024
@@ -73,7 +73,7 @@ Try the report here: [Customer List](https://businesscentral.dynamics.com?report
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Sales reports](../sales-reports.md)  
 [Accounts receivable report overview](../receivables-reports.md)  

@@ -1,10 +1,10 @@
 ---
-title: Keyboard shortcuts
+title: Keyboard Shortcuts
 description: View a list of key combinations (keyboard shortcuts) that you can use to work efficiently with your data.
 author: jswymer
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/23/2024
+ms.date: 10/09/2025
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -21,7 +21,7 @@ You can find an overview of the most popular keyboard shortcuts in [Keyboard sho
 > [!TIP]
 > For a graphical view of the most-used keyboard shortcuts, select the following image, and download the PDF file.
 >
-> [![Icon for the PDF file.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2024.pdf "Icon that opens a PDF")
+> [![Icon for the PDF file.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2025.pdf "Icon that opens a PDF")
 
 ## Overview of keyboard shortcuts
 
@@ -45,8 +45,9 @@ The following table describes the keyboard shortcuts for navigating and accessin
 |---|---|
 | <kbd>Alt</kbd> | Show access keys for selecting actions in the action bar and on the navigation menu of the page. Learn more in the [Access keys for action bar and navigation menu](#access-keys-for-action-bar-and-navigation-menu) section. |
 | <kbd>Alt</kbd>+<kbd>Down arrow</kbd> | Open a dropdown list or look up a value for a field. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd><kbd>Down Arrow</kbd>|Open a related record's card or list page filtered to the value in the lookup or assist edit field|
 | <kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Down arrow</kbd> | Open a related record's card or list page, which is filtered to the value in the lookup or assist-edit field. |
-| <kbd>Alt</kbd>+<kbd>Up arrow</kbd> | Show the tooltip for a field or a column header of a table. If the field has validation errors, select <kbd>Alt</kbd>+<kbd>Up arrow</kbd> to show the validation error. Select the <kbd>Esc</kbd> key or <kbd>Alt</kbd>+<kbd>Up arrow</kbd> to close the tooltip. |
+| <kbd>Alt</kbd>+<kbd>Up arrow</kbd> | Display more information about a field or column, including the field tooltip, validation error, Copilot's suggested value, or information about why an AI agent selected that value. If more than one of these are available, this shortcut toggles between them.<br><br> Select the <kbd>Esc</kbd> key to close this information and return to the field input box. |
 | <kbd>F2</kbd> | Switch between selecting the entire field value and placing the cursor at the end of the field value. |
 | <kbd>Alt</kbd>+<kbd>F2</kbd> | Show and hide the FactBox pane. |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F2</kbd> | Switch between **Details** and **Attachments** in the FactBox pane. |
@@ -173,6 +174,33 @@ The following keyboard shortcuts are available on card pages, such as **Customer
 | <kbd>Shift</kbd>+<kbd>F9</kbd> | Post and print a document. |
 | <kbd>Shift</kbd>+<kbd>F11</kbd> | Apply entries, get source documents, or get warehouse documents. |
 
+## Keyboard shortcuts to autofill fields with Copilot (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+<!--[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]-->
+
+These shortcuts apply to fields on card and document pages when the Autofill fields with Copilot feature is activated. Learn more in [Autofill fields with Copilot](autofill-fields-with-copilot.md).
+
+| Select these keys<br>(these keys in macOS) | To do this |
+|---|---|
+| <kbd>Alt</kbd>+<kbd>I</kbd> |On a selected field that shows the ![Suggest a value for this field and related fields](media/copilot-star-unfilled.png) icon, ask Copilot to suggest a value for the field and other editable fields in the FastTab.|
+| <kbd>Alt</kbd>+<kbd>Up arrow</kbd> |On a selected field that includes a suggestion, show details about the suggestion. The shortcut does the same as selecting the ![Show details for a suggestion](media/autofill-info.png) icon. You can use <kbd>Alt</kbd>+<kbd>Up arrow</kbd> again to toggle between showing additional information about a field, such as the tooltip or validation error|
+|<kbd>Backspace</kbd>, <kbd>Delete</kbd>, or <kbd>Escape</kbd>|Discard the suggestion on a selected field to return to the value.|
+|<kbd>F2</kbd>|Edit a suggestion for a selected field.|
+
+<!--
+Shortcut What it does
+*** Alt+I:** When used on fields that display the [sparkle] icon, this shortcut asks Copilot to provide suggestions for the current field and adjacent fields.
+When a suggestion is displayed, this shortcut displays information about the suggestion.
+
+Escape, Delete, Backspace. Discard the suggestion. The field returns to its previous value.
+Tab: Move to the next page control without affecting the field suggestion.
+*** Enter**: Accept and save the suggestion, and move to the next field. If fields use QuickEntry, Enter moves to the next QuickEntry field on the page.
+F2: Edit the suggestion.-->
+
 ## <a name="QuickEntry"></a>Quick entry shortcuts for fields
 
 The following keyboard shortcuts are related to the Quick Entry feature on cards, documents, and list pages. For list pages, you can't use these shortcuts when the list is in the tile view. Learn more about Quick Entry in [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
@@ -189,7 +217,8 @@ To set a date field, you can manually enter the date, or you can open a calendar
 
 | Select these keys | To do this |
 |---|---|
-| <kbd>Ctrl</kbd>+<kbd>Home</kbd> | <p>Open a closed calendar.</p><p>**Note:** This keyboard shortcut doesn't work if the date field is in a grid. In that case, <kbd>Ctrl</kbd>+<kbd>Home</kbd> jumps to the first row of the grid.</p> |
+| <kbd>Ctrl</kbd>+<kbd>Home</kbd> | <p>Open and close calendar. </p><p>**Note:** This keyboard shortcut doesn't work if the date field is in a grid. In that case, <kbd>Ctrl</kbd>+<kbd>Home</kbd> jumps to the first row of the grid.</p> |
+| <kbd>Shift</kbd>+<kbd>Home</kbd> |<p>Show or hide week numbers in calendar.</p> |
 | <kbd>Ctrl</kbd>+<kbd>Home</kbd><br>(<kbd>Cmd</kbd>+<kbd>Home</kbd>) | Move to the current month and the current day. |
 | <kbd>Left arrow</kbd><br>(<kbd>Left arrow</kbd>) | Move to the previous day. |
 | <kbd>Right arrow</kbd><br>(<kbd>Right arrow</kbd>) | Move to the next day. |

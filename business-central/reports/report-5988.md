@@ -4,7 +4,7 @@ description: Analyze which service contracts include service items that are due 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5988_Primary
 ms.date: 11/2/2024
@@ -70,7 +70,7 @@ Try the report here: [Contr. Serv. Orders - Test](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Service management report overview](../service-reports.md)  
 [Service management](../service-service.md)  

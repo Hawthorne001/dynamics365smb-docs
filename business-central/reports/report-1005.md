@@ -4,7 +4,7 @@ description: Review the results of posting before you post to the projects ledge
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1005_Primary
 ms.date: 11/2/2024
@@ -58,7 +58,7 @@ Try the report here: [Project Journal - Test](https://businesscentral.dynamics.c
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Project Reports](../project-reports.md)  
 [Project management analytics overview](../projects-analytics-overview.md)  

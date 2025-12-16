@@ -1,13 +1,14 @@
 ---
 title: Getting started with the connector for Shopify
 description: First steps when configuring a connection between Business Central and Shopify.
-ms.date: 01/27/2025
-ms.topic: article
+ms.date: 07/14/2025
+ms.topic: get-started
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135, 
 author: brentholtorf
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
 # Get started with the Shopify Connector
@@ -54,7 +55,7 @@ For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], thi
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Choose the **New** action.  
 3. In the **Code** field, enter a code that is easy to find in [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the name might reflect what a shop sells, such as "Furniture" or "Coffee," or the country or region it serves.
-4. In the **Shopify URL** field, enter the URL of the online shop that you're connecting. Use the following format: **https://{shop}.myshopify.com/**. You can build the URL by combining the store ID from the admin URL. For example, **admin.shopify.com/store/{shop}** and **.myshopify.com**.
+4. In the **Shopify Admin URL** field, enter the URL of the online shop that you're connecting. Use the following format: **https://{shop}.myshopify.com/**. You can build the URL by combining the store ID from the admin URL. For example, **admin.shopify.com/store/{shop}** and **.myshopify.com**.
 
    > [!TIP]
    > You can copy the URL from Shopify Admin, like **https://admin.shopify.com/store/{shop}**, and the connector converts it to the required format.
@@ -78,8 +79,8 @@ Repeat steps 2-6 for all online shops that you want to connect.
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In the next steps, you'll define how and what to synchronize.
 
 - [Synchronize Items and Inventory](synchronize-items.md)
-- [Synchronize Customers](synchronize-customers.md)
-- [Synchronize Orders](synchronize-orders.md)
+- [Synchronize Customers and Companies](synchronize-customers.md)
+- [Synchronize and Fulfill Orders](synchronize-orders.md)
 
 ## Testing strategies
 
@@ -109,6 +110,8 @@ If you must use this configuration, we recommend that you review and probably di
 
 For more information, see [Restoring an Environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 
+Also consider making a copy of company instead.
+
 ### Shopify production and Business Central sandbox
 
 It might be a good idea to back up your data. For example, export your products and customers. For more information, see [Using CSV files to back up store information](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
@@ -118,9 +121,10 @@ Turn off the **Allow Data Sync to Shopify** toggle so that [!INCLUDE[prod_short]
 If you keep the **Allow Data Sync to Shopify** toggle enabled, then other protective measures are:
 
 - Select **Draft** in the **Status for Create Product** field to ensure that exported products aren't available to buyers. You can verify how products look in the online store, and synchronize prices, options, and stock levels. Just make sure to use filters on the **Add Item to Shopify** page to limit the number of exported items.
-- Turn off the **Export Customer to Shopify** toggle so that you don't send customers to Shopify.
 
-## See also
+## Related information
 
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Troubleshoot the Shopify Connector](troubleshoot.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
-

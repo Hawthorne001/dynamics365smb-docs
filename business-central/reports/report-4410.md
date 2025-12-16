@@ -4,7 +4,7 @@ description: Use Excel to view a snapshot of your consolidated chart of accounts
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_4410_Primary
 ms.date: 01/03/2025
@@ -111,6 +111,7 @@ There are several other ways to analyze your balance. To learn more, go to:
 
 ## Related information
 
+[Set Up Company Consolidation](../finance-consolidated-company-reporting-setup.md)   
 [Balance Sheet (Power BI)](../finance-powerbi-balance-sheet.md)  
 [Key finance report overview](../finance-reports.md)  
 [Ad hoc analysis on finance data](../ad-hoc-analysis-finance.md)  

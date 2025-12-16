@@ -4,7 +4,7 @@ description: Get a list of the bill of materials (BOMs) that the selected items 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_809_Primary
 ms.date: 10/23/2024
@@ -61,7 +61,7 @@ Try the report here: [Where-used list](https://businesscentral.dynamics.com?repo
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Assembly report overview](../assembly-reports.md)  
 

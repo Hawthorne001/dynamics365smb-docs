@@ -4,7 +4,7 @@ description: Helps you monitor and manage your inventory operations effectively 
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_706_Primary
 ms.date: 11/1/2024
@@ -76,7 +76,7 @@ Try the report here: [Status](https://businesscentral.dynamics.com?report=706)
 
 - [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
-## See also
+## Related information
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)  
 [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  

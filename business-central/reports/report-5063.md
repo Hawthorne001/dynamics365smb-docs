@@ -4,7 +4,7 @@ description: Review the distribution of contacts across segments.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5063_Primary
 ms.date: 11/11/2024
@@ -58,7 +58,7 @@ Try the report here: [Segment - Contacts](https://businesscentral.dynamics.com?r
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Relationship management report overview](../marketing-reports.md)
 [Relationship management overview](../marketing-relationship-management.md)

@@ -4,7 +4,7 @@ description: Document a resource register's contents for internal or external au
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.form: Report_1103_Primary
 ms.date: 02/18/2025
 ms.custom:
@@ -29,7 +29,7 @@ Try the report here: [Resource Register](https://businesscentral.dynamics.com?re
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Project Reports](../project-reports.md)  
 [Project management analytics overview](../projects-analytics-overview.md)  

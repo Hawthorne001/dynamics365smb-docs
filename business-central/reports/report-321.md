@@ -4,7 +4,7 @@ description: Keep track of your outstanding payables and manage your vendor rela
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_321_Primary
 ms.date: 10/18/2024
@@ -82,7 +82,7 @@ Try the report here: [Vendor - Balance to Date](https://businesscentral.dynamics
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Key finance report overview](../finance-reports.md)  

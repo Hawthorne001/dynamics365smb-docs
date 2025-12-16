@@ -4,7 +4,7 @@ description: The Daily Purchases report provides a comprehensive overview of you
 author: kennieNP
 ms.author: kepontop
 ms.reviewer:
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37011_Primary
 ms.date: 10/31/2024
@@ -31,8 +31,8 @@ Purchasers track daily purchases and ensure they stay within budget. Use this re
 
 The *Daily Purchases* report includes the following KPIs and measures: 
 
-- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)  
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)  
+- [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -42,8 +42,9 @@ The *Daily Purchases* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Purchase Line
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 - Item
 
 ## Try the report
@@ -52,7 +53,7 @@ Try the report here: [Daily Purchases](https://businesscentral.dynamics.com?page
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

@@ -4,7 +4,7 @@ description: Get a financial overview of your projects based on your input.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1008_Primary
 ms.date: 10/23/2024
@@ -73,7 +73,7 @@ Try the report here: [Project Analysis](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Project Reports](../project-reports.md)  
 [Project management analytics overview](../projects-analytics-overview.md)  

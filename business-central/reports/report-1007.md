@@ -4,7 +4,7 @@ description: Get an overview of posted project tasks, such as resources and item
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1007_Primary
 ms.date: 10/23/2024
@@ -66,7 +66,7 @@ Try the report here: [Project Task Transaction Detail](https://businesscentral.d
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Project Reports](../project-reports.md)  
 [Project management analytics overview](../projects-analytics-overview.md)  

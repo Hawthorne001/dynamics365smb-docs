@@ -4,7 +4,7 @@ description: Help monitor and manage your insurance coverage for fixed assets, e
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5621_Primary
 ms.date: 11/2/2024
@@ -65,7 +65,7 @@ Try the report here: [Insurance - List](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Fixed assets report overview](../fa-reports.md)  
 [Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  

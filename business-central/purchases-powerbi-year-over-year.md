@@ -4,7 +4,7 @@ description: The Year-Over-Year report is an important tool that business leader
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37015_Primary
 ms.date: 10/31/2024
@@ -37,7 +37,9 @@ The *Year-Over-Year* report includes the following KPIs and measures:
 
 - [**Current Year**](purchases-powerbi-kpis.md#purchase-amount)
 - [**Previous Year (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-py-fiscal)
-- [**Current Year YOY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-yoy-fiscal)
+- [**Purchase Amount YOY (Fiscal)**](purchases-powerbi-kpis.md#purchase-amount-yoy-fiscal)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**%GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -47,9 +49,9 @@ The *Year-Over-Year* report includes the following KPIs and measures:
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Purchase Line
-- Item
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 - Item Category
 
 ## Try the report
@@ -58,7 +60,7 @@ Try the report here: [Year-Over-Year](https://businesscentral.dynamics.com?page=
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 01/27/2025
+ms.date: 07/14/2025
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -19,7 +19,7 @@ You might run into situations where you need to troubleshoot issues when synchro
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
-3. Turn off the **Allow Background Syncs** toggle.
+3. Turn off the **Run Syncs in Background** toggle.
 
 Now, when the sync action is triggered, the task runs in the foreground. If an error occurs, you get an error dialog with a **Copy details** link. Use the link to copy information to a text editor for further analysis.
 
@@ -48,6 +48,55 @@ To help keep the size of your database under control, log entries are included i
 
 Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
 
+## Troubleshoot export issues
+
+When you export data to Shopify, the Shopify Connector skips records that Shopify will reject or that aren't valid for export for other reasons. While the behavior is expected, you might be confused if some information wasn't processed as you expected. You can find those entries on the **Shopify Skipped Records** page, which shows all skipped records and provides the reasons and the date and time the records were skipped.
+
+The **Logging Mode** field controls the content of the **Shopify Skipped Records** page.
+
+> [!NOTE]
+> The **All** option works in the same way as **Error Only** and logs only skipped entries. It won't log entries that were previously skipped.
+
+The volume of records on the **Shopify Skipped Records** page increases over time. To help you keep the size of your database under control, you can use a retention policy. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
+
+### Cases that the Shopify Connector logs
+
+Customer:
+
+- A customer has an empty email.
+- A customer with the same email or phone number exists.
+  
+Company:
+- A company with the same external ID already exists in Shopify.	
+
+Posted sales invoice:
+
+- Customer doesn't exist in Shopify.
+- Payment term mapping is missing.
+- Customer number is the default customer number for the Shopify Shop.
+- Customer number is used in the Shopify customer template.
+- No lines exist in the sales invoice.
+- Invalid (negative or fractional) quantity.
+- Empty number value.
+
+Product:
+
+- Item is blocked/sales blocked (item variant).
+- Item is blocked.
+- Item description is empty.
+
+Catalog:
+
+- Price sync if the catalog isn't found in Shopify.
+
+Shipments:
+
+- Related Shopify order doesn't exist.
+- No lines in the posted sales shipment are applicable for fulfillment.
+- No corresponding fulfillment is found in Shopify.
+
+If you run sync in the foreground you will get a notification if records were skipped. Choose **View Skipped Records** to open the **Shopify Skipped Records** page.
+
 ## Data capture
 
 Regardless of whether logging is turned on, some Shopify responses are always logged. You can inspect or download the logs from the **Data Capture List** page.
@@ -56,7 +105,7 @@ Choose the **Retrieved Shopify Data** action on one of the following pages:
 
 - **Shopify order**
 - **Shopify order line**
-- **Shopify fulfillments**
+- **Shopify completed fulfillment**
 - **Shopify order shipping costs**
 - **Shopify order transactions**
 - **Shopify return**
@@ -109,6 +158,29 @@ The following procedures describe how to rotate the access token used by the Sho
 2. Select the shop for which you want to rotate the access token to open the **Shopify Shop Card** page.
 3. Choose the **Request Access** action.
 4. If prompted, sign in to your Shopify account, review privacy and permissions, and then choose the **Install App** button.
+
+## Troubleshhoting steps for specific synchs:
+- [Troubleshooting inventory synchronization](synchronize-items.md#troubleshooting-inventory-synchronization)
+- [Troubleshooting shipment synchronization](synchronize-orders.md#troubleshooting-shipment-synchronizations)
+
+### Troubleshooting refunds
+
+When an error happens when you create a credit memo based on a refund, in addition to the **Has Error** field there's also a specific error message and the call stack in the **Last Error Info** page that can help you diagnose the issue. For example, it might show that you're missing a value in the **Refund Account No.** field on the *Shopify Shop Card* page.
+
+### Troubleshooting product creation when importing to Business Central
+
+When you import products from Shopify into [!INCLUDE [prod_short](../includes/prod_short.md)], Shopify Connector attempts to convert each Shopify product to an item in [!INCLUDE [prod_short](../includes/prod_short.md)]. Sometimes the connector encounters an issue, often caused by customizations, that prevents it from converting a Shopify product into an item, so the import fails.
+
+To help you identify and resolve these problems, go to the **Shopify Products** page and find entries where the **Has Error** field is selected. The **Error Message** field, similar to what you see for Shopify orders, displays the error message that explains why the item couldn't be created. This information can help you understand the root cause of the problem so you can take corrective actions. Afterward, you can use the **Create Item** action to manually restart the process of creating the item.
+
+### Shopify fields in archived sales orders can show manual adjustments
+
+Archived sales orders include following fields:
+
+- **Shpfy Order Id** and **Shpfy Order No.** in the **Sales Header Archive** table.
+- **Shpfy Order Line Id** and **Shpfy Order No.** in the **Sales Line Archive** table.
+
+The fields don't display on the page, but you can use page inspector to review them or explore the table to diagnose cases when an imported order was manually adjusted. Sometimes manual adjustments affect synchronization of shipments to Shopify flows.
 
 ## Known issues
 
@@ -174,6 +246,8 @@ Request a new token because the updated version of the connector requires more p
 
 It seems that you tried to get an access token multiple times. Make sure that the browser allows pop-ups. If you're using a sandbox environment, [Verify and enable permissions to make HTTP requests in a nonproduction environment](#verify-and-enable-permissions-to-make-http-requests-in-a-nonproduction-environment).
 
-## See also
+## Related information
 
-[Get Started with the Connector for Shopify](get-started.md)
+[Shopify Connector overview](shopify-connector-overview.md)  
+[FAQ for the Shopify connector](shopify-faq.md)  
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  

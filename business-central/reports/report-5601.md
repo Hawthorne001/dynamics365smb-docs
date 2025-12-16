@@ -4,7 +4,7 @@ description: Get a comprehensive list of all fixed assets that an organization o
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5601_Primary
 ms.date: 10/23/2024
@@ -97,7 +97,7 @@ Try the report here: [Fixed Asset List](https://businesscentral.dynamics.com?rep
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Fixed assets report overview](../fa-reports.md)    
 [Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  

@@ -4,7 +4,7 @@ description: The Bin Contents by Item Tracking report shows bin contents and  th
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37032_Primary
 ms.date: 10/28/2024
@@ -55,7 +55,7 @@ Try the report here: [Bin Contents by Item Tracking](https://businesscentral.dyn
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Inventory app](inventory-powerbi-app.md)  

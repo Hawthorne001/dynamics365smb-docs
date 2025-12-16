@@ -4,7 +4,7 @@ description: Review the journal lines in a fixed assets journal. You can use the
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5602_Primary
 ms.date: 11/11/2024
@@ -62,7 +62,7 @@ Try the report here: [Fixed Asset Journal - Test](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Fixed assets report overview](../fa-reports.md)  
 [Ad hoc analysis of fixed assets data](../ad-hoc-analysis-fa.md)  

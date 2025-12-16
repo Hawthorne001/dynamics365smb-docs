@@ -4,7 +4,7 @@ description: The Purchases by Location report provides an overview of purchasing
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: 37019_Primary
 ms.date: 10/31/2024
@@ -32,10 +32,10 @@ Purchasers can use this report to monitor purchasing activities across warehouse
 
 The *Purchases by Location* report includes the following KPIs and measures: 
 
-- [**Purchase Amount**](purchases-powerbi-kpis.md#purchase-amount)
+- [**Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
 - [**Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
-- [**% GT Purchase Amount**](purchases-powerbi-kpis.md#-gt-purchase-amount)
-- [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#-gt-purchase-quantity)
+- [**% GT Purchase (LCY)**](purchases-powerbi-kpis.md#purchase-lcy)
+- [**% GT Purchase Quantity**](purchases-powerbi-kpis.md#purchase-quantity)
 
 [!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
 
@@ -47,8 +47,10 @@ The report uses data from the following tables in [!INCLUDE[prod_short](includes
 
 - Location
 - Item
-- Value Entry
-- Purchase Line
+- Vendor
+- Purchase Value Entry
+- Purchase Invoice Lines
+- Purchase Credit Lines
 
 ## Try the report
 
@@ -56,7 +58,7 @@ Try the report here: [Purchases by Location](https://businesscentral.dynamics.co
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Power BI Purchasing app](purchases-powerbi-app.md)  

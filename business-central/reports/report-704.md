@@ -4,7 +4,7 @@ description: Review all inventory movements for the selected items for a selecte
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_704_Primary
 ms.date: 10/18/2024
@@ -89,7 +89,7 @@ Try the report here: [Inventory - Transaction Detail](https://businesscentral.dy
 
 * [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
-## See also
+## Related information
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)   
 [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)   

@@ -4,7 +4,7 @@ description: Analyze and manage your inventory costs and pricing strategies.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_716_Primary
 ms.date: 10/18/2024
@@ -82,7 +82,7 @@ Try the report here: [Inventory Cost and price list](https://businesscentral.dyn
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)  
 [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  

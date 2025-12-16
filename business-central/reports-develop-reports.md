@@ -2,7 +2,7 @@
 title: Develop report layouts and datasets
 description: Provides an overview of Business Central data.
 author: kennieNP
-ms.topic: conceptual
+ms.topic: concept-article
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: feature overview
@@ -41,7 +41,7 @@ The following table provides links to articles that describe options for customi
 | Learn how to program reports in AL. | [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports) |
 | Learn how to make reports perform. | [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports) |
 
-## See Also
+## Related information
 
 [Business Intelligence and Reporting Overview](reports-use-reports.md)
 

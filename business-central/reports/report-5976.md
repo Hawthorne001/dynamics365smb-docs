@@ -4,7 +4,7 @@ description: Get an overview on profit for service contracts.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5976_Primary
 ms.date: 11/2/2024
@@ -67,7 +67,7 @@ Try the report here: [Service Profit (Contracts)](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Service management report overview](../service-reports.md)  
 [Service management](../service-service.md)  

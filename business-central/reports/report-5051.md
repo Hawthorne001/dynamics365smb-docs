@@ -4,7 +4,7 @@ description: Get an overview about your contact companies, including related int
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5051_Primary
 ms.date: 11/11/2024
@@ -58,7 +58,7 @@ Try the report here: [Contact - Company Summary](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Relationship management report overview](../marketing-reports.md)
 [Relationship management overview](../marketing-relationship-management.md)

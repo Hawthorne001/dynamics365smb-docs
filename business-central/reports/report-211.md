@@ -4,7 +4,7 @@ description: View payment receipts for each customer ledger entry of the type Pa
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_211_Primary
 ms.date: 10/18/2024
@@ -31,7 +31,7 @@ Try the report here: [Customer - Payment Receipt](https://businesscentral.dynami
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Accounts receivable report overview](../receivables-reports.md)  
 [Sales reports](../sales-reports.md)  

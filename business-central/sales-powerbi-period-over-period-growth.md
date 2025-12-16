@@ -4,11 +4,12 @@ description: The Period-Over-Period Growth report provides valuable insights int
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: reporting
 ms.search.form: 37002_Primary
-ms.date: 10/26/2024
+ms.date: 10/07/2025
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Period-Over-Period Growth (Power BI Report)
@@ -35,12 +36,13 @@ For sales managers who oversee daily sales activities, the report can help you i
 
 The report includes the following key performance indicators (KPIs) and measures:
 
-- [**Sales Amount**](sales-powerbi-sales-kpis.md#sales-amount)
-- [**Previous Period**](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
-- [**Period-over-Period Growth Amount**](sales-powerbi-sales-kpis.md#sales-amount-pop-fiscal)
-- [**Period-over-Period Growth %**](sales-powerbi-sales-kpis.md#sales-amount-pop--fiscal)
+- [Sales (LCY)](sales-powerbi-sales-kpis.md#sales-lcy)
+- [Previous Period](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
+- [Period-over-Period Growth Amount](sales-powerbi-sales-kpis.md#sales-amount-pop-fiscal)
+- [Period-over-Period Growth %](sales-powerbi-sales-kpis.md#sales-amount-pop--fiscal)
+- [Sales Amount PP (Fiscal Year)](sales-powerbi-sales-kpis.md#sales-amount-pp-fiscal)
 
-[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)] 
+[!INCLUDE[click-on-a-kpi-link](includes/click-on-a-kpi-link.md)]
 
 [!INCLUDE[powerbi-tip-track-kpis](includes/powerbi-tip-track-kpis.md)]
 
@@ -48,8 +50,10 @@ The report includes the following key performance indicators (KPIs) and measures
 
 The report uses data from the following tables in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Value Entry
-- Sales Line
+- Sales Value Entries
+- Sales Invoice Line
+- Sales Credit Lines
+- Project Ledger Entries
 
 ## Try the report
 
@@ -57,7 +61,7 @@ Try the report here: [Period-Over-Period Growth](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](includes/ctrl-right-click-to-open-in-new-tab.md)]
 
-## See also
+## Related information
 
 [Track your business KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)  
 [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)  

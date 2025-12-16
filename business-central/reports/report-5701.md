@@ -4,7 +4,7 @@ description: Help you manage and track item substitutions in production orders a
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_5701_Primary
 ms.date: 11/1/2024
@@ -79,7 +79,7 @@ Try the report here: [Item Substitutions](https://businesscentral.dynamics.com?r
 
 - [Jenn Claridge](https://www.linkedin.com/in/jenn-morton-sabre/) | Vice President, ERP Practice
 
-## See also
+## Related information
 
 [Inventory and warehouse report overview](../inventory-WMS-reports.md)  
 [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)  

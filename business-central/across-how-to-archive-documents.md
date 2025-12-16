@@ -1,15 +1,16 @@
 ---
 title: Archive sales, purchase, project, and service documents
-description: You can archive orders, quotes, return orders, and blanket orders.
+description: Archive sales, purchase, project, and service documents such as orders, quotes, return orders, and blanket orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: v-soumramani
 ms.topic: how-to
-ms.date: 12/09/2024
+ms.date: 10/15/2025
 ms.custom: bap-template
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.service: dynamics-365-business-central
 ---
+
 # Archive documents
 
 You can archive sales, purchase, and service orders, quotes, return orders, and blanket orders. If you're using Project Management features, you can also archive your projects. You can archive documents and projects several times. A different archived version saves each time.
@@ -21,7 +22,7 @@ For sales documents, if the original still exists and isn't posted, you can use 
 
 For archived documents where the original is deleted, you can reuse the content by copying the data, for example, by using the **Copy from Document** action.  
 
-To explore archived documents, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archive**, and then choose the related link. If the archive you're interested in doesn't display right away in the **Go to Reports and Analysis** section, you might need to choose **Show more**.
+To explore archived documents, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Archive**, and then choose the related link. If the archive you're interested in doesn't display right away in the **Go to Reports and Analysis** section, you might need to choose **Show more**.
 
 ## To set up automatic document archiving
 
@@ -38,7 +39,7 @@ The following steps describe how to set up automatic archiving of sales document
 * For projects, use the **Project Setup** page.
 * For services, use the **Service Management Setup** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales & Receivables Setup**, and then choose the related link.
 2. On the **Archiving** FastTab, specify whether to turn on automatic archiving for the various types of sales documents. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 The following table describes the options for the **Archive Quotes** field.
@@ -53,7 +54,7 @@ The following table describes the options for the **Archive Quotes** field.
 
 The following procedure describes how to manually archive a sales order. The steps are similar for all documents and projects that you can archive.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.  
 2. Open a sales order that you want to archive.  
 3. Choose the **Archive Document** action.
 
@@ -65,14 +66,14 @@ You can restore documents only if the original document isn't posted.
 
 The following procedure describes how to restore an archived sales order to the original sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order Archives**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Order Archives**, and then choose the related link.
 2. Select the archived sales order, or version of it, that you want to restore, and then choose the **Restore** action.  
 
 The contents of the original sales order or project are replaced with the archived version.
 
 ## To delete archived versions
 
-Use a retention policy to clean up archived versions that you no longer need. Retention policies let administrators define how long they want to store data. For example, they can set up a policy that deletes data after an expiration date. To learn more, go to [Define Retention Policies](admin-data-retention-policies.md).
+Use a retention policy to clean up archived versions that you no longer need. Retention policies let administrators define how long they want to store data. For example, they can set up a policy that deletes data after an expiration date. Learn more in [Define Retention Policies](admin-data-retention-policies.md).
 
 There are a few things to note about creating retention policies for archived documents and projects:
 
@@ -85,6 +86,6 @@ There are a few things to note about creating retention policies for archived do
 [Track Document Lines](across-how-to-track-document-lines.md)  
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
