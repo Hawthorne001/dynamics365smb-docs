@@ -38,7 +38,7 @@ No matter your role, task, or the industry you work in, Copilot is ready to help
 
 Engage in natural language conversations directly within the Business Central interface to:
 
-- Find, organize, and summarize business data for your company. For example, ask: "Show me the latest sales order for Adatum.", "show me customers grouped by their country and zipcode", or "which customers got the most discounts."
+- Find, organize, and summarize business data for your company. For example, ask: "Show me the latest sales order for Adatum.", "show me customers grouped by their country/region and zipcode", or "which customers got the most discounts."
 
   <!--Look up and open data about entities or records related to business processes, such as customers, vendors, sales orders, and items. For example, ask: "Show me the latest sales order for Adatum." Group records or do calculations like adding or averaging in an analysis tab. For example, ask, "Show me the latest sales orders for Adatum" or "Which customers got the most discounts."-->
 
