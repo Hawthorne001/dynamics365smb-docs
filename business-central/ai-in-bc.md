@@ -224,8 +224,7 @@ Video
 
 **Learn more in:**
 
-- Inventory Forecasting (Power BI report) (external): https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-powerbi-inventory-forecasting
-- Responsible AI guidance for Business Central (external): https://learn.microsoft.com/en-us/dynamics365/business-central/responsible-ai-overview
+- [Inventory Forecasting (Power BI report)](/dynamics365/business-central/inventory-powerbi-inventory-forecasting)
 
 ### Late payment prediction  
 
@@ -235,8 +234,7 @@ Video
 
 **Learn more in:**
 
-- The Late Payment Prediction extension (external): https://learn.microsoft.com/en-us/dynamics365/business-central/ui-extensions-late-payment-prediction
-- Responsible AI guidance for Business Central (external): https://learn.microsoft.com/en-us/dynamics365/business-central/responsible-ai-overview
+- [Late payment prediction extension](/dynamics365/business-central/ui-extensions-late-payment-prediction)
 
 ### Cash flow analysis  
 
@@ -246,8 +244,7 @@ Video
 
 **Learn more in:**
 
-- Analyze cash flow in your company (external): https://learn.microsoft.com/en-us/dynamics365/business-central/finance-analyze-cash-flow
-- Responsible AI guidance for Business Central (external): https://learn.microsoft.com/en-us/dynamics365/business-central/responsible-ai-overview
+- [Analyze cash flow in your company](/dynamics365/business-central/finance-analyze-cash-flow)
 
 ## Related information
 
