@@ -89,7 +89,7 @@ Video
 - [Autofill with Copilot](autofill-fields-with-copilot.md)
 - [Responsible AI FAQs for Autofill (preview)](faqs-autofill.md)
 
-## For finance 
+## For finance
 
 Whether you're in Accounts Payable or Accounts Receivable, there's AI to help you eliminate those tedious tasks.
 
@@ -114,6 +114,17 @@ Video
 
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 - [Responsible AI FAQs for e-document matching (preview)](responsible-ai-overview.md)
+
+### Payables Agent 
+
+Payables Agent streamlines accounts payable by extracting details from vendor invoices, matching them to purchase orders and receipts, proposing posting accounts for unmatched lines, and routing exceptions—reducing manual data entry and speeding up invoice processing.
+
+Video 
+
+**Learn more in:**
+
+- [Payables Agent](payables-agent.md)
+- [Responsible AI FAQs for Payables Agent](faqs-payables-agent.md)
 
 ### Copilot for Finance 
 
@@ -209,6 +220,8 @@ Business Central also includes various features that do not use generative AI, b
 
 Inventory forecasting predicts future demand so you can plan replenishment, avoid stockouts, and reduce excess inventory.
 
+Video 
+
 **Learn more in:**
 
 - Inventory Forecasting (Power BI report) (external): https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-powerbi-inventory-forecasting
@@ -218,6 +231,8 @@ Inventory forecasting predicts future demand so you can plan replenishment, avoi
 
 Late payment prediction scores open invoices to identify which are likely to be paid late, helping you prioritize collections and adjust terms proactively.
 
+Video 
+
 **Learn more in:**
 
 - The Late Payment Prediction extension (external): https://learn.microsoft.com/en-us/dynamics365/business-central/ui-extensions-late-payment-prediction
@@ -226,6 +241,8 @@ Late payment prediction scores open invoices to identify which are likely to be 
 ### Cash flow analysis  
 
 Cash flow analysis projects cash inflows and outflows using historical data and current documents, giving you a forward-looking view to manage liquidity.
+
+Video 
 
 **Learn more in:**
 
