@@ -24,7 +24,7 @@ This article gives a quick tour of AI in Business Central, covering Copilot and 
 
 Both Copilot and agents in Business Central are designed for work and built with the privacy, security, and compliance standards businesses require.
 
-The benefits of using Copilot and agents in Business Central include:
+**Benefits** of using Copilot and agents in Business Central include:
 
 - Eliminate tedious tasks, freeing up time for what is most impactful to your business.
 - You won’t need to transfer your data to other unmanaged AI apps and risk your company data.
@@ -104,9 +104,9 @@ Bank account reconciliation assist uses AI to propose matches between bank state
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 - [Responsible AI FAQs for bank reconciliation assist](faqs-bank-reconciliation.md)
 
-### E-document matching 
+### E-document matching
 
-E-document matching helps you map vendor e-invoices to purchase orders and lines, proposing matches and flagging exceptions so you can process payables faster and with fewer errors. 
+E-document matching helps you map vendor e-invoices to purchase orders and lines, proposing matches and flagging exceptions so you can process payables faster and with fewer errors.
 
 <Video> 
 
@@ -115,7 +115,7 @@ E-document matching helps you map vendor e-invoices to purchase orders and lines
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 - [Responsible AI FAQs for e-document matching (preview)](responsible-ai-overview.md)
 
-### Payables Agent 
+### Payables Agent
 
 Payables Agent streamlines accounts payable by extracting details from vendor invoices, matching them to purchase orders and receipts, proposing posting accounts for unmatched lines, and routing exceptions—reducing manual data entry and speeding up invoice processing.
 
