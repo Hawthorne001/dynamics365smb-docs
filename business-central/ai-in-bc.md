@@ -188,7 +188,6 @@ Sales line suggestions recommends additional or alternative items to add to quot
 
 Marketing text suggestions drafts product descriptions for your items based on attributes and tone preferences, giving you on-brand copy you can review and refine for your online store or catalogs. 
 
-Video 
 > [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
 
 **Learn more in:**
