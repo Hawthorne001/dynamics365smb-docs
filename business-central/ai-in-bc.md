@@ -51,7 +51,7 @@ Engage in natural language conversations directly within the Business Central in
 
 - Learn the purpose and use of fields. Select **Ask Copilot** in a tooltip for a field to get information about it.-->
 
-[Video](https://youtu.be/j5ULVClJaKU?list=PL1FESh9FqyhT3WHs2IoXSd0GM4_NQY_bc)
+[Video](https://www.youtube.com/watch?v=r1XeYKBjj3k&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=13)
 
 **Learn more in:**
 
@@ -62,6 +62,8 @@ Engage in natural language conversations directly within the Business Central in
 
 Use natural language in analysis mode to arrange, summarize, and pivot data in list pages for examination.
 
+[Video](https://www.youtube.com/watch?v=gLnFI_xAC_0&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=11)
+
 **Learn more in:**
 
 - [Analyze data in lists with Copilot](analysis-assist.md)
@@ -71,7 +73,7 @@ Use natural language in analysis mode to arrange, summarize, and pivot data in l
 
 Summarize condenses a record into a few key points tailored to your role—highlighting what’s most urgent and important—so you can grasp context and act faster without combing through fields and FactBoxes. 
 
-<Video>
+[Video](https://www.youtube.com/watch?v=MfdNppomGJE&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=6)
 
 **Learn more in:**
 
@@ -82,7 +84,7 @@ Summarize condenses a record into a few key points tailored to your role—highl
 
 Get suggested values for editable fields when creating or modifying records. Autofill is available for fields in card and document pages, such as sales orders, items, and custom pages.
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=EAG0lzm9uB4&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=7)
 
 **Learn more in:**
 
@@ -119,7 +121,7 @@ E-document matching helps you map vendor e-invoices to purchase orders and lines
 
 Payables Agent streamlines accounts payable by extracting details from vendor invoices, matching them to purchase orders and receipts, proposing posting accounts for unmatched lines, and routing exceptions—reducing manual data entry and speeding up invoice processing.
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=wZpuLRZhvV0&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ)
 
 **Learn more in:**
 
@@ -143,7 +145,7 @@ Copilot for Finance brings AI assistance to financial processes like variance ex
 
 Item substitute suggestions analyzes product data to propose compatible alternatives when items are out of stock or discontinued, helping sales and service teams keep orders moving with suitable replacements. 
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=4bTtvhjPjFE&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=8)
 
 **Learn more in:**
 
@@ -166,7 +168,7 @@ For greenhouse gas (GHG) emissions, Copilot estimates total emissions from descr
 
 The Sales Order Agent automates sales orders by handling customer requests via email. From an email requesting a quote, the agent identifies the contact in Business Central, finds the request, and generates a quote for you to review and send. When the contact confirms the quote, the agent converts the quote into an order.
 
-[Video](https://www.youtube.com/watch?v=I7i25zBfyEQ)
+[Video](https://www.youtube.com/watch?v=Nyibo3pmaII&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=)
 
 **Learn more in:**
 
@@ -177,7 +179,7 @@ The Sales Order Agent automates sales orders by handling customer requests via e
 
 Sales line suggestions recommends additional or alternative items to add to quotes and orders based on context and past patterns, helping you build complete, accurate documents faster. 
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=mAe-Xi1uCxk)
 
 **Learn more in:**
 
@@ -188,7 +190,7 @@ Sales line suggestions recommends additional or alternative items to add to quot
 
 Marketing text suggestions drafts product descriptions for your items based on attributes and tone preferences, giving you on-brand copy you can review and refine for your online store or catalogs. 
 
-> [!Video https://learn-video.azurefd.net/vod/player?id=aeb1c87f-2489-41f8-a3cf-28ed5e4196e4]
+[Video](https://www.youtube.com/watch?v=0b6e7ROHgpk&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=10)
 
 **Learn more in:**
 
@@ -203,14 +205,14 @@ Whether you’re onboarding to Business Central for the first time, or expanding
 
 Number series suggestions helps you quickly set up consistent, collision-free numbering for documents and master records. Copilot proposes prefixes, formats, and lengths based on your existing data and setup conventions, so you can standardize numbering and avoid manual errors.
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=2Tv_Nlh1jlo&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=9)
 
 **Learn more in:**
 
 - [Suggest number series with Copilot](suggest-number-series-copilot.md)
 - [Responsible AI FAQ for number series suggestions](/dynamics365/business-central/faq-suggest-number-series-with-copilot)
 
-## Other AI-powered features in Business Central
+## Other AI-powered and machine learning features
 
 Business Central also includes various features that do not use generative AI, but use other AI models to help you work through specific tasks. 
 
@@ -218,7 +220,7 @@ Business Central also includes various features that do not use generative AI, b
 
 Inventory forecasting predicts future demand so you can plan replenishment, avoid stockouts, and reduce excess inventory.
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=mupRf0CAcvE&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=5)
 
 **Learn more in:**
 
@@ -238,7 +240,7 @@ Late payment prediction scores open invoices to identify which are likely to be 
 
 Cash flow analysis projects cash inflows and outflows using historical data and current documents, giving you a forward-looking view to manage liquidity.
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=gsq5OS-krUY&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=3)
 
 **Learn more in:**
 
