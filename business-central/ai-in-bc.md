@@ -173,7 +173,7 @@ The Sales Order Agent automates sales orders by handling customer requests via e
 - [Sales Order Agent](sales-order-agent.md)
 - [Responsible AI FAQs for Sales Order Agent](faqs-sales-order-taker-agent.md)
 
-### Sales Line Suggestions
+### Sales line suggestions
 
 Sales line suggestions recommends additional or alternative items to add to quotes and orders based on context and past patterns, helping you build complete, accurate documents faster. 
 
@@ -199,7 +199,7 @@ Marketing text suggestions drafts product descriptions for your items based on a
 
 Whether you’re onboarding to Business Central for the first time, or expanding to new branches or subsidiaries, Copilot helps you get to doing business faster. 
 
-## Number series suggestions
+### Number series suggestions
 
 Number series suggestions helps you quickly set up consistent, collision-free numbering for documents and master records. Copilot proposes prefixes, formats, and lengths based on your existing data and setup conventions, so you can standardize numbering and avoid manual errors.
 
