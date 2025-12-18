@@ -141,7 +141,9 @@ Copilot for Finance brings AI assistance to financial processes like variance ex
 - [Copilot for Finance overview (external)](/dynamics365/finance/copilot/overview)
 - [Responsible AI FAQs for Copilot for Finance (external)](/dynamics365/finance/copilot/responsible-ai)
 
-## For inventory and supply chain management 
+---
+
+## For inventory and supply chain management
 
 ### [Item substitute suggestions](#tab/itemsubst)
 
