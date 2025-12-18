@@ -212,7 +212,7 @@ Number series suggestions helps you quickly set up consistent, collision-free nu
 - [Suggest number series with Copilot](suggest-number-series-copilot.md)
 - [Responsible AI FAQ for number series suggestions](/dynamics365/business-central/faq-suggest-number-series-with-copilot)
 
-## Other AI-powered and machine learning features
+## Other AI and machine learning features
 
 Business Central also includes various features that do not use generative AI, but use other AI models to help you work through specific tasks. 
 

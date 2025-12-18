@@ -218,7 +218,7 @@ Number series suggestions helps you quickly set up consistent, collision-free nu
 
 ---
 
-## Other AI-powered amd machine learning features in Business 
+## Other AI and machine learning features
 
 Business Central also includes various features that do not use generative AI, but use other AI models to help you work through specific tasks. 
 
