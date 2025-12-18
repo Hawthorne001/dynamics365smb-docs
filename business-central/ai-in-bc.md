@@ -150,16 +150,15 @@ Item substitute suggestions analyzes product data to propose compatible alternat
 - [Suggest substitute items with Copilot](suggest-item-substitutions-copilot.md)
 - [Responsible AI FAQ for suggest item substitutions](faq-suggest-item-substitutions-with-copilot.md)
 
-### Sustainability  
+### Suggest gas emissions in sustainability journals 
 
-Sustainability capabilities help you capture, track, and report environmental data across operations, supporting compliance requirements and insights to reduce environmental impact. 
+For greenhouse gas (GHG) emissions, Copilot estimates total emissions from descriptions and input parameters and adjusts emission factors for future use.
 
 <Video> 
 
 **Learn more in:**
 
-- Sustainability overview (external): https://learn.microsoft.com/en-us/dynamics365/release-plan/2024wave1/smb/dynamics365-business-central/achieving-sustainable-compliance-business-central
-- Responsible AI guidance for Business Central (external): https://learn.microsoft.com/en-us/dynamics365/business-central/responsible-ai-overview
+- [Suggest gas emissions in sustainability journals with Copilot](/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/suggest-gas-emissions-sustainability-journals-)
 
 ## For sales, customer service, and marketing
 
@@ -185,7 +184,7 @@ Sales line suggestions recommends additional or alternative items to add to quot
 - [Suggest lines on sales documents with Copilot](sales-suggest-sales-lines-with-copilot.md)
 - [Responsible AI FAQ for sales line suggestions](faq-sales-suggest-sales-lines-with-copilot.md)
 
-### Marketing text suggestions 
+### Marketing text suggestions
 
 Marketing text suggestions drafts product descriptions for your items based on attributes and tone preferences, giving you on-brand copy you can review and refine for your online store or catalogs. 
 
