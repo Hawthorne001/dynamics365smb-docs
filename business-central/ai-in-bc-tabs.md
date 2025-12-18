@@ -101,7 +101,7 @@ Whether you're in Accounts Payable or Accounts Receivable, there's AI to help yo
 
 Bank account reconciliation assist uses AI to propose matches between bank statement transactions and ledger entries and to suggest posting accounts for unmatched lines—reducing manual effort and speeding up reconciliation.  
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=4Te11l2BxmQ)
 
 **Learn more in:**
 
@@ -112,7 +112,7 @@ Bank account reconciliation assist uses AI to propose matches between bank state
 
 E-document matching helps you map vendor e-invoices to purchase orders and lines, proposing matches and flagging exceptions so you can process payables faster and with fewer errors.
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=CoQH7Z-leVE) 
 
 **Learn more in:**
 
@@ -134,7 +134,7 @@ Payables Agent streamlines accounts payable by extracting details from vendor in
 
 Copilot for Finance brings AI assistance to financial processes like variance explanation, collections, and payment matching. If your organization uses it alongside Business Central, you can accelerate close activities and reduce manual review; see the Copilot for Finance documentation for setup and availability. 
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=YL50nOTAPIY)
 
 **Learn more in:**
 
@@ -158,7 +158,7 @@ Item substitute suggestions analyzes product data to propose compatible alternat
 
 For greenhouse gas (GHG) emissions, Copilot estimates total emissions from descriptions and input parameters and adjusts emission factors for future use.
 
-<Video> 
+[Video](https://www.youtube.com/watch?v=bHXEbtsx0JY) 
 
 **Learn more in:**
 
