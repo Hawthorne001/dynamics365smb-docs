@@ -12,11 +12,11 @@ ms.collection:
 ---
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
-# AI in Business Central 
-
-This article gives a quick tour of AI in Business Central, covering Copilot and agent capabilities that help you chat with your data, analyze lists, summarize records, autofill fields, and streamline processes across finance, inventory, sales, and setup. Each section explains what a capability does at a glance and links to detailed docs and Responsible AI FAQs so you can decide where it fits in your workflows.
+# AI in Business Central
 
 ![Shows the icon for chat with Copilot pane with callouts](media/bcaibanner.png)
+
+This article gives a quick tour of AI in Business Central, covering Copilot and agent capabilities that help you chat with your data, analyze lists, summarize records, autofill fields, and streamline processes across finance, inventory, sales, and setup. Each section explains what a capability does at a glance and links to detailed docs and Responsible AI FAQs so you can decide where it fits in your workflows.
 
 **Copilot** is an AI-powered assistant that helps you work more efficiently by sparking creativity, boosting productivity, and eliminating tedious tasks. Copilot works collaboratively with you&mdash;you initiate actions and Copilot provides suggestions, analysis, and assistance to help you complete them faster.
 
