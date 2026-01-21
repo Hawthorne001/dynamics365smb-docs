@@ -120,58 +120,77 @@ If you accidentally delete a purchase invoice or credit memo, you can't proceed 
 
 ### Link an e-document to an existing purchase document
 
-The **Link to Existing Document** action allows you to associate an incoming e-document with a purchase document that already exists in [!INCLUDE [prod_short](includes/prod_short.md)], rather than creating a new document from the e-document. This is useful when:
+The **Link to Existing Document** action allows you to associate an incoming e-document with a purchase document that already exists in [!INCLUDE [prod_short](includes/prod_short.md)], rather than creating a new document. This is useful when:
 
 - The purchase document was created manually before the e-document arrived
 - You want to attach the e-document as supporting documentation to an existing transaction
+- You need to correct a previous linking by choosing a different document
 
 #### Prerequisites
 
-To use the **Link to Existing Document** action, make sure the following requirements are met:
+Before you can use the **Link to Existing Document** action:
 
 - The e-document must have a vendor number assigned in the draft
-- The vendor must have an **IC Partner Code** (Intercompany Partner Code) configured (this is required to enable the linking functionality)
+- The vendor must have an **IC Partner Code** configured on the vendor card
 
-#### Use the Link to Existing Document action
+#### How to link an e-document to an existing document
 
 To link an e-document to an existing purchase document, follow these steps:
 
-1. Select the ![Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Documents**, and then select the related link.
-1. On the **E-Documents** page, open the e-document you want to link.
+1. Open the **E-Document Purchase Draft** page.
 1. Make sure a vendor is assigned to the e-document.
-1. Choose the **Link to Existing Document** action.
+1. Select the **Link to Existing Document** action from the **Process** menu.
 1. A list of purchase documents opens, pre-filtered by:
    - The vendor from the e-document
-   - The total amount from the e-document
+   - The total amount (Amount Incl. VAT) from the e-document
 1. Select the document you want to link to.
-1. Confirm the linking action.
+1. Confirm the linking action when prompted.
 
 #### What happens after linking
 
-When you link an e-document to an existing purchase document, [!INCLUDE [prod_short](includes/prod_short.md)] does the following:
+When you link an e-document to an existing purchase document:
 
-- The selected purchase document gets linked to the e-document (via the **E-Document Link** field)
-- The document amounts from the e-document (Amount Incl. VAT and VAT Amount) are transferred to the purchase document
-- The e-document status changes to **Processed**
-- The **Created from E-Document** field on the purchase document is set to **No** (since the document existed before linking)
-- No new purchase document is created
+|Field |Value |
+|--------|-----------------|
+|**E-Document Link** (on Purchase Document) |Set to the e-document's system ID |
+|**Doc. Amount Incl. VAT** |Transferred from e-document total |
+|**Doc. Amount VAT** |Transferred from e-document VAT total |
+|**Created from E-Document** |Set to **No** (the document existed before linking) |
+|**E-Document Status** |Changed to **Processed** |
 
-#### Relink to a different document
+> [!IMPORTANT]
+> No new purchase document is created when linking to an existing document.
 
-If the e-document is already linked to a document and you want to link it to a different one:
+#### Relinking to a different document
 
-1. Choose the **Link to Existing Document** action again.
-1. A warning dialog appears explaining that the existing document will be unlinked.
-1. If you proceed, the previously linked document has its **E-Document Link** cleared.
-1. The previously linked document isn't deleted - you must clean it up manually if it's no longer needed.
+If the e-document is already processed (linked to a document) and you want to link it to a different document:
+
+1. When you select **Link to Existing Document**, a warning message appears:
+
+   > "This e-document is already linked to a document. Linking to [Document Type] [Document No.] will unlink the currently linked document. If it was created from this e-document, it will be deleted. Do you want to continue?"
+
+1. If you proceed:
+   - If the previously linked document was created from this e-document: The document is deleted
+   - If the previously linked document was NOT created from this e-document: The document is unlinked only (**E-Document Link** field is cleared, but the document remains)
 1. The newly selected document becomes linked to the e-document.
 
 #### Document type matching
 
 The **Link to Existing Document** action opens the appropriate document list based on the e-document type:
 
-- Purchase Invoice e-documents → Opens Purchase Invoices list
-- Purchase Credit Memo e-documents → Opens Purchase Credit Memos list
+|E-Document Type |Opens Page |
+|--------|-----------------|
+|Purchase Invoice |Purchase Invoices |
+|Purchase Credit Memo |Purchase Credit Memos |
+
+#### Error messages
+
+When using the **Link to Existing Document** action, you might encounter the following errors:
+
+|Error |Cause |Resolution |
+|--------|-----------------|-----------------|
+|"Cannot link e-document to existing purchase document because vendor number is missing" |No vendor assigned to e-document |Assign a vendor in the **Vendor No.** field |
+|"IC Partner Code must have a value" |Vendor doesn't have IC Partner Code |Configure **IC Partner Code** on the vendor card |
 
 #### Map text on an e-document to a specific vendor account
 
