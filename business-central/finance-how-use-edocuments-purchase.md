@@ -131,7 +131,7 @@ The **Link to Existing Document** action allows you to associate an incoming e-d
 > [!IMPORTANT]
 > We generally recommend using the e-document processing engine to automatically create new purchase documents rather than linking to existing documents. This ensures proper document tracking and audit trails.
 
-However, certain scenarios might require linking to existing documents. For example, with intercompany invoices, you might receive an e-document from the e-document service while an existing purchase document is already in the system.
+However, certain scenarios might require linking to existing documents. Currently, the **Link to Existing Document** action only supports intercompany scenarios. For example, with intercompany invoices, you might receive an e-document from the e-document service while an existing purchase document is already in the system.
 
 > [!NOTE]
 > The **Link to Existing Document** action is hidden by default. To make it visible, use [personalization](ui-personalization-user.md) to show the action on the page.
@@ -141,7 +141,7 @@ However, certain scenarios might require linking to existing documents. For exam
 Before you can use the **Link to Existing Document** action:
 
 - The e-document must have a vendor number assigned in the draft
-- The vendor must have an **IC Partner Code** configured on the vendor card
+- The vendor must have an **IC Partner Code** configured on the vendor card (this is required because the action currently only supports intercompany scenarios)
 
 #### How to link an e-document to an existing document
 
