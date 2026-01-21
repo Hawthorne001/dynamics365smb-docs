@@ -126,6 +126,16 @@ The **Link to Existing Document** action allows you to associate an incoming e-d
 - You want to attach the e-document as supporting documentation to an existing transaction
 - You need to correct a previous linking by choosing a different document
 
+#### When to use this action
+
+> [!IMPORTANT]
+> We generally recommend using the e-document processing engine to automatically create new purchase documents rather than linking to existing documents. This ensures proper document tracking and audit trails.
+
+However, certain scenarios might require linking to existing documents. For example, with intercompany invoices, you might receive an e-document from the e-document service while an existing purchase document is already in the system.
+
+> [!NOTE]
+> The **Link to Existing Document** action is hidden by default. To make it visible, use [personalization](ui-personalization-user.md) to show the action on the page.
+
 #### Prerequisites
 
 Before you can use the **Link to Existing Document** action:
