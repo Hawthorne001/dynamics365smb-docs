@@ -3,13 +3,15 @@ title: Set up the IdealPostcodes Extension [UK]
 description: Learn how to configure the IdealPostcodes extension in the British version of Business Central.
 author: brentholtorf
 ms.topic: how-to
-ms.search.keywords: getaddress.io, postcodes, extension
+ms.search.keywords: idealpostcodes, postcodes, extension
 ms.search.form: 9142,
 ms.date: 02/09/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
+# Set up the IdealPostcodes extension
 
 This extension makes it easy to enter addresses in the United Kingdom (UK) for entities like customers, contacts, employees, vendors, bank accounts, and so on.
 
