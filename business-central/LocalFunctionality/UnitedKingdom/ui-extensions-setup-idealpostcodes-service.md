@@ -13,7 +13,9 @@ ms.reviewer: bholtorf
 
 This extension makes it easy to enter addresses in the United Kingdom (UK) for entities like customers, contacts, employees, vendors, bank accounts, and so on.
 
-The IdealPostcodes extension uses the **IdealPostcodes** API to find addresses in postcodes in the United Kingdom. To use the extension, you need to get a plan and an API Key for the IdealPostcodes API. We help you do that when you set up the IdealPostcodes extension. Plans are based on use, or what are sometimes referred to as "calls." A call, in this case, is when [!INCLUDE [prod_short](../../includes/prod_short.md)] displays a list of addresses in a postcode. Depending on how often you add addresses, choose the plan that is best for you. To do this, choose **Get API Key** to open a page where you can purchase a plan or start a trial.
+The IdealPostcodes extension uses the **IdealPostcodes** API to find addresses in postcodes in the UK. To use the extension, you need to get a plan and an API Key for the IdealPostcodes API. We help you access the latest plans when you set up the IdealPostcodes extension in [!INCLUDE [prod_short](../../includes/prod_short.md)]. 
+
+Plans are based on use, or what are sometimes referred to as "calls." A call, in this case, is when [!INCLUDE [prod_short](../../includes/prod_short.md)] displays a list of addresses in a postcode. Depending on how often you add addresses, choose the plan that's best for you.
 
 ## Set up the IdealPostcodes extension
 
@@ -30,7 +32,7 @@ The IdealPostcodes extension uses the **IdealPostcodes** API to find addresses i
 1. Open the email from IdealPostcodes, and copy the API key.
 1. On the **IdealPostcodes Provider Setup** page:
 
-   1. In the **API Key** field, enter the API key
+   1. In the **API Key** field, enter the API key.
    1. Read the **Terms & Conditions**.
    1. Select the **Enabled** checkbox, and then choose **OK**.
 
