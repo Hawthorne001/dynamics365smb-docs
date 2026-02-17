@@ -1,5 +1,5 @@
 ---
-title: Item availability in Sales Order Agent (preview)
+title: Item availability in Sales Order Agent
 description: Learn about the item availability used by Sales Order Agent and how you can test results on your own.
 author: jswymer
 ms.author: jswymer
@@ -12,7 +12,7 @@ ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410_Primary
 ---
-# Item availability in Sales Order Agent (preview)
+# Item availability in Sales Order Agent
 
 The **Item Availability** page is part of Sales Order Agent for checking item availability during the sales order-taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration and field descriptions.
 

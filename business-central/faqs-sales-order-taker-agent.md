@@ -12,7 +12,7 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# FAQ for Sales Order Agent (preview)
+# FAQ for Sales Order Agent
 
 These frequently asked questions (FAQ) describe the AI impact of the Sales Order Agent feature in Business Central.
 
