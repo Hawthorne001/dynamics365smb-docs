@@ -12,6 +12,7 @@ ms.custom: bap-template
 
 # Manage indexes in Business Central
 
+[!INCLUDE [applies-to-2026-releasewave1-later](includes/applies-to-2026-releasewave1-later.md)]
 
 This article describes features in Business Central related to index management: a virtual table that lists all database indexes, a page that shows per-index detailed information, and the option to enable or disable existing indexes.
 
