@@ -32,7 +32,7 @@ The following table describes the information provided for each table:
 |Record Size|The average record size in KB/record. The value is calculated using the following formula: 1024(Size)/(No. of Records). |
 |Size (KB)|The total amount of space the table occupies in the database. This value is the sum of the values in the Data Size and Index Size fields.|
 |Data Size (KB)|How much space the data in the base table occupies in the database.|
-|Index Size (KB)|How much space the table indexes (keys) on the base table occupy in the database. Select the **Table No.** column in the a row to view and manage individuals indexes.|
+|Index Size (KB)|How much space the table indexes (keys) on the base table occupy in the database. Select the **Table No.** column in the a row to view and manage individuals indexes. Learn more in [Manage indexes in Business Central](manage-indexes.md).|
 |Compression|The type of compression, **Row**, **Page**, or **None** that is applied to the table in the database. To learn more, go to [Data compression](/sql/relational-databases/data-compression/data-compression?).|
 
 > [!NOTE]
