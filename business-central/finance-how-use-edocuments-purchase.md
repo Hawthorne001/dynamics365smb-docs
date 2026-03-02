@@ -122,9 +122,9 @@ If you accidentally delete a purchase invoice or credit memo, you can't proceed 
 
 The **Link to Existing Document** action allows you to associate an incoming e-document with a purchase document that already exists in [!INCLUDE [prod_short](includes/prod_short.md)], rather than creating a new document. This is useful when:
 
-- The purchase document was created manually before the e-document arrived
-- You want to attach the e-document as supporting documentation to an existing transaction
-- You need to correct a previous linking by choosing a different document
+- The purchase document was created manually before the e-document arrived.
+- You want to attach the e-document as supporting documentation to an existing transaction.
+- You need to correct a previous linking by choosing a different document.
 
 #### When to use this action
 
