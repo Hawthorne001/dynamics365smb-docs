@@ -6,7 +6,7 @@ ms.author: magram
 ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection: #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 02/23/2026
+ms.date: 03/03/2026
 ms.custom: bap-template
 ms.search.form: 8705_Primary, 8700, 9521,
 ---
@@ -57,5 +57,5 @@ Enabling an index is queued for the next scheduled midnight process.
 
 ## Related information
 
-[Viewg table information](admin-view-table-information.md)  
+[View table information](admin-view-table-information.md)  
 [Database missing indexes](database-missing-indexes.md)  
