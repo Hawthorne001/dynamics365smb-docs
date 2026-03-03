@@ -18,7 +18,7 @@ The **Customer Retention Overview** report analyzes customer sales behaviors and
 > [!NOTE]
 > By default, the Customer Retention Overview report reflects customer statistics for the current relative fiscal year. To report customer retention by a different date period, you can edit the Sales App Customer Retention Overview page filters to modify or remove this Fiscal Relative Year filter.
 
-:::image type="content" source="media/sales-customer-retention-overview.png" alt-text="Screenshot of the Customer Retention Overview report." lightbox="media/powerbi/sales/sales-customer-retention-overview.png":::
+:::image type="content" source="media/powerbi/sales/sales-customer-retention-overview.png" alt-text="Screenshot of the Customer Retention Overview report." lightbox="media/powerbi/sales/sales-customer-retention-overview.png":::
 
 ## Use the report
 
