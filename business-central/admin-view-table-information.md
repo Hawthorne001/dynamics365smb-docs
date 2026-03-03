@@ -27,12 +27,12 @@ The following table describes the information provided for each table:
 |------|-----------|
 |Company Name|The name of the company, if any, that the table belongs to.|
 |Table Name|The name of the table.|
-|Table No.|The ID of the table. Select the number in a row to open details about the the table.|
-|No. of Records|The total number of records stored in the table. Select the number in a row to open the table and view the rcords.|
+|Table No.|The ID of the table. Select the ID to view and manage indexes on the table. Learn more in [Manage indexes in Business Central](manage-indexes.md).|
+|No. of Records|The total number of records stored in the table. Select the number in a row to open the table and view the records.|
 |Record Size|The average record size in KB/record. The value is calculated using the following formula: 1024(Size)/(No. of Records). |
 |Size (KB)|The total amount of space the table occupies in the database. This value is the sum of the values in the Data Size and Index Size fields.|
 |Data Size (KB)|How much space the data in the base table occupies in the database.|
-|Index Size (KB)|How much space the table indexes (keys) on the base table occupy in the database. Select the **Table No.** column in the a row to view and manage individuals indexes. Learn more in [Manage indexes in Business Central](manage-indexes.md).|
+|Index Size (KB)|How much space the table indexes (keys) on the base table occupy in the database. Select the ID in the **Table No.** column to view and manage indexes on the table. Learn more in [Manage indexes in Business Central](manage-indexes.md).|
 |Compression|The type of compression, **Row**, **Page**, or **None** that is applied to the table in the database. To learn more, go to [Data compression](/sql/relational-databases/data-compression/data-compression?).|
 
 > [!NOTE]

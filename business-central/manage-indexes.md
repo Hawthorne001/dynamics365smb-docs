@@ -25,22 +25,37 @@ On the other hand, indexes have a maintenance cost: they require more storage an
 
 In AL code, indexes are defined by secondary keys in both table objects and table extension objects. A single table object and table extension object can have multiple secondary keys. Learn more in [Table keys](/dynamics365/business-central/dev-itpro/developer/devenv-table-keys).
 
-## View index information
+## View indexes on a table
 
 You view table indexes from the **Table Information** page:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Table Information**, then choose the related link.
-1. On the **Table Information**, locate the table and select its ID in the **Table No.** column.
-
-   The **Table Data Management** card for the table opens showing general information about the table and its indexes.
-
-   The **Indexes** section displays details of each index on table including index storage size, index usage statistics, and index type (AL-defined or system-generated). Use the values in the columns to identify underused indexes in a specific company or environment.
+1. On the **Table Information** page, locate the table and select its ID in the **Table No.** column.
+1. On the **Table Data Management** page, set the **Company Name** field to the company for which you want to view indexes.
+1. The **Indexes** section displays details of each index on table for the selected company, including index storage size, index usage statistics, and index type (AL-defined or system-generated). Use the values in the columns to determine underused indexes in a specific company or environment, and then turn them off as appropriate.
 
 > [!NOTE]
 > The index information is sourced from a virtual table called [Database Index](https://learn.microsoft.com/en-us/dynamics365/business-central/application/system/table/system.diagnostics.database-index). This table exposes data from the corresponding [SQL dynamic management view (DMV)](/sql/relational-databases/system-dynamic-management-views/sys-dm-db-index-usage-stats-transact-sql), providing two sets of usage metrics: user* and last_user*.
 
-## Turn off indexes per company
+## Turn off or on indexes
 
-You can turn off nonunique indexes with low usage to reduce storage costs and improve write performance. In the Indexes section of the Database Index Information page, clear the Enabled in Database check box for the unwanted index.
+You can turn off nonunique indexes with low usage to reduce storage costs and improve write performance. Unique indexes, primary keys, SIFT, and $systemid indexes are protected and can't be turned off.
 
-Unique indexes, primary keys, SIFT, and systemid indexes are protected from disabling. Disabling an index takes effect immediately. Enabling an index is queued for the next scheduled midnight process.
+**Turn off an index:**
+
+1. On the **Table Data Management** page for the table as described in the previous section, select the index in the list.
+1. Select **Turn index off** to disable the index for the specified company only, or select **Turn index off (all companies)** to disable the index for all companies in the environment.
+
+Disabling an index takes effect immediately.
+
+**Turn on an index:**
+
+1. On the **Table Data Management** page, select the disabled index in the list.
+1. Select **Turn index on** to enable the index for the specified company only, or select **Turn index on (all companies)** to enable the index for all companies in the environment.
+
+Enabling an index is queued for the next scheduled midnight process.
+
+## Related information
+
+[Viewg table information](admin-view-table-information.md)  
+[Database missing indexes](database-missing-indexes.md)  
