@@ -14,50 +14,32 @@ ms.custom: bap-template
 
 [!INCLUDE [applies-to-2026-releasewave1-later](includes/applies-to-2026-releasewave1-later.md)]
 
-This article describes features in Business Central related to index management: a virtual table that lists all database indexes, a page that shows per-index detailed information, and the option to enable or disable existing indexes.
+As an admin, you can view and manage database indexes per company to optimize performance and reduce costs. Selectively disable non-essential indexes to improve write performance and storage, while protecting unique indexes and SIFT indexes from being disabled.
 
-These features give administrators and developers greater control and visibility over database indexes.
+## About indexes
 
-## 1. Virtual table for database indexes
+An *index* is a database structure that makes it faster to find, filter, sort, or aggregate data in a table. An index is a defined ordering of one or more fields in a table that SQL Server (for Business Central on‑premises) or Azure SQL (for online) uses to speed up lookups. Without an index, the database must scan the entire table to find matching records. With a suitable index, it can jump directly to the relevant rows, which is dramatically faster for large tables.
 
-A virtual table is called [Database Index](https://learn.microsoft.com/en-us/dynamics365/business-central/application/system/table/system.diagnostics.database-index) captures detailed database information on a per-index basis both for AL-defined key and automatically system defined indexes.  
+On the other hand, indexes have a maintenance cost: they require additional storage and can slow down create, update, and delete (CRUD) operations because the index must be kept up to date.
 
-The information in the table provides insights into index usage by providing access to the corresponding [SQL DMV](/sql/relational-databases/system-dynamic-management-views/sys-dm-db-index-usage-stats-transact-sql) in the form of the two set of values *user* and last_user*. Developers and administrators can use these values to decide which indexes are underused in the specific company or environment. 
-
-Before version 28, it was only possible to get index storage usage aggregated on a per-table basis via the **Table Information** page. In version 28 and later, it's possible to get per-index storage usage insights since the virtual table also shows index usage.
-
-## 2. Database Index Information Page
-
-With the introduction of per-index information, a new page has been created to display detailed index information. This page is accessible directly from the existing **Table Information** page via a link on the table ID.
-
-The **Database Index Information** page aggregates index-related data and displays a curated subset of information from the "Database Index" virtual table. Index management functionality is centralized here, with actions supporting various operations.
-
-
-With the introduction of per-index information a new page has been created to display this information, it's accessible directly from the existing Table Information via the link on table ID. 
-
-The page collects both aggregated information related to indexes but also shows a subset of the information available on the "Database Index" virtual table.
-
-Index management functionality is also centralized on the new page with actions that support the various operations supported. 
-
-## 3. Enable and disable indexes
-
-You can enable and disable non-unique indexes at runtime on a per-index basis, excluding primary key and systemid indexes.
-
-For example, you might choose to disable indexes that show consistently low usage according to the *user* and *last_user* values in the **Database Index** virtual table, to save database storage and remove the performance overhead of index maintenance when updating data in SQL.  
-
-You can also create functionality-specific indexes. For example, indexes that have overhead you'd normally want to avoid, but provide value when specific functionality is enabled. These indexes would be created as `enabled = false` and can then be enabled when needed.
-
-Disabling an index takes effect immediately, while enabling an index is queued to run during the next scheduled midnight process.
-
-
-As an admin, you greater operational control and flexibility by allowing them to turn off specific database indexes per company directly from the UI, helping optimize system performance and maintenance with minimal disruption. Because the change is scheduled and executed in the background, you can reduce the risk of user downtime and avoid peak-hour performance impact, enabling smoother day-to-day operations. By selectively disabling non-essential indexes, while safeguarding data integrity by excluding unique and SIFT indexes, organizations can better manage resource usage, streamline troubleshooting or data maintenance scenarios, and adapt system behavior to their specific business needs without complex technical intervention.
+In AL code, indexes are defined by secondary keys in both table objects and table extension objects. A single table object and table extension object can have multiple secondary keys. Learn more in [Table keys](/dynamics365/business-central/dev-itpro/developer/devenv-table-keys).
 
 ## View index information
 
-To view indexes 
-Access detailed index information directly in the UI. Open the Database Index Information page from the Table Information page by selecting a table. Here, you see per-index details from the new Database Index virtual table, including storage usage, SQL Server index usage statistics, and index type (AL-defined or system-generated).
+You view table indexes from the **Table Information** page:
 
-Turn off indexes per company
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Table Information**, then choose the related link.
+1. On the **Table Information**, locate the table and select its ID in the **Table No.** column.
+
+   The **Table Data Management** card for the table opens showing general information about the table and it's indexes.
+
+   The **Indexes** section displays details of each index on table including index storage size, index usage statistics, and index type (AL-defined or system-generated). Use the values in the columns to identify underused indexes in a specific company or environment.
+
+> [!NOTE]
+> The index information is sourced from a virtual table called [Database Index](https://learn.microsoft.com/en-us/dynamics365/business-central/application/system/table/system.diagnostics.database-index). This table exposes data from the corresponding [SQL dynamic management view (DMV)](/sql/relational-databases/system-dynamic-management-views/sys-dm-db-index-usage-stats-transact-sql), providing two sets of usage metrics: user* and last_user*.
+
+## Turn off indexes per company
+
 You can turn off non-unique indexes with low usage to reduce storage costs and improve write performance. In the Indexes section of the Database Index Information page, clear the Enabled in Database check box for the unwanted index.
 
 Unique indexes, primary keys, SIFT, and systemid indexes are protected from disabling. Disabling an index takes effect immediately. Enabling an index is queued for the next scheduled midnight process.
