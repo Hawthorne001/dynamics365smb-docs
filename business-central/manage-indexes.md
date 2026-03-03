@@ -48,3 +48,16 @@ For example, you might choose to disable indexes that show consistently low usag
 You can also create functionality-specific indexes. For example, indexes that have overhead you'd normally want to avoid, but provide value when specific functionality is enabled. These indexes would be created as `enabled = false` and can then be enabled when needed.
 
 Disabling an index takes effect immediately, while enabling an index is queued to run during the next scheduled midnight process.
+
+
+As an admin, you greater operational control and flexibility by allowing them to turn off specific database indexes per company directly from the UI, helping optimize system performance and maintenance with minimal disruption. Because the change is scheduled and executed in the background, you can reduce the risk of user downtime and avoid peak-hour performance impact, enabling smoother day-to-day operations. By selectively disabling non-essential indexes, while safeguarding data integrity by excluding unique and SIFT indexes, organizations can better manage resource usage, streamline troubleshooting or data maintenance scenarios, and adapt system behavior to their specific business needs without complex technical intervention.
+
+## View index information
+
+To view indexes 
+Access detailed index information directly in the UI. Open the Database Index Information page from the Table Information page by selecting a table. Here, you see per-index details from the new Database Index virtual table, including storage usage, SQL Server index usage statistics, and index type (AL-defined or system-generated).
+
+Turn off indexes per company
+You can turn off non-unique indexes with low usage to reduce storage costs and improve write performance. In the Indexes section of the Database Index Information page, clear the Enabled in Database check box for the unwanted index.
+
+Unique indexes, primary keys, SIFT, and systemid indexes are protected from disabling. Disabling an index takes effect immediately. Enabling an index is queued for the next scheduled midnight process.
