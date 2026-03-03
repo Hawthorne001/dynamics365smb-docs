@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 The **Customer Retention History** report provides historical insights into customer retention trends, allowing detailed analysis of customer loyalty metrics. This report compares customer retention volume metrics over time for New, Lost, Returning, and Recovered customers, providing measurable insights into customer engagement. You can use these insights to anticipate customer trends and implement sales strategies, improving customer retention and engaging with new demographics.
 
-:::image type="content" source="media/sales-customer-retention-history.png" alt-text="Screenshot of the Customer Retention History report." "lightbox="media/powerbi/sales/sales-customer-retention-history.png":::
+:::image type="content" source="media/sales-customer-retention-history.png" alt-text="Screenshot of the Customer Retention History report." lightbox="media/powerbi/sales/sales-customer-retention-history.png":::
 
 ## Use the report
 
