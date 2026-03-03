@@ -4,7 +4,7 @@ description: Learn how you can view information about the database tables in Bus
 author: jswymer
 ms.topic: concept-article
 ms.devlang: al
-ms.search.form: 8700_Primary, 
+ms.search.form: 8700_Primary, 8705
 ms.date: 02/21/2025
 ms.author: jswymer
 ms.service: dynamics-365-business-central
