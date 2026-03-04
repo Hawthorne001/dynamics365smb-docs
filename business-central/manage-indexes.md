@@ -19,7 +19,7 @@ As an admin, you can view and manage database indexes per company to optimize pe
 
 ## About indexes
 
-An *index* is a database structure that makes it faster to find, filter, sort, or aggregate data in a table. An index is a defined ordering of one or more fields in a table that SQL Server (for Business Central on‑premises) or Azure SQL (for online) uses to speed up lookups. Without an index, the database must scan the entire table to find matching records. With a suitable index, it can jump directly to the relevant rows, which is dramatically faster for large tables.
+An *index* is a database structure that makes it faster to find, filter, sort, or aggregate data in a table. An index organizes one or more fields in a table so that SQL Server (for Business Central on‑premises) or Azure SQL (for online) can efficiently locate rows. Without an index, the database may need to scan the entire table to find matching records. With a suitable index, it can seek directly to the relevant rows, which is dramatically faster for large tables.
 
 On the other hand, indexes have a maintenance cost: they require more storage and can slow down create, update, and delete (CRUD) operations because the index must be kept up to date.
 
