@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 10/20/2025
+ms.date: 03/04/2026
 ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -333,23 +333,23 @@ Based on the value in **Action for Removed Products and Blocked Items** on the *
 * **Status to Draft**: The status of the product in Shopify is set to *Draft*.
 * **Status to Archived**: The product is archived in Shopify.
 
-## Sync item images
+## Sync images of items and item variants
 
-Synchronization of images can be configured for synchronized items. Choose from the following options:
+Synchronization of images can be configured for synchronized items and item variants. Choose from the following options:
 
 * **Disabled** - Image synchronization is deactivated.
-* **To Shopify** - Images of items are exported to Shopify.
+* **To Shopify** - Images are exported to Shopify.
 * **From Shopify** - Images from Shopify are imported to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 You can start image synchronization in the ways described in the next sections in this article.
 
-### Sync product images from the Shopify shop page
+### Sync product and variant images from the Shopify shop page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the shop for which you want to synchronize images to open the **Shopify Shop Card** page.
 3. Choose the **Sync Product Images** action.
 
-### Sync product images from the Shopify products page
+### Sync product and variant images from the Shopify products page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Sync Product Images** action.
