@@ -19,9 +19,11 @@ As an admin, you can view and manage database indexes per company to optimize pe
 
 ## About indexes
 
-An *index* is a database structure that makes it faster to find, filter, sort, or aggregate data in a table. An index organizes one or more fields in a table so that SQL Server (for Business Central on‑premises) or Azure SQL (for online) can efficiently locate rows. Without an index, the database may need to scan the entire table to find matching records. With a suitable index, it can seek directly to the relevant rows, which is dramatically faster for large tables.
+An *index* is a database structure that makes it faster to find, filter, sort, or aggregate data in a table. An index organizes one or more fields in a table so that SQL Server (for Business Central on‑premises) or Azure SQL (for online) can efficiently locate rows. Without an index, the database might need to scan the entire table to find matching records. With a suitable index, it can seek directly to the relevant rows, which is dramatically faster for large tables.
 
 On the other hand, indexes have a maintenance cost: they require more storage and can slow down create, update, and delete (CRUD) operations because the index must be kept up to date.
+
+Indexes are defined at the table level, and because most tables in Business Central are company-specific, each index exists separately for each company. For example, if the **Item** table has a specific index, that same index structure exists independently within each company's dataset, allowing you to view and manage it on a per-company basis.
 
 In AL code, indexes are defined by secondary keys in both table objects and table extension objects. A single table object and table extension object can have multiple secondary keys. Learn more in [Table keys](/dynamics365/business-central/dev-itpro/developer/devenv-table-keys).
 
