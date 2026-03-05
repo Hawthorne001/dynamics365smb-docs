@@ -30,6 +30,14 @@ It's easy enough to define variants for an item.
 
 Then, when you create a sales document and add the item, you can specify the variant of the item in the Variant **Code** field. The same applies to purchasing documents.  
 
+## Add attributes to variants
+
+You can assign attributes that are specific to a variant. Item variants inherit attributes from the item, and you can adjust or remove those inherited values when the variant requires different information.
+  
+You can open the **Item Variant Attribute Values** page from the **Item Variants List** or the **Item Variant Card** pages to review or edit variant-specific attributes. When you add a new variant of an item, the attributes defined for the item transfer to the variant. You can then update or delete the inherited values to ensure the variant shows the correct details. 
+
+There's also the **Update Variant Attributes** action on the **Item Card** page that lets you to force sync attributes from the item to its variants.
+
 ## Item availability by variant
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
