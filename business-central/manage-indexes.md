@@ -23,9 +23,9 @@ An *index* is a database structure that makes it faster to find, filter, sort, o
 
 On the other hand, indexes have a maintenance cost: they require more storage and can slow down create, update, and delete (CRUD) operations because the index must be kept up to date.
 
-Indexes are defined at the table level, and because most tables in Business Central are company-specific, each index exists separately for each company. For example, if the **Item** table has a specific index, that same index structure exists independently within each company's dataset, allowing you to view and manage it on a per-company basis.
+In AL code, indexes are created based on the defined keys in both table objects and table extension objects. When you add a key, you get an index in the table in the database. A single table object and table extension object can have multiple secondary keys. Learn more in [Table keys](/dynamics365/business-central/dev-itpro/developer/devenv-table-keys).
 
-In AL code, indexes are defined by secondary keys in both table objects and table extension objects. So when you add a key, you get an index. single table object and table extension object can have multiple secondary keys. Learn more in [Table keys](/dynamics365/business-central/dev-itpro/developer/devenv-table-keys).
+Tables in Business Central can be either per-company, like the **Items** table, or shared across companies, like the **Tenant Media** table. For per-company tables, there exists a complete SQL table definition for each company, including all indexes. This means that for a per-company table like **Item**, each index exists independently within each company's dataset, allowing you to view and manage it on a per-company basis.
 
 ## View indexes on a table
 
@@ -33,7 +33,7 @@ You view table indexes from the **Table Information** page:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Table Information**, then choose the related link.
 1. On the **Table Information** page, locate the table and select its ID in the **Table No.** column.
-1. On the **Table Data Management** page, set the **Company Name** field to the company for which you want to view indexes.
+1. On the **Table Data Management** page, set the **Company Name** field to the company for which you want to view indexes. If the **Company Name** field is empty, the the table is used by all companies.
 1. The **Indexes** section displays details of each index on table for the selected company, including index storage size, index usage statistics, and index type (AL-defined or system-generated). Use the values in the columns to determine underused indexes in a specific company or environment, and then turn them off as appropriate.
 
 > [!NOTE]
