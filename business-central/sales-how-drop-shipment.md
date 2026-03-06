@@ -73,6 +73,23 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 > [!TIP]
 > Remember to post the purchase order invoice.
 
+> [!NOTE]
+> You can post invoices for drop shipment purchase orders, even if you haven't invoiced the related sales order. You can post invoice from a purchase order or by using the **Get receipt lines** action.
+>
+> However, this feature might affect your extensions and customizations. It modifies the posting logic for drop shipments and removes checks that previously blocked purchase invoice posting until the related sales invoice was posted. The following events are no longer called:
+>
+> **Codeunit 90 "Purch.-Post"**
+>
+> - OnCheckAssocOrderLinesOnBeforeCheckOrderLine
+> - OnBeforeCheckAssociatedSalesOrderLine
+>
+> **Codeunit 22 "Item Jnl.-Post Line"**
+>
+> - OnBeforeVerifyInvoicedQty
+> - OnVerifyInvoicedQtyOnAfterGetSalesShipmentHeader
+>
+> Review any customizations or extensions that rely on these events and adjust their logic accordingly.
+
 ## Related information
 
 [Create Special Orders](sales-how-to-create-special-orders.md)  
