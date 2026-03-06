@@ -25,7 +25,7 @@ On the other hand, indexes have a maintenance cost: they require more storage an
 
 Indexes are defined at the table level, and because most tables in Business Central are company-specific, each index exists separately for each company. For example, if the **Item** table has a specific index, that same index structure exists independently within each company's dataset, allowing you to view and manage it on a per-company basis.
 
-In AL code, indexes are defined by secondary keys in both table objects and table extension objects. A single table object and table extension object can have multiple secondary keys. Learn more in [Table keys](/dynamics365/business-central/dev-itpro/developer/devenv-table-keys).
+In AL code, indexes are defined by secondary keys in both table objects and table extension objects. So when you add a key, you get an index. single table object and table extension object can have multiple secondary keys. Learn more in [Table keys](/dynamics365/business-central/dev-itpro/developer/devenv-table-keys).
 
 ## View indexes on a table
 
