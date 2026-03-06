@@ -33,7 +33,7 @@ You view table indexes from the **Table Information** page:
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Table Information**, then choose the related link.
 1. On the **Table Information** page, locate the table and select its ID in the **Table No.** column.
-1. On the **Table Data Management** page, set the **Company Name** field to the company for which you want to view indexes. If the **Company Name** field is empty, the the table is used by all companies.
+1. On the **Table Data Management** page, set the **Company Name** field to the company for which you want to view indexes. If the **Company Name** field is empty, the table is used by all companies.
 1. The **Indexes** section displays details of each index on table for the selected company, including index storage size, index usage statistics, and index type (AL-defined or system-generated). Use the values in the columns to determine underused indexes in a specific company or environment, and then turn them off as appropriate.
 
 > [!NOTE]
