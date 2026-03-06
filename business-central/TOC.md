@@ -552,6 +552,8 @@ ms.service: dynamics-365-business-central
 ##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
 ##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
 
+### [Calculate withholding tax for vendors](finance-withholding-tax.md)
+
 ### Set up and use E-Documents
 #### [E-Documents overview](finance-edocuments-overview.md)
 #### [Set up E-Documents](finance-how-setup-edocuments.md)
