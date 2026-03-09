@@ -19,7 +19,7 @@ When a sales order is marked for drop shipment, and you create a purchase order 
   
 > [!Video https://learn-video.azurefd.net/vod/player?id=58c81aa9-7190-476a-9fd9-75a9841549f7]
 
-## To create a sales order for drop shipment
+## Create a sales order for drop shipment
 
 To prepare a drop shipment, you create a sales order for an item and indicate on the sales line that the sale requires drop shipment.
 
@@ -29,7 +29,7 @@ To prepare a drop shipment, you create a sales order for an item and indicate on
 > [!TIP]
 > By default, the Drop Shipment checkbox and Purchasing Code field aren't available on the lines. If they aren't, you can add them by personalizing the section of page that contains the lines. Learn more at [Personalize Your Workspace](ui-personalization-user.md).
 
-## To create the purchase order for drop shipment
+## Create the purchase order for drop shipment
 
 To prepare a drop shipment, you indicate on the purchase order that it must be shipped to your customer, not to yourself.
 
@@ -46,7 +46,7 @@ You can now tell your vendor to ship the items directly to the customer. For exa
 
 If your vendor provides additional information, such as a tracking number, you can add that information as a comment on a purchase order line. To add a comment on a line, in the **Type** field, choose **Comment**, and then enter the information in the **Description** field.  
 
-## To create multiple purchase orders for drop shipments
+## Create multiple purchase orders for drop shipments
 
 You can also use the requisition worksheet to create purchase orders. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments. That means you won't have to create each order individually.
 
@@ -56,11 +56,35 @@ You can also use the requisition worksheet to create purchase orders. The advant
 4. Review the purchase order lines, and in the **Vendor No.** field, select the vendor that supplies the goods.
 5. Choose the **Carry Out Action Message** action to convert the lines to a purchase order.
 
-## To view the linked purchase order from the sales order
+## Create purchase orders directly from sales orders
+
+You can simplify the drop shipment process by reducing manual steps and the need to switch between pages. Integrating drop shipment handling into standard planning and the process of creating purchase orders can save you some time and improve accuracy on your backorders.
+
+You can create purchase orders directly from sales orders that are set up for drop shipment by choosing the **Create Purchase Orders** action.
+
+Drop shipment orders are taken into consideration by the **Order Planning** page, so drop shipment lines are included when calculating plans. Also, the **Planning Worksheet** page includes a **Drop Shipment** action group with the **Get Sales Orders** and **Sales Orders** actions, similar to the requisition worksheet.
+
+You can create purchase orders from drop shipments from several pages.
+
+From a sales order, as follows:
+
+1.  Open a sales order that has lines marked as **Drop Shipment**.
+2.  Choose the **Create Purchase Orders** action.
+3.  On the **Create Purchase Orders** page, review the suggested lines. The vendor is added based on information from the **Item Card** or the **Stockkeeping Unit Card** pages. You can change the vendor if needed.
+
+From order planning, as follows:
+
+- On the **Order Planning** page, use the **Calculate Plan** action. Drop shipment lines are included.
+
+From a planning worksheet, as follows:
+
+- On the **Planning Worksheet** page, use the new **Drop Shipment** action group and the **Get Sales Orders** action to include sales orders.
+
+## Access the linked purchase order from the sales order
 
 Select the drop-shipment sales order line, choose the **Order** action, choose the **Drop Shipment** action, and then choose the **Purchase Order** action.
 
-## To post a drop shipment
+## Post a drop shipment
 
 After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
 
