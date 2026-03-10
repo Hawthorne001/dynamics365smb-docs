@@ -15,7 +15,7 @@ The notification is useful, but it can also become noise if it displays many tim
 
 To turn off the notification:
 
-1. Choose the **Settings** icon :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Screenshot of the Settings icon.":::, and select **My Settings**.
+1. Choose the **Settings** icon :::image type="content" source="../media/ui-experience/settings_icon_small.png" alt-text="Screenshot of the Settings icon.":::, and select **My Settings**.
 1. Choose **My Notifications**.
 1. Search for **“Warn about non-certified production BOMs and routings”**.
 1. Clear the **Enabled** checkbox.
