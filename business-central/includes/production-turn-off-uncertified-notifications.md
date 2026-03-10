@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-When you design or maintain production BOMs and routings, you might work with uncertified structures for extended periods. When you try to close an uncertified production BOM or version, [!INCLUDE [prod_short](includes/prod_short.md)] shows a message such as:
+When you design or maintain production BOMs and routings, you might work with uncertified structures for extended periods. When you try to close an uncertified production BOM or version, [!INCLUDE [prod_short](../includes/prod_short.md)] shows a message such as:
 
 - *The Production BOM has not been certified. Are you sure you want to exit?*
 

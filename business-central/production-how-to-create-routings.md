@@ -115,7 +115,7 @@ The version principle enables you to manage several versions of a routing. The s
 
 7. When you're done setting up the routing version, in the **Status** field, choose **Certified**.
 
-## Work with uncertified BOMs and routings
+## Work with uncertified production BOMs and routings
 
 [!INCLUDE [production-turn-off-uncertified-notifications](includes/production-turn-off-uncertified-notifications.md)]
 
