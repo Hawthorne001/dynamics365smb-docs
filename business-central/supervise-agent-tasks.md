@@ -26,7 +26,7 @@ The process flow is different for each agent. This article explains the common a
 
 The agent is activated, and you have permission to use it. Learn more in [Set up Payables Agent](payables-agent-setup.md) or [Set up Sales Order Agent](sales-order-agent-setup.md).
 
-## Access an agent's tasks
+## Access agent tasks
 
 On the upper-right of the navigation menu, select the icon for the agent:
 
