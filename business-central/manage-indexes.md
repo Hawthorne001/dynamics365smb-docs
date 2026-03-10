@@ -1,21 +1,21 @@
 ---
-title:  Manage database index usage and cost
-description: Learn how Business Central's enhanced index management tools provide developers and admins with detailed insights and control over database indexes.
+title: Manage database index usage
+description: Learn how to manage database indexes in Business Central to optimize performance, reduce storage costs, and improve write operations with enhanced tools.
 author: phduck
 ms.author: magram
 ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection: #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 03/03/2026
+ms.date: 03/10/2026
 ms.custom: bap-template
 ms.search.form: 8705_Primary, 8700, 9521,
 ---
 
-# Manage database index usage and cost
+# Manage database index usage
 
 [!INCLUDE [applies-to-2026-releasewave1-later](includes/applies-to-2026-releasewave1-later.md)]
 
-As an admin, you can view and manage database indexes per company to optimize performance and reduce costs. Selectively disable nonessential indexes to improve write performance and storage, while protecting unique indexes and SIFT indexes from being disabled.
+As an admin, you can view and manage database indexes per company to optimize performance and reduce storage costs. Selectively disable nonessential indexes to improve write performance and storage, while protecting unique indexes and SIFT indexes from being disabled.
 
 ## About indexes
 
@@ -25,7 +25,7 @@ On the other hand, indexes have a maintenance cost: they require more storage an
 
 In AL code, indexes are created based on the defined keys in both table objects and table extension objects. When you add a key, you get an index in the table in the database. A single table object and table extension object can have multiple secondary keys. Learn more in [Table keys](/dynamics365/business-central/dev-itpro/developer/devenv-table-keys).
 
-Tables in Business Central can be either per-company, like the **Items** table, or shared across companies, like the **Tenant Media** table. For per-company tables, there exists a complete SQL table definition for each company, including all indexes. This means that for a per-company table like **Item**, each index exists independently within each company's dataset, allowing you to view and manage it on a per-company basis.
+Tables in Business Central can be either per-company, like the **Items** table, or shared across companies, like the **Tenant Media** table. For per-company tables, a complete SQL table definition exists for each company, including all indexes. For a per-company table like **Item**, each index exists independently within each company's dataset, allowing you to view and manage it on a per-company basis. This capability enables you to define an index as 'enable=false' and then selectively enable it for only a subset of companies, without negatively impacting other companies. This flexibility is useful for indexes that are only needed for certain functional areas used by specific companies.
 
 ## View indexes on a table
 
