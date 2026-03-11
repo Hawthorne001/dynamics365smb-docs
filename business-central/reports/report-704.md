@@ -28,7 +28,17 @@ The report shows:
 
 Use the report to track changes in inventory and for audits at the close of an accounting period.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2026rw1](../includes/introduced_in_2026rw1.md)]
+
+[!INCLUDE[available-layouts-excel-only](../includes/available-layouts-excel-only.md)]
+<!-- 
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+ -->
 ## Use cases
+
+[!INCLUDE [report-704-scenario](../includes/report-704-scenario-include.md)]
 
 <!-- 
 Prompt

@@ -9,9 +9,9 @@ ms.reviewer: bholtorf
 
 The following table describes some of the key reports in inventory and warehouse management.
 
-| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+| To... | Open in Business Central (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
-| Review inventory movements, such as sales, purchases, and stock transfers for a selected item in a time period to determine the basis of the current quantity in inventory. | [Inventory - Transaction Detail](https://businesscentral.dynamics.com?report=704) | [About Inventory - Transaction Detail](../reports/report-704.md) | 704 |
+| [!INCLUDE [report-704-scenario](../includes/report-704-scenario-include.md)] | [Inventory - Transaction Detail](https://businesscentral.dynamics.com?report=704) | [About Inventory - Transaction Detail](../reports/report-704.md) | 704 |
 | [!INCLUDE [report-706-scenario](../includes/report-706-scenario-include.md)] | [Status](https://businesscentral.dynamics.com?report=706) | [About Status](../reports/report-706.md) | 706 |
 | Get an overview of specific items and stock-keeping units, and their availability. | [Inventory Availability Plan](https://businesscentral.dynamics.com?report=707) | [About Inventory - Transaction Detail](../reports/report-707.md) | 707 |
 | Analyze outstanding sales orders to understand your expected sales volume for items. To highlight overdue back orders, compare your overall outstanding shipments with the planned shipment date. | [Inventory Order Details](https://businesscentral.dynamics.com?report=708) | [About Inventory Order Details](../reports/report-708.md) | 708 |
