@@ -93,7 +93,7 @@ If your organization allows it, you can install the Business Central add-in for 
 
    The **Configure Outlook** page opens to display the steps you need to complete to install the add-in.  
 1. Select the **Download Add-in** button or **Download the add-in files to your device** link to save a file named *OutlookAddins.zip* on your device. You should find the file at the top of the browser.
-1. Go the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** files from the .zip to a folder of your choice. Learn how to extract files in [Zip and Unzip files and folders](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+1. Go the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** files from the .zip to a folder of your choice. Learn more about extracting files in [Zip and Unzip files and folders](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
 1. In your browser, visit [https://aka.ms/olksideload](https://aka.ms/olksideload).
 
    This link opens Outlook on the web, and then loads the **Add-Ins for Outlook** dialog.
@@ -112,15 +112,14 @@ If you're using Business Central on-premises, installing the add-in might be sli
 
 1. In Business Central, [!INCLUDE[open-search](includes/open-search-lowercase.md)], enter **Get the Outlook Add-in**, then select the related link.
 1. Read the page and select **Next** when ready.
-1. On the **Configure Outlook** page, do one of the following steps:
+1. The **Configure Outlook** page opens to display the steps you need to complete to install the add-in. Do the following steps:
 
     - If you see the **Install to my Outlook** button, select it and you're all done.
     - If you see the **Next** button, select it. On the next page, if you want to receive a welcome email message from Business Central with an overview of using the add-in, turn on **Send sample email message**. Then, select **Finish** and you're all done.
     - If you see the **Download Add-in** button, select it, then continue to the next step.
 1. When you select **Download Add-in**, a file with the name *OutlookAddins.zip* is downloaded to your device. You should find the file at the top of the browser.
 
-   Go to the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** files from the .zip to a folder of your choice. For more information about how to extract files, see [Zip and Unzip files and folders](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-
+   Go to the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** files from the .zip to a folder of your choice. Learn more about extracting files in [Zip and Unzip files and folders](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
 1. In your browser, visit [https://aka.ms/olksideload](https://aka.ms/olksideload). This link opens Outlook on the web, and then loads the **Add-Ins for Outlook** dialog.
 1. Select **My add-ins** > **Add a custom add-in** > **Add from a file**.
 1. Select one of the .xml files that you extracted, like **Contact Insights.xml**, then select **Open** > **Install**.
