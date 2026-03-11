@@ -13,12 +13,11 @@ The following table describes some of the key reports in inventory and warehouse
 |-------|------------| ------------|----|
 | [!INCLUDE [report-704-scenario](../includes/report-704-scenario-include.md)] | [Inventory - Transaction Detail](https://businesscentral.dynamics.com?report=704) | [About Inventory - Transaction Detail](../reports/report-704.md) | 704 |
 | [!INCLUDE [report-706-scenario](../includes/report-706-scenario-include.md)] | [Status](https://businesscentral.dynamics.com?report=706) | [About Status](../reports/report-706.md) | 706 |
-| Get an overview of specific items and stock-keeping units, and their availability. | [Inventory Availability Plan](https://businesscentral.dynamics.com?report=707) | [About Inventory - Transaction Detail](../reports/report-707.md) | 707 |
 | Analyze outstanding sales orders to understand your expected sales volume for items. To highlight overdue back orders, compare your overall outstanding shipments with the planned shipment date. | [Inventory Order Details](https://businesscentral.dynamics.com?report=708) | [About Inventory Order Details](../reports/report-708.md) | 708 |
 | Analyze outstanding purchase orders to understand the expected purchase volume for items. Compare overall outstanding receipts with the expected receipt date to highlight overdue back orders. | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About Inventory Purchase Orders](../reports/report-709.md) | 709 |
 | Review the highest or lowest selling items based on quantity and amount over a selected period to assist with purchase planning. | [Inventory Top 10 List](https://businesscentral.dynamics.com?report=711) | [About Inventory Top 10 List](../reports/report-711.md) | 711 |
 | [!INCLUDE [report-713-scenario](../includes/report-713-scenario-include.md)] | [Inventory Customer Sales](https://businesscentral.dynamics.com?report=713) | [About Inventory Customer Sales](../reports/report-713.md) | 713 |
-| Analyze vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amounts, and volume of item purchases. | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About Inventory Vendor Purchases](../reports/report-714.md) | 714 |
+| [!INCLUDE [report-714-scenario](../includes/report-714-scenario-include.md)] | [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714) | [About Inventory Vendor Purchases](../reports/report-714.md) | 714 |
 | Analyze and manage your inventory costs and pricing strategies. | [Inventory Cost and Price List](https://businesscentral.dynamics.com?report=716) | [About Inventory Cost and Price List](../reports/report-716.md) | 716 |
 | Get an overview of sales orders that you can't fulfill because items are out-of-stock.  | [Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718) | [About Inventory Sales Back Orders](../reports/report-718.md) | 718 |
 | Explore sales orders that are covered when you pick items from inventory. | [Inventory Picking List](https://businesscentral.dynamics.com?report=813) | [About Inventory Picking List](../reports/report-813.md) | 813 |
@@ -35,7 +34,7 @@ The following table describes some of the key reports in inventory and warehouse
 | Get an overview of adjustment bin usage (for advanced warehouse scenarios). | [Warehouse Adjustment Bin](https://businesscentral.dynamics.com?report=7320) | [About Warehouse Adjustment Bin](../reports/report-7320.md) | 7320 |
 | [!INCLUDE [report-99001048-scenario](../includes/report-99001048-scenario-include.md)] | [Planning Availability](https://businesscentral.dynamics.com?report=99001048) | [About Planning Availability](../reports/report-99001048.md) | 99001048 |
 | [!INCLUDE [report-990003804-scenario](../includes/report-990003804-scenario-include.md)] | [Production Forecast](https://businesscentral.dynamics.com?report=990003804) | [About Production Forecasts](../reports/report-990003804.md) | 990003804 |
-
+| This report is obsolete and will be removed in a later release. | [Inventory Availability Plan](https://businesscentral.dynamics.com?report=707) | [About Inventory Availability Plan](../reports/report-707.md) | 707 |
 <!-- Remove this after 2025-01-01
 
 | Report | Description | ID | 

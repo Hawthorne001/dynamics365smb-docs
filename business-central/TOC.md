@@ -818,7 +818,6 @@ ms.service: dynamics-365-business-central
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
 ##### [Inventory - Transaction Detail](reports/report-704.md)
 ##### [Status](reports/report-706.md)
-##### [Inventory Availability Plan](reports/report-707.md)
 ##### [Inventory Order Details](reports/report-708.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Top 10 List](reports/report-711.md) 
@@ -840,6 +839,9 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 ##### [Planning Availability](reports/report-99001048.md)
 ##### [Production Forecast](reports/report-990003804.md)
+
+#### Legacy reports (will be removed)
+##### [Inventory Availability Plan](reports/report-707.md)
 <!-- Inventory analytics end -->
 
 ### [Register new items](inventory-how-register-new-items.md)

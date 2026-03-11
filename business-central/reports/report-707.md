@@ -19,7 +19,11 @@ ai.usage: ai-assisted
 
 The **Inventory Availability Plan** report shows an overview of specific items and stock-keeping units, and their availability. The report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on.
 
+This report is obsolete and will be removed in a later release.
+
 ## Use cases
+
+Get an overview of specific items and stock-keeping units, and their availability.
 
 <!-- 
 Prompt
