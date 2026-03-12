@@ -25,7 +25,7 @@ The values represent the total cost of the remaining quantity for open inbound i
 
 To determine the age of inventory by warehouse, you can filter the report by location. You can also filter by item.
 
-> [!INFO]
+> [!NOTE]
 > This report is a replacement of the obsolete report [Item Age Composition - Quantity](report-5807.md).
 
 ## Available layouts
