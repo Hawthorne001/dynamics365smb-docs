@@ -77,7 +77,9 @@ The agent performance is monitor through user feedback and automated quality che
 
 ## What are the limitations of Payables Agent? How can users minimize the impact of these limitations?
 
-- **File Format and Language Support:** The agent works with PDF invoices only, and doesn't support other file formats. The agent only processes emails that have PDF attachments. Emails without PDF attachments are not processed for invoice creation. The invoices must arrive via email to monitored mailboxes. Users can't upload files directly. The agent only supports English.
+- **File Format and Language Support:** The agent works with PDF invoices only, and doesn't support other file formats. The agent only processes emails that have PDF attachments. Emails without PDF attachments are not processed for invoice creation. The invoices must arrive via email to monitored mailboxes. Users can't upload files directly.
+
+- **Geographic and language availability:** !INCLUDE[copilot-geo-and-language-availability](includes/copilot-geo-and-language-availability.md)]
 
 - **Email Attachment Limits:** The agent skips emails with more than 10 attachments. To ensure proper processing, limit each email to 10 or fewer attachments.
 
