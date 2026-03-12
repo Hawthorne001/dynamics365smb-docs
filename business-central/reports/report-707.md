@@ -7,8 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_707_Primary
-ms.date: 10/18/2024
-ms.service: dynamics-365-business-central
+ms.date: 03/12/2026
 ms.custom:
  - ai-gen-docs-bap
  - ai-seo-date: 10/18/2024
@@ -20,7 +19,7 @@ ai.usage: ai-assisted
 The **Inventory Availability Plan** report shows an overview of specific items and stock-keeping units, and their availability. The report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on.
 
 > [!NOTE]
-> This report is obsolete and will be removed in a later release. Please start using the replacement [Inventory Availability Plan (Excel)](report-719.md)
+> This report is obsolete and will be removed in a later release. Start using the replacement [Inventory Availability Plan (Excel)](report-719.md).
 
 ## Use cases
 

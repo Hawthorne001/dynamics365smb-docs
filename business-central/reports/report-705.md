@@ -7,8 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_705_Primary
-ms.date: 03/12/2024
-ms.service: dynamics-365-business-central
+ms.date: 03/12/2026
 ms.custom:
  - ai-gen-docs-bap
  - ai-seo-date: 03/12/2024
@@ -31,28 +30,31 @@ You can choose to run the report using Stockkeeping Unit (SKU).
 
 [!INCLUDE[report-705-scenario](../includes/report-705-scenario-include.md)]
 
-As an inventory planner, you can use the report to
-* identify items at risk of stockout based on projected available balance
-* prioritize replenishment actions by comparing demand against scheduled receipts
+Inventory planners can use the report to:
 
-As a warehouse manager, you can use the report to
-* monitor on-hand quantities by SKU to balance space and handling capacity
-* spot slow-moving or excess inventory that may require reallocation
+* Identify items at risk of stockout based on projected available balance.
+* Prioritize replenishment actions by comparing demand against scheduled receipts.
 
-As a purchasing agent, you can use the report to
-* align purchase order timing with upcoming inventory shortages
-* validate whether open purchase orders are sufficient to cover demand
+Warehouse managers can use the report to:
 
-As a sales operations analyst, you can use the report to
-* assess product availability before committing to large or time-sensitive orders
-* flag SKUs where inventory constraints may impact promised delivery dates
+* Monitor on-hand quantities by SKU to balance space and handling capacity.
+* Spot slow-moving or excess inventory that might require reallocation.
+
+Purchasing agents can use the report to:
+
+* Align purchase order timing with upcoming inventory shortages.
+* Validate whether open purchase orders can cover demand.
+
+Sales operations analysts can use the report to:
+
+* Assess product availability before committing to large or time-sensitive orders.
+* Flag SKUs where inventory constraints might affect promised delivery dates.
 
 ## Try the report
 
 Try the report here: [Inventory Availability](https://businesscentral.dynamics.com?report=705)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
-
 
 ## Related information
 
