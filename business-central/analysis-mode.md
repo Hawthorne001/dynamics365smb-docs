@@ -162,6 +162,7 @@ Here are some pointers on working with multiple analysis tabs:
 - To add a new tab, select the large **+** sign next to the last analysis tab.
 - Select the down arrow on a tab to access a list of actions you can do on a tab, like rename, duplicate, delete, and move.
 
+   - **Rename** lets you give the tab a new name and add a description. The description appears as a tooltip when you hover over the analysis tab, making it easier to remember the purpose of each analysis view.
    - **Delete** deletes the tab you currently have open. **Delete All** deletes all tabs that you added, except the default **Analysis 1** tab.
 - You can't completely remove the **Analysis 1**, but you can rename it by using the **Rename** action and clear the changes you made by using **Delete** or **Delete All**.  
 
