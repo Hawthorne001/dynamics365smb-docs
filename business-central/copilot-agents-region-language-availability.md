@@ -28,7 +28,7 @@ The following table lists Copilot features in Business Central, along with the B
 |[Chat](chat-with-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
 |[Map e-documents to purchase order lines](map-edocuments-with-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
 |[Marketing text suggestions](item-marketing-text.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>Chinese Simplified (zh-CN)</li><li>Czech (cs-CZ)</li><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Greek (el-GR)</li><li>Italian (it-CH, it-IT)</li><li>Japanese (ja-JP)</li><li>Korean (ko-KR)</li><li>Norwegian Bokmål (nb-NO)</li><li>Polish (pl-PL)</li><li>Portuguese Brazil (pt-BR)</li><li>Russian (ru-RU)</li><li>Spanish (es-CO, es-ES, es-MX, es-PE)</li><li>Swedish (sv-SE)</li><li>Thai (th-TH)</li><li>Turkish (tr-TR)</li></ul>|
-|[Payables Agent](payables-agent.md)<br><br><sup>[+ planned expansions](#planned-feature-expansions)</sup> |<ul><li>AU (Australia)</li><li>CA (Canada)</li><li>DE (Germany)</li><li>DK (Denmark)</li><li>ES (Spain)</li><li>FR (France)</li><li>GB (United Kingdom)</li><li>IT (Italy)</li><li>NZ (New Zealand)</li><li>US (United States)</li></ul>|<ul><li>English (en-AU, en-GB, en-US, en-NZ)</li></ul>|
+|[Payables Agent](payables-agent.md)<br><br><sup>[+ planned expansions](#planned-feature-expansions)</sup> |[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|All Microsoft-provided languages as shown in [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)|
 |[Sales line suggestions](sales-suggest-sales-lines-with-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
 |[Sales Order Agent](sales-order-agent.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>Danish (da-DK)</li><li>Dutch (nl-BE, nl-NL)</li><li>English (en-AU, en-CA, en-GB, en-NZ, en-US)</li><li>Finnish (fi-FI)</li><li>French (fr-BE, fr-CA, fr-CH, fr-FR)</li><li>German (de-AT, de-CH, de-DE)</li><li>Italian (it-CH, it-IT)</li><li>Norwegian Bokmål (nb-NO)</li><li>Spanish (es-ES, es-MX)</li><li>Swedish (sv-SE)</li></ul>|
 |[Suggest item substitutions](suggest-item-substitutions-copilot.md)|[All](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations#countries-and-regions)|<ul><li>English (en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA)</li></ul>|
@@ -38,11 +38,11 @@ The following table lists Copilot features in Business Central, along with the B
 > [!NOTE]
 > Features can be used in other languages not listed, but they might not function as intended. Learn more in [Supported languages](#supported-versus-unsupported-languages).
 
-### Planned feature expansions
+<!--### Planned feature expansions
 
 The following features are planned to expand their availability in upcoming releases:
 
-- **Payables Agent** (2026 release wave 1): Expand to all Business Central countries/regions and all Microsoft-provided languages as shown in [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).
+- **Payables Agent** (2026 release wave 1): Expand to all Business Central countries/regions and all Microsoft-provided languages as shown in [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).-->
 
 ## Understanding Copilot availability: Geography, languages, and localization
 
