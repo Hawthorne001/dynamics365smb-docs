@@ -19,8 +19,10 @@ ai.usage: ai-assisted
 
 The **Inventory Availability Plan** report shows an overview of specific items and stock-keeping units, and their availability. The report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on.
 
-This report is obsolete and will be removed in a later release. Please start using the replacement 
-[Inventory Availability Plan (Excel)](report-719.md)
+
+> [!INFO]
+> This report is obsolete and will be removed in a later release. Please start using the replacement [Inventory Availability Plan (Excel)](report-719.md)
+
 
 ## Use cases
 
