@@ -827,6 +827,10 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Cost and price list](reports/report-716.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md)
 ##### [Inventory Availability Plan (Excel)](reports/report-719.md)
+
+##### [Item/Vendor Catalog](reports/report-720.md)
+
+
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
 ##### [Item Substitutions](reports/report-5701.md) 
