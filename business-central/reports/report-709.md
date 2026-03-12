@@ -25,7 +25,15 @@ The **Inventory Purchase Orders** report shows each purchase order and the line-
 
 Lines that have an expected receipt date in the past are included in the quantity on back order.
 
+## Available layouts
+
+[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
+
+[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+
 ## Use cases
+
+[!INCLUDE [report-709-scenario](../includes/report-709-scenario-include.md)]
 
 <!-- 
 Prompt
