@@ -12,7 +12,7 @@ The following table describes some of the key reports in inventory and warehouse
 | To... | Open in Business Central (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
 | [!INCLUDE [report-704-scenario](../includes/report-704-scenario-include.md)] | [Inventory - Transaction Detail](https://businesscentral.dynamics.com?report=704) | [About Inventory - Transaction Detail](../reports/report-704.md) | 704 |
-| [!INCLUDE [report-705-scenario](../includes/report-705-scenario-include.md)] | [Status](https://businesscentral.dynamics.com?report=705) | [About Status](../reports/report-705.md) | 705 |
+| [!INCLUDE [report-705-scenario](../includes/report-705-scenario-include.md)] | [Inventory Availability](https://businesscentral.dynamics.com?report=705) | [About Inventory Availability](../reports/report-705.md) | 705 |
 | [!INCLUDE [report-706-scenario](../includes/report-706-scenario-include.md)] | [Status](https://businesscentral.dynamics.com?report=706) | [About Status](../reports/report-706.md) | 706 |
 | Analyze outstanding sales orders to understand your expected sales volume for items. To highlight overdue back orders, compare your overall outstanding shipments with the planned shipment date. | [Inventory Order Details](https://businesscentral.dynamics.com?report=708) | [About Inventory Order Details](../reports/report-708.md) | 708 |
 | [!INCLUDE [report-709-scenario](../includes/report-709-scenario-include.md)] | [Inventory Purchase Orders](https://businesscentral.dynamics.com?report=709)| [About Inventory Purchase Orders](../reports/report-709.md) | 709 |
