@@ -1,6 +1,6 @@
 ---
 title: Item/vendor catalog (report)
-description: Shows a catalog of items with vendor-specific information, including vendor numbers, item references, and prices. Use this report to review or share vendor catalogs, compare vendor offerings, and support purchasing decisions.
+description: Review or share vendor catalogs, compare vendor offerings, and support purchasing decisions.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
