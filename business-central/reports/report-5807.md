@@ -26,7 +26,7 @@ The values represent the remaining quantity for open inbound item ledger entries
 To determine the age of inventory by warehouse, you can filter the report by location. You can also filter by item.
 
 > [!NOTE]
-> This report is obsolete and will be removed in a later release. Please start using the replacement [Item Age Composition by Quantity and Value (Excel)](report-.md)
+> This report is obsolete and will be removed in a later release. Please start using the replacement [Item Age Composition by Quantity and Value (Excel)](report-5808.md)
 
 ## Use cases
 
@@ -92,7 +92,7 @@ Try the report here: [Item Age Composition - Quantity](https://businesscentral.d
 
 There are several other ways to analyze your inventory. To learn more, go to:
 
-- [ Item Age Composition by Quantity and Value (Excel)](report-.md)
+- [ Item Age Composition by Quantity and Value (Excel)](report-5808.md)
 - [Power BI inventory app](../inventory-powerbi-app.md)
 - [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)
 
