@@ -93,6 +93,13 @@ Try the report here: [Inventory - Transaction Detail](https://businesscentral.dy
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+## Alternative reports
+
+There are several other ways to analyze your inventory. To learn more, go to:
+
+- [Power BI inventory app](../inventory-powerbi-app.md)
+- [Ad hoc analysis of inventory data](../ad-hoc-analysis-inventory.md)
+
 ## Contributors
 
 [!INCLUDE [contributor_credit](../includes/contributor_credit.md)]
