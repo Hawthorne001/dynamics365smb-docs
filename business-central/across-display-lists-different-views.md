@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: concept-article
 ms.search.keywords: personalization, display lists, list views
 ms.search.form: 31
-ms.date: 10/14/2025
+ms.date: 03/12/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
@@ -15,6 +15,8 @@ ms.custom: bap-template
 # Display lists in different ways
 
 List pages in [!INCLUDE[prod_short](includes/prod_short.md)] let you choose how to display the records. A list can display as detailed rows, which is ideal when you need to work with many fields or edit fields in the list. But, you can also switch to display records as tiles, which is more compact and shows fewer fields on the specific record. Tiles are useful for an overview of several entries and are helpful on smaller devices because they're compact and easier to tap.
+
+
 
 ## Items list
 
