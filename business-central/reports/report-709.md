@@ -83,6 +83,7 @@ Try the report here: [Inventory Purchase Orders](https://businesscentral.dynamic
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
+
 ## Related information
 
 [Purchase reports](../purchase-reports.md)  
