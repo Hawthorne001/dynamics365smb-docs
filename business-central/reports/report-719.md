@@ -1,6 +1,6 @@
 ---
 title: Inventory - Availability Plan Excel (report)
-description: Get an overview of specific items and stock-keeping units, and their availability.
+description: Get an overview of specific items and stock-keeping units, and their availability - all in Excel.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -21,7 +21,8 @@ ai.usage: ai-assisted
 
 The **Inventory - Availability Plan** report shows an overview of specific items and stock-keeping units, and their availability in Excel. The report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on.
 
-This report is a replacement of the obsolete report [Inventory Availability Plan](report-707.md).
+> [!INFO]
+> This report is a replacement of the obsolete report [Inventory Availability Plan](report-707.md).
 
 
 ## Available layouts
