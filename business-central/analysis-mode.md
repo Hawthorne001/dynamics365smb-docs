@@ -243,6 +243,10 @@ After you prepare an analysis on a tab, you can share it as a link with coworker
 1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, or OneNote.
 1. Recipients can select the link and open the analysis for the page or query in [!INCLUDE [prod_short](includes/prod_short.md)]. They're prompted to specify a name for the new analysis tab that they create.  
 
+## Export analysis definition - advanced
+
+The export analysis definition feature allows you to export the analysis definition, which includes the columns and filters that you set up for an analysis tab, as a .json file. This option is typically used to share or reuse analysis configurations. Learn more in [Export and package analysis views](/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package).
+
 ## Examples of how to analyze data
 
 Use the **Data Analysis** feature for quick fact checking and ad hoc analysis:
