@@ -825,13 +825,12 @@ ms.service: dynamics-365-business-central
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Inventory Cost and price list](reports/report-716.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md)
-##### [Inventory Availability Plan](reports/report-719.md)
+##### [Inventory Availability Plan (Excel)](reports/report-719.md)
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
 ##### [Item Substitutions](reports/report-5701.md) 
 ##### [Item Charges - Specification](reports/report-5806.md) 
-##### [Item Age Composition - Quantity](reports/report-5807.md) 
-##### [Item Age Composition - Value](reports/report-5808.md) 
+##### [Item Age Composition - Quantity and Value (Excel)](reports/report-5808.md) 
 ##### [Item Expiration - Quantity](reports/report-5809.md) 
 ##### [Item Dimensions - Detail](reports/report-7150.md) 
 ##### [Item Dimensions - Total](reports/report-7151.md) 
@@ -843,6 +842,7 @@ ms.service: dynamics-365-business-central
 
 #### Legacy reports (will be removed)
 ##### [Inventory Availability Plan](reports/report-707.md)
+##### [Item Age Composition - Quantity](reports/report-5807.md) 
 <!-- Inventory analytics end -->
 
 ### [Register new items](inventory-how-register-new-items.md)
