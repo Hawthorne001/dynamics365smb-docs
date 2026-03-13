@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Display lists in different ways
 
-List pages in [!INCLUDE[prod_short](includes/prod_short.md)] let you choose how to display the records. A list can display as detailed rows, which is ideal when you need to work with many fields or edit fields in the list. But, you can also switch to display records as tiles, which is more compact and shows fewer fields on the specific record. Tiles are useful for an overview of several entries and are helpful on smaller devices because they're compact and easier to tap.
+List pages in [!INCLUDE[prod_short](includes/prod_short.md)] let you choose how to display records. To change the view, select the layout button in the upper-right corner of the page. You can display records as detailed rows, which is ideal when you need to work with many fields or edit data. Alternatively, display records as tiles for a more compact view that's helpful on smaller devices.
 
 :::image type="content" source="media/ui-experience/view-layout-options.png" alt-text="Enter analysis mode.":::
 
-- :::image type="icon" source="media/ui-experience/list-layout-button.png":::**List** - Shows records in rows with all fields visible for editing and detailed work
-- :::image type="icon" source="media/ui-experience/list-layout-button.png":::**List** > **Created/Modified by** - Shows records in rows with audit information about who created or modified each record
-- :::image type="icon" source="media/ui-experience/tall-tiles-layout-button.png":::**Tall tiles** - Displays records as vertical tiles with key fields, ideal for visual scanning items. Only available on the **Items** list page. 
-- :::image type="icon" source="media/ui-experience/tiles-layout-button.png":::**Tiles** - Shows records as compact horizontal tiles for quick overview
+- :::image type="icon" source="media/ui-experience/list-layout-button.png":::**List** - Displays records in rows and columns, optimized for editing and detailed work.
+- :::image type="icon" source="media/ui-experience/list-layout-button.png":::**List** > **Created/Modified by** - Displays avatars in the **By** column indicating who created or last modified each record&mdash;a user, AI agent, or system. Hover over an avatar to view the full names and timestamps.
+- :::image type="icon" source="media/ui-experience/tall-tiles-layout-button.png":::**Tall tiles** - Displays records in large vertical tiles with key fields, ideal for viewing pictures. Only available on the **Items** list page.
+- :::image type="icon" source="media/ui-experience/tiles-layout-button.png":::**Tiles** - Displays records in compact horizontal tiles for quick overview.
 
 ## Items list
 
