@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Display lists in different ways
 
-List pages in [!INCLUDE[prod_short](includes/prod_short.md)] let you choose how to display records. To change the view, select the layout button in the upper-right corner of the page. You can display records as detailed rows, which is ideal when you need to work with many fields or edit data. Alternatively, display records as tiles for a more compact view that's helpful on smaller devices.
+List pages in [!INCLUDE[prod_short](includes/prod_short.md)] let you choose how to display records. You can display records as detailed rows, which is ideal when you need to work with many fields or edit data. Alternatively, display records as tiles for a more compact view that's helpful on smaller devices. To change the view, select the layout button in the upper-right corner of the page.
 
 :::image type="content" source="media/ui-experience/view-layout-options.png" alt-text="Enter analysis mode.":::
 
