@@ -1,5 +1,5 @@
 ---
-title: Adjust the amount of detail in lists
+title: Display lists in different ways
 description: Choose between detailed rows for comprehensive information or compact tiles for quick visual scanning in list views.
 author: brentholtorf
 ms.topic: concept-article
