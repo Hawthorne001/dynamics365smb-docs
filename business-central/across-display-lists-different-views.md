@@ -16,7 +16,12 @@ ms.custom: bap-template
 
 List pages in [!INCLUDE[prod_short](includes/prod_short.md)] let you choose how to display the records. A list can display as detailed rows, which is ideal when you need to work with many fields or edit fields in the list. But, you can also switch to display records as tiles, which is more compact and shows fewer fields on the specific record. Tiles are useful for an overview of several entries and are helpful on smaller devices because they're compact and easier to tap.
 
+:::image type="content" source="media/ui-experience/view-layout-options.png" alt-text="Enter analysis mode.":::
 
+- :::image type="icon" source="media/ui-experience/list-layout-button.png":::**List** - Shows records in rows with all fields visible for editing and detailed work
+- :::image type="icon" source="media/ui-experience/list-layout-button.png":::**List** > **Created/Modified by** - Shows records in rows with audit information about who created or modified each record
+- :::image type="icon" source="media/ui-experience/tall-tiles-layout-button.png":::**Tall tiles** - Displays records as vertical tiles with key fields, ideal for visual scanning items. Only available on the **Items** list page. 
+- :::image type="icon" source="media/ui-experience/tiles-layout-button.png":::**Tiles** - Shows records as compact horizontal tiles for quick overview
 
 ## Items list
 
