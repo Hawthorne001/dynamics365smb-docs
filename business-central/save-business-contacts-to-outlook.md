@@ -12,7 +12,7 @@ ms.custom: bap-template #Required; don't change.
 
 # Save business contacts to Microsoft Outlook
 
-If you use Outlook or Teams to contact and collaborate with people outside your organization, you often need their contact details, like email address and phone number, that are stored in Business Central. The Contacts list in Business Central typically contains the people or organizations you do business with, such as customers, vendors, banks, or even leads for new business, connecting them to your organization’s business processes.
+If you use Outlook or Teams to contact and collaborate with people outside your organization, you often need their contact details, like email address and phone number, that are stored in Business Central. The **Contacts** list in Business Central typically contains the people or organizations you do business with, such as customers, vendors, banks, or even leads for new business, connecting them to your organization's business processes.
 
 To help you stay in the flow of work and avoid switching from Outlook or Teams, Business Central offers a synchronization feature that saves your business contacts to Outlook and Teams. You can then easily access them just like any other contacts. When you synchronize contacts, the are saved to your Microsoft 365 contacts list and show up in the People page in Outlook and Teams. From there, they're only visible to you. You can then search for a specific contact from the To field of a draft email, set up group chats, call, or schedule meetings.
 
@@ -45,7 +45,7 @@ The following steps guide you through copying contacts stored in Business Centra
 
    1. Select the first link to preview the contacts found in Business Central that match your filter criteria and aren't yet saved to Outlook. From the preview, you can also choose to exclude specific contacts using the **Exclude**, **Exclude selected**, or **Exclude All** actions. 
    1. Select the second link to preview the contacts found in the Outlook contacts folder you specified earlier that don't exist in Business Central. This information helps you understand how your business contacts will now be saved alongside all your other contacts. 
-   1. By default, Business Central synchronizes by saving contacts to Outlook with no change to Business Central data. You shouldn't change the setting to update both Business Central and Outlook, until you understand the risks. Learn more about two-way synchronization in <section below>.
+   1. By default, Business Central synchronizes by saving contacts to Outlook with no change to Business Central data. You shouldn't change the setting to update both Business Central and Outlook, until you understand the risks. Learn more about two-way synchronization in [Updating Business Central by saving contacts from Outlook and Teams](#updating-business-central-by-saving-contacts-from-outlook-and-teams).
 
 1. Select **Synchronize** to begin copying contacts. This step can take a few minutes if you have many contacts.
 When synchronization is complete, Business Central displays a summary of activity, such as how long it took, the number of contacts processed, and any errors that occurred during synchronization. Contacts are now ready to access in Outlook.
@@ -59,8 +59,8 @@ When synchronization is complete, Business Central displays a summary of activit
   - Contacts that don't have an email address are always ignored.
   - If a contact with the same email address is found in Outlook, it's assumed to be the same contact and isn't copied again or overwritten in Outlook.  
   - If you changed the email address of a contact in Business Central, it will be considered a new contact and created as a duplicate contact in Outlook the next time you synchronize.
-  - If the contact has already been saved to Outlook and you modified any other fields for that contact in Business Central, those changed fields won't be saved to Outlook the next time you synchronize.
-  - If you deleted a contact in Outlook, but kept it in Business Central, the contact will be recreated in Outlook the next time you synchronize.
+  - If the contact is already saved to Outlook and you modified any other fields for that contact in Business Central, those changed fields aren't saved to Outlook the next time you synchronize.
+  - If you deleted a contact in Outlook, but kept it in Business Central, the contact is recreated in Outlook the next time you synchronize.
 
 - Choosing which contacts to synchronize
 
@@ -68,11 +68,11 @@ When synchronization is complete, Business Central displays a summary of activit
 
 - Keeping your business contacts separate from other contacts in Outlook and Teams
 
-  The **People** page in Outlook and Teams offers different ways to organize your contacts. Depending on the version of Outlook and Teams you use, contacts might be organized into separate contact lists, folders, or categories. When synchronizing contacts, select the "Default" folder if you want your business contacts to be saved to the root, default set of contacts in Outlook and Teams. This folder most likely already contains contacts you have saved while working in Outlook and Teams, and is the simplest way of managing all of your contacts. To keep the list of contacts originating from Business Central separate from all your other contacts, you should use a specific folder instead.
+  The **People** page in Outlook and Teams offers different ways to organize your contacts. Depending on the version of Outlook and Teams you use, contacts might be organized into separate contact lists, folders, or categories. When synchronizing contacts, select the "Default" folder if you want your business contacts to be saved to the root, default set of contacts in Outlook and Teams. This folder most likely already contains contacts you saved while working in Outlook and Teams, and is the simplest way of managing all of your contacts. To keep the list of contacts originating from Business Central separate from all your other contacts, you should use a specific folder instead.
 
 - Working with multiple companies
 
-  Business Central allows setting up and using multiple companies within your organization. When you save contacts to Outlook, only contacts from the company you're currently signed into in Business Central are copied. If you work with contacts registered in different companies, you need to switch company and synchronize again. If you want to organize contacts by company in Outlook, you must first create a folder per company in Outlook and ensure you select the correct folder that matches the company you're signed into when synchronizing from Business Central.
+  Business Central allows setting up and using multiple companies within your organization. When you save contacts to Outlook, only contacts from the company you're currently signed into in Business Central are copied. If you work with contacts registered in different companies, you need to switch company and synchronize again. If you want to organize contacts by company in Outlook, you must first create a folder per company in Outlook. Then, ensure you select the correct folder that matches the company you're signed into when synchronizing from Business Central.
 
 - Working with large contact lists
 
@@ -81,8 +81,8 @@ When synchronization is complete, Business Central displays a summary of activit
 - Synchronization and security
 
   - When Business Central synchronizes contacts, it doesn't grant those contacts any new access or permissions to Business Central or any resources within your organization. Synchronization isn't a security feature, and copying contacts to Microsoft 365 doesn't share your emails, chat, or calendar with anyone else.
-  - When you save contacts to Microsoft 365, those contacts are stored in your own list of contacts attached to your work account: no other users can open their Outlook or Teams and see those contacts, unless they too use the synchronization feature. 
-  - When saving contacts from Microsoft 365 to Business Central, any contacts you save will be visible to others within your organization. Learn more about how this works in [Updating Business Central by saving contacts from Outlook and Teams ](#updating-business-central-by-saving-contacts-from-outlook-and-teams).
+  - When you save contacts to Microsoft 365, those contacts are stored in your own list of contacts attached to your work account: no other users can open their Outlook or Teams and see those contacts, unless they also use the synchronization feature. 
+  - When you save contacts from Microsoft 365 to Business Central, any contacts you saved are visible to others within your organization. Learn more about how saving works in [Updating Business Central by saving contacts from Outlook and Teams ](#updating-business-central-by-saving-contacts-from-outlook-and-teams).
 - Using Business Central as an external user
 
   If you have access to Business Central, Outlook or Teams as a guest user, external member, or B2B Direct user within that organization, synchronization isn't supported.
@@ -103,9 +103,8 @@ When synchronization is complete, Business Central displays a summary of activit
 
 The synchronization feature also allows more advanced two-way synchronization between Business Central and your contacts stored in Microsoft 365. If you only update Outlook, no changes are made to the contact list in Business Central. If you set the **What to update** option to "Business Central and Outlook" in the synchronization page, the contacts from the specified folder in Outlook and teams are also copied back to Business Central and other users might be able to see them.
 
-Choosing this option isn't recommended. You should only do this if you know which non-business contacts are stored in the folder you selected and are ready to share those with the rest of your organization. For example, this might risk copying personal contacts, internal contacts, or other external contacts to Business Central. Microsoft might remove this two-way synchronization in the future.
+Choosing this option isn't recommended. Only choose it if you know which nonbusiness contacts are stored in the folder you selected and are ready to share them with the rest of your organization. For example, you risk copying personal contacts, internal contacts, or other external contacts to Business Central. Microsoft might remove this two-way synchronization in the future.
 
-## Next steps
-
+## Related information
 
 <!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
