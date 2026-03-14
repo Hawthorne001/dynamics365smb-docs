@@ -638,6 +638,7 @@ ms.service: dynamics-365-business-central
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
+### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 ### [Make sales quotes](sales-how-make-offers.md)
 ### [Invoice sales](sales-how-invoice-sales.md)
 ### [Sell products](sales-how-sell-products.md)
@@ -778,6 +779,7 @@ ms.service: dynamics-365-business-central
 ### [Receive and convert electronic documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ### [Date calculation for purchases](purchasing-date-calculation-for-purchases.md)
 ### [Merge duplicate records](sales-how-merge-duplicate-records.md)
+### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 ### [Work with blanket purchase orders](sales-how-to-create-blanket-sales-orders.md)
 ### [External document numbers on purchase documents](purchasing-ext-doc-no.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
@@ -992,6 +994,7 @@ ms.service: dynamics-365-business-central
 #### [Contacts](marketing-contacts.md)
 #### [Set up contacts](marketing-setup-contacts.md)
 #### [Create contacts](marketing-create-contact-companies.md)
+#### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 #### [Use profile questionnaires to classify business contacts](marketing-create-contact-profile-questionnaire.md)
 #### [Merge duplicate records](sales-how-merge-duplicate-records.md)
 ### Manage segments
