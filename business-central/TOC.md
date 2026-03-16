@@ -2150,6 +2150,7 @@ ms.service: dynamics-365-business-central
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
 #### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
+#### [Set up excise tax](finance-set-up-excise-tax.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)

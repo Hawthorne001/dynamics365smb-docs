@@ -47,9 +47,10 @@ The following table describes a sequence of tasks, with links to the articles th
 |Set up source codes and reason codes to help track audit trails.|[Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)|
 | Set up audit on changes to your finance setup | [Audit changes to your setup](across-setup-auditing.md) |
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
+|Set up excise tax registrations if your country/region requires those. | [Set up excise tax](finance-set-up-excise-tax.md) |
 
 > [!TIP]
-> Depending on your geographical location, some Business Central pages might contain fields that aren't described in the articles because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+> Depending on your geographical location, some [!INCLUDE [prod_short](includes/prod_short.md)] pages might contain fields that aren't described in the articles because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## Related information
 
