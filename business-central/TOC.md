@@ -556,6 +556,8 @@ ms.service: dynamics-365-business-central
 ##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
 
 ### [Calculate withholding tax for vendors](finance-withholding-tax.md)
+### [View withholding tax entries](finance-withholding-tax-entries.md)
+
 
 ### Set up and use E-Documents
 #### [E-Documents overview](finance-edocuments-overview.md)
@@ -2162,6 +2164,7 @@ ms.service: dynamics-365-business-central
 #### [Set up calculations and posting methods for value-added tax (VAT)](finance-setup-vat.md)
 #### [Set up unrealized VAT for cash-based accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
+#### [Set up withholding tax](finance-set-up-withholding-tax.md)
 #### [Set up source codes and reason codes for audit trails](finance-setup-trail-codes.md)
 #### [Enable application of ledger entries in different currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Set up an additional reporting currency](finance-how-setup-additional-currencies.md)
