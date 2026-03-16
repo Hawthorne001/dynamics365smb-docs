@@ -16,7 +16,7 @@ ms.custom: bap-template
 Excise taxes are levied on the production or sale of specific goods, such as fuel, alcohol, and tobacco. In [!INCLUDE [prod_short](includes/prod_short.md)], you can register and track excise tax information to ensure accurate tax reporting and compliance with regulatory requirements. By registering excise tax, your company can streamline tax calculations, maintain detailed audit trails, and reduce the risk of non-compliance penalties.
 
 > [!NOTE]
-> Registering excise taxes doesn't create general ledger entries. It only calculates colledted excise taxes for reporting purposes.
+> Registering excise taxes doesn't create general ledger entries. It only calculates the excise tax amounts for reporting purposes.
 
 ## Register excise tax
 
