@@ -1,5 +1,5 @@
 ---
-title: Synchronize Contacts in Business Central with Contacts in Microsoft Outlook
+title: Synchronize Contacts in Business Central with Contacts in Microsoft Outlook (legacy)
 description: This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.
 author: brentholtorf
 ms.topic: article

@@ -2294,8 +2294,6 @@ ms.service: dynamics-365-business-central
 #### Set up your business inbox in Microsoft Outlook
 ##### [Get the Business Central add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as your business inbox in Outlook](work-outlook-addin.md)
-##### [Synchronize with contacts in Outlook](admin-synchronize-outlook-contacts.md)
-###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -2316,9 +2314,7 @@ ms.service: dynamics-365-business-central
 #### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
-##### [Overview](admin-outlook.md)
-##### [Synchronize with contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
+##### [Get the Business Central add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
