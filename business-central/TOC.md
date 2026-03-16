@@ -2354,7 +2354,6 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Bulk invoices for Microsoft bookings](finance-bookings.md)
 <!-- Connectors end -->
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
