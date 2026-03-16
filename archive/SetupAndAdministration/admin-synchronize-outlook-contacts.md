@@ -11,9 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Synchronize contacts in Business Central with contacts in Microsoft Outlook (legacy)
-
-> **APPLIES TO:**  [!INCLUDE[prod_short](includes/prod_short.md)] 2025 releasw wave 2 (v27) on-premises and earlier. For later versions, got to [](admin-synchronize-outlook-contacts.md).
+# Synchronize contacts in Business Central with contacts in Microsoft Outlook
 
 You can set up contact synchronization so that your contacts in [!INCLUDE[prod_short](includes/prod_short.md)] have the same information as your contacts in Microsoft Outlook. For example, if you're a sales person, you might work in Outlook and [!INCLUDE[prod_short](includes/prod_short.md)] at the same time. If the contacts are the same in both places, your work is more straightforward.  
 
@@ -35,6 +33,8 @@ On the **Exchange Sync. Setup** page, you can validate that the connection to Ex
 Each of your coworkers can also set up their own Exchange synchronization and set their own filters on which contacts to synchronize.  
 
 After you set up synchronization, sync changes manually. Business Central versions 2023 release wave 2 and earlier support automated synchronization. Learn more about automation in the next section of this article.
+
+
 
 ## Synchronize contacts
 
@@ -66,6 +66,72 @@ The following table lists the settings on the **Job Queue Entry Card** page for 
 |-----|-----|
 |Object Type to Run|Codeunit|
 |Object ID to Run|6700|
+
+## Step-by-step guide to sync contacts
+
+You sync contacts from the **Contacts** list page. When you sync contacts you can choose to sync only changes from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft 365 that were made after the last synchronization, based on the last modified date. Also, new contacts from Microsoft 365 are synchronized to [!INCLUDE[prod_short](includes/prod_short.md)]. Typically, this action is faster than a full sync. 
+
+- **Full Sync with Microsoft 365**
+
+  Synchronize all contacts in both directions, regardless of the last sync date and last modified date.  
+
+
+### Perform a full synchronization
+
+A full synchronization synchronizes all contacts regardless of the last sync date and last modified date. Follow these steps:
+
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], [!INCLUDE[open-search-lowercase](includes/open-search-lowercase)], enter *contacts*, and then choose the related links. 
+1. In the **Contacts** page, select the **Synchronize with Outlook...** action.
+
+   The **Synchronize contacts** assisted setup guide opens.
+1. Choose **Next** to proceed to the synchronization options.
+1. On Enable **Force full sync**.
+   
+   Set the Force full sync field to true to synchronize all contacts in both directions.
+
+5. Choose **Next** to continue.
+   
+   The system searches for contacts to synchronize. You'll see a message indicating how many contacts were found (for example, "Found 10 contacts").
+
+6. Select the sync direction in the **What to update** field.
+   
+   Choose the appropriate option for your synchronization needs:
+   - Update contacts in both systems
+   - Update only in Microsoft 365
+   - Update only in [!INCLUDE[prod_short](includes/prod_short.md)]
+
+7. Choose **Synchronize** to start the synchronization.
+   
+   After the synchronization completes, you'll see a confirmation message (for example, "10 contacts have been synchronized successfully.").
+
+8. Choose **Close** to close the synchronization page.
+
+### Perform a regular (non-full) synchronization
+
+A regular synchronization only synchronizes changes made since the last synchronization, based on the last modified date. Follow these steps:
+
+1. Open the **Contact List** page.
+   
+   Navigate to Contacts in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+2. Choose the **Synchronize with Outlook...** action.
+   
+   The **Synchronize contacts** page opens.
+
+3. Choose **Next** twice to skip the full sync option.
+   
+   Leave the Force full sync field blank or set to false.
+
+4. The system searches for contacts that changed since the last synchronization.
+   
+   If no contacts are found in the selected folder, you'll see the message "No contacts found in the selected folder to Synchronize."
+
+5. If contacts are found, select the sync direction in the **What to update** field.
+
+6. Choose **Synchronize** to start the synchronization.
+
+> [!NOTE]
+> If you attempt to synchronize when no contacts are found or required fields are missing, an error dialog will appear. Make sure your contacts have the required fields filled in before attempting to synchronize.
 
 ## Related information
 
