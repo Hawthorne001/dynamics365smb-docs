@@ -1,5 +1,5 @@
 ---
-title: Setup best practices: Planning parameters
+title: Setup best practices - Planning parameters
 description: This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
 author: brentholtorf
 ms.author: bholtorf
