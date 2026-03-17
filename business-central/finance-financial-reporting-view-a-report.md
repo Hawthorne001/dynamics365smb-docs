@@ -5,7 +5,7 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 1/24/2025
+ms.date: 3/17/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: Report_25_Primary, 490
@@ -29,6 +29,10 @@ You can view any report on-screen with drill-through to the underlying numbers.
 To view a financial report, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
+
+   > [!TIP]
+   > By default, the **Financial Reports** page displays reports in a list view. However, some people prefer a tile view. Tiles show most of the same information as the list, just in a different way. If you like tiles, it's easy to switch. In the upper right of the page, choose the **View layout options** icon :::image type="content" source="media/view-layout-options.png" alt-text="Screenshot of the View layout options icon.":::, and choose **Tiles**. 
+
 1. On the **Financial Reports** page, select the financial report you want to view, and then choose the **View Financial Report** action.
 
 The page has **Options** and **Dimensions** FastTabs. If the FastTabs aren't available, you might need to enable them with the **Show all options** action.
@@ -60,26 +64,26 @@ To learn more, go to [Integrate financial reports with Excel](finance-financial-
 
 You can print financial reports using your device's printing services. [!INCLUDE[prod_short](includes/prod_short.md)] also offers options to save reports as PDF files.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. On the **Financial Reports** page, select the report to print, then choose the **Print** action.
-1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Financial Reports**, then choose the related link.
+1. On the **Financial Reports** page, select the report to print, then choose the **Print/PDF** action.
 1. In the **Printer** field, select the device to which the report is sent.
-    1. The **(Handled by the browser)** option indicates that a printer isn't specified for the report. In this case, the browser handles the printout and displays the standard printing steps. You can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or the app for Teams.
-1. In the **Layouts** field, you can choose between layouts for portrait or landscape orientation.
-1. To control how negative numbers show in the report output (in PDF), on the **Options** FastTab, choose your preferred format in the **Negative Amount Format** field. Your selection here overrides the default format defined on the report.
-1. Choose the **Print** action.
+    
+    The **(Handled by the browser)** option indicates that a printer isn't specified for the report. In this case, the browser handles the printout and displays the standard printing steps. You can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or the app for Teams.
+1. Fill in the fields remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. You can print the report, or send it's results to a type of document, such as a PDF, XML, Word or Excel:
+   
+   1. To send the report results to a type of document, choose the **Send to** action. 
+   1. To print the report, choose the **Print** action.
 
 > [!TIP]
 > The name of your company always shows in the upper right of the PDF. If you specify a **Display Name** on the **Companies** list page, that name shows instead of the name in the **Name** field (which isn't easy to change).
 
-### Schedule a financial report or save as a PDF document
+### Schedule a financial report
 
 You can save a financial report in file formats such as PDF. [!INCLUDE[prod_short](includes/prod_short.md)] can also generate recurring financial reports.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. On the **Financial Reports** page, choose the **Print** action.
-1. Set the report accordingly, then choose the **Send to** action.
-1. Select the file format or the **Schedule** action, and choose **OK**.
+1. On the **Financial Reports** page, choose the **Definitions** action, and choose **Schedules**.
 1. To generate a scheduled or recurring financial report, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>For recurring financial reports, set the **Earliest Start Date/Time** and **Expiration Date/Time** fields with the first and last date, respectively, to generate the financial report. Also, select the days on which to generate the report by filling in the **Next Run Date Formula** field. To learn more about date formulas, go to [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
 
 ## Related information
