@@ -5,9 +5,9 @@ author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, Cash Desk
-ms.date: 10/08/2025
+ms.date: 03/17/2026
 ms.reviewer: v-soumramani
-ms.author: v-jiurxo
+ms.author: v-jurxova
 ---
 
 # Czech local functionality
@@ -37,6 +37,7 @@ The following articles describe the local functionality in the Czech version of 
   
 * VAT
   * [VAT Date](how-to-setup-vat-date.md) **Available Now**
+  * [VAT Return Period](vat-return-periods.md) **Available Now**
   * [VAT Statement](vat-statement.md) **Available Now**
   * [Supplementary VAT Statement](supplementary-vat-statement.md) **Available Now**
   * [VIES CZ](vies-cz.md) **Available Now**

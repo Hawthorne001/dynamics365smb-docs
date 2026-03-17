@@ -1395,6 +1395,7 @@ ms.service: dynamics-365-business-central
 ##### [Alternative Posting Groups for Employees](LocalFunctionality/Czech/use-alternative-posting-groups-employees.md) 
 #### VAT
 ##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [VAT Return Periods](LocalFunctionality/Czech/vat-return-periods.md)
 ##### [VAT Statement](LocalFunctionality/Czech/vat-statement.md)
 ##### [Supplementary VAT Statement](LocalFunctionality/Czech/supplementary-vat-statement.md)
 ##### [VIES CZ](LocalFunctionality/Czech/vies-cz.md)
