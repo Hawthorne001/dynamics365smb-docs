@@ -1597,7 +1597,7 @@ ms.service: dynamics-365-business-central
 ##### [Export data for a digital audit](LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit.md)
 ##### [GDPDU filter examples](LocalFunctionality/Germany/gdpdu-filter-examples.md)
 ##### [Upgrade a .DTD definition file](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
-##### [Walkthrough: export data for a digital audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
+##### [Walkthrough: Export data for a digital audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
 #### Purchasing
 ##### [Set up delivery reminders](LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md)
 ##### [Set up delivery reminder terms, levels, and text](LocalFunctionality/Germany/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
@@ -2290,11 +2290,11 @@ ms.service: dynamics-365-business-central
 #### [Set up statuses for service orders and repairs](service-order-repair-status.md)
 #### [Set up a loaner program](service-how-setup-loaner-program.md)
 #### [Set up service contracts](service-how-setup-service-contracts.md)
-### Set up best practices for complex application areas 
+### Setup best practices for complex application areas 
 #### [Setup best practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Get Business Central on your desktop](install-desktop-app.md)
-#### Setup best practices: supply planning
-##### [Setup supply planning](setup-best-practices-supply-planning.md)
+#### Setup best practices: Supply planning
+##### [Set up supply planning](setup-best-practices-supply-planning.md)
 ##### [Setup best practices: Planning parameters](setup-best-practices-planning-parameters.md)
 ##### [Setup best practices: Global planning setup](setup-best-practices-global-planning-setup.md)
 ##### [Setup best practices: Reordering policies](setup-best-practices-reordering-policies.md)
