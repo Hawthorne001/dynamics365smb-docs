@@ -70,7 +70,7 @@ You can print financial reports using your device's printing services. [!INCLUDE
     
     The **(Handled by the browser)** option indicates that a printer isn't specified for the report. In this case, the browser handles the printout and displays the standard printing steps. You can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or the app for Teams.
 1. Fill in the fields remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-1. You can print the report, or send it's results to a type of document, such as a PDF, XML, Word or Excel:
+1. You can print the report, or send its results to a type of document, such as a PDF, XML, Word, or Excel:
    
    1. To send the report results to a type of document, choose the **Send to** action. 
    1. To print the report, choose the **Print** action.
@@ -78,9 +78,9 @@ You can print financial reports using your device's printing services. [!INCLUDE
 > [!TIP]
 > The name of your company always shows in the upper right of the PDF. If you specify a **Display Name** on the **Companies** list page, that name shows instead of the name in the **Name** field (which isn't easy to change).
 
-### Schedule a financial report
+## Schedule a financial report
 
-You might have a report that you want to run on a regular basis. To avoid having to run the report manually, you can run it according to a schedule. The schedule can produce the report as an Excel file that shows up in the Report Inbox on your Role Center, as a PDF, or both. If you want to share the report with colleagues, you can set up the schedule to send the report to them by email.
+You might have a report that you want to run regularly. To avoid having to run the report manually, you can run it according to a schedule. The schedule can produce the report as an Excel file that shows up in the Report Inbox on your Role Center, as a PDF, or both. If you want to share the report with colleagues, you can set up the schedule to send the report to them by email.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
 1. On the **Financial Reports** page, choose the **Definitions** action, and choose **Schedules**.
@@ -96,11 +96,7 @@ You might have a report that you want to run on a regular basis. To avoid having
 
 ## Review financial report runs
 
-At some point, you might want to review previous runs for financial reports. There are a few ways to do that.
-
-From the **Financial Reports** page, you can use the **Audit Logs** action to access information about the selected report, or all audit logs for all reports. The **Financial Report Audit Logs** page shows who ran what, and when, and the format of the report output. For example, was it only viewed, or was it also exported to Excel or PDF. To narrow the information, you can apply filters. To dig a little deeper into the data, you can turn on analysis mode and create mini-reports. To learn more about analysis mode, go to [Analyze list page and query data using data analysis feature](analysis-mode.md).
-
-You can also review report runs that your schedule generated. From the **Financial Report Schedules** page, use the **Logs** action to access a list of earlier runs. The list shows the name of the financial report, the schedule that ran it, and the data and time it ran. You can also use the **Sent Emails** action to review the emails it sent. 
+[!INCLUDE [finance-review-fin-rep-runs](includes/finance-review-fin-rep-runs.md)] 
 
 ## Related information
 <!-- 
