@@ -57,7 +57,7 @@ The **Allow Posting From Date Formula** and **Allow Posting To Date Formula** fi
 | Previous month close | `-1M-CM` | `-CM-1D` | Mar 17, 2026 | Feb 1 - Feb 28 |
 | Today only | `0D` | `0D` | Mar 17, 2026 | Mar 17 – Mar 17 |
 
-To learn more about date formulas, go to [Working with Date Formulas](https://learn.microsoft.com/dynamics365/business-central/general-functions-date-formulas).
+To learn more about date formulas, go to [Use date formulas](ui-enter-date-ranges.md#use-date-formulas).
 
 ### Priority of posting date checks
 
