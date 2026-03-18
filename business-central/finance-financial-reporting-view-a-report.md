@@ -80,11 +80,27 @@ You can print financial reports using your device's printing services. [!INCLUDE
 
 ### Schedule a financial report
 
-You can save a financial report in file formats such as PDF. [!INCLUDE[prod_short](includes/prod_short.md)] can also generate recurring financial reports.
+You might have a report that you want to run on a regular basis. To avoid having to run the report manually, you can run it according to a schedule. The schedule can produce the report as an Excel file that shows up in the Report Inbox on your Role Center, as a PDF, or both. If you want to share the report with colleagues, you can set up the schedule to send the report to them by email.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
 1. On the **Financial Reports** page, choose the **Definitions** action, and choose **Schedules**.
-1. To generate a scheduled or recurring financial report, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>For recurring financial reports, set the **Earliest Start Date/Time** and **Expiration Date/Time** fields with the first and last date, respectively, to generate the financial report. Also, select the days on which to generate the report by filling in the **Next Run Date Formula** field. To learn more about date formulas, go to [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
+1. In the **Code** field, enter a name for the schedule. For example, if the schedule runs the report on a weekly basis, you might name it "Weekly."
+1. In the **Description** field, enter text that indicates what the report shows.
+1. To export the report to Excel, select the **Export to Excel** checkbox, and then choose the template to use in the **Excel Template Code** field.
+1. To export the report to PDF, select the **Export to PDF** checkbox.
+1. To send the report to recipients by email, select the **Send Email** checkbox. If you choose this option, choose the **Recipients** action to specify who to send the report to. 
+1. To filter the values on the report to suit your needs, choose the **Custom Filters** action. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. To specify when to start the schedule, and how often it runs:
+   1. To manually specify a start date and time, fill in the **Next Run Date/Time** field. To calculate the start date, leave this field blank and instead, enter a date formula in the **Start Date Filter Formula** field. To learn more about date formulas, go to [Use date formulas](ui-enter-date-ranges.md#use-date-formulas).
+   1. To specify how often to run the report, enter a date formula in the **Recurrence Run Date Formula** field.
+
+## Review financial report runs
+
+At some point, you might want to review previous runs for financial reports. There are a few ways to do that.
+
+From the **Financial Reports** page, you can use the **Audit Logs** action to access information about the selected report, or all audit logs for all reports. The **Financial Report Audit Logs** page shows who ran what, and when, and the format of the report output. For example, was it only viewed, or was it also exported to Excel or PDF. To narrow the information, you can apply filters. To dig a little deeper into the data, you can turn on analysis mode and create mini-reports. To learn more about analysis mode, go to [Analyze list page and query data using data analysis feature](analysis-mode.md).
+
+You can also review report runs that your schedule generated. From the **Financial Report Schedules** page, use the **Logs** action to access a list of earlier runs. The list shows the name of the financial report, the schedule that ran it, and the data and time it ran. You can also use the **Sent Emails** action to review the emails it sent. 
 
 ## Related information
 <!-- 
