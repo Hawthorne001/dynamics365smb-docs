@@ -257,6 +257,16 @@ Do this step in Tenant A (App / Mailbox tenant).
    - `SmtpClientAuthenticationDisabled` is `False`.
    - `OAuth2ClientProfileEnabled` is `True`.
 
+## Set up the SMTP connector in Business Central
+
+Do this step in Tenant B (Business Central tenant).
+
+To learn more about the SMTP connector, go to [Set up email](admin-how-setup-email.md).
+
+1. In [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Assisted Setup**, and then choose the related link.
+1. Choose **Set up SMTP Account**.
+1. Fill in the fields as described in the following table.
+
    |Field  |Example value  |Notes  |
    |---------|---------|---------|
    |Server     | smtp.office365.com        |         |
