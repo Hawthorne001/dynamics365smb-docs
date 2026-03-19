@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 01/30/2026
+ms.date: 03/19/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -282,15 +282,15 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
 
 ### Important: Admin consent and tenant selection
 
-When the consent prompt appears:
+When the consent prompt appears, sign in with an *admin account from Tenant A*, not Tenant B. The account must have one of the following roles in Tenant A:
 
-- Sign in with an **admin account from Tenant A**, not Tenant B.
-- The account must have one of the following roles in Tenant A:
-  - **Global Administrator**, or  
+  - **Global Administrator**  
   - **Exchange Administrator**
-- This consent grants the application the **SMTP.SendAsApp** permission in **Tenant A’s Exchange Online**.
 
-> Although the setup is performed in Tenant B (Business Central tenant), the consent always applies to Tenant A, where Exchange Online and the mailboxes are hosted.
+This consent grants the application the **SMTP.SendAsApp** permission in **Tenant A’s Exchange Online**.
+
+> [!NOTE]
+> Although you do the setup in Tenant B ([!INCLUDE [prod_short](includes/prod_short.md)] tenant), the consent always applies to Tenant A, which hosts Exchange Online and the mailboxes.
 
 ## Send a test email
 
