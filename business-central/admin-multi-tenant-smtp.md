@@ -267,18 +267,30 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
 1. Choose **Set up SMTP Account**.
 1. Fill in the fields as described in the following table.
 
-   |Field  |Example value  |Notes  |
-   |---------|---------|---------|
-   |Server     | smtp.office365.com        |         |
-   |Server Port     |  587       |         |
-   |Authentication Type     | OAuth 2.0        |         |
-   |Client ID | 00001111-aaaa-2222-bbbb-3333cccc4444 | The application ID from Tenant A. |
-   |Client Secret     |         | The secret generated in the app from Tenant A.        |
-   |Tenant ID     | aaaabbbb-0000-cccc-1111-dddd2222eeee  | The ID of Tenant A (App / Mailbox tenant). |
-   |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |
-   |Use custom app registration| | If you want to use a custom app registration, turn on the toggle. |
+   | Field | Example value | Notes |
+   |------|---------------|-------|
+   | Server | smtp.office365.com | |
+   | Server Port | 587 | |
+   | Authentication Type | OAuth 2.0 | |
+   | Client ID | 00001111-aaaa-2222-bbbb-3333cccc4444 | The application (client) ID from Tenant A. |
+   | Client Secret |  | The client secret generated for the app registration in Tenant A. |
+   | Tenant ID | aaaabbbb-0000-cccc-1111-dddd2222eeee | The Tenant ID of Tenant A (Exchange / mailbox tenant). |
+   | Redirect URI |  | This URI is only relevant for includes/prod_short.md] on-premises. You can customize the value, but if you do, you must update your app registration in the Azure portal. |
+   | Use custom app registration |  | Turn on this toggle if you want to use your own app registration. |
 
-2. To complete the account setup, choose **Next**, and then give consent.
+1. To complete the account setup, choose **Next**, and then give consent.
+
+### Important: Admin consent and tenant selection
+
+When the consent prompt appears:
+
+- Sign in with an **admin account from Tenant A**, not Tenant B.
+- The account must have one of the following roles in Tenant A:
+  - **Global Administrator**, or  
+  - **Exchange Administrator**
+- This consent grants the application the **SMTP.SendAsApp** permission in **Tenant A’s Exchange Online**.
+
+> Although the setup is performed in Tenant B (Business Central tenant), the consent always applies to Tenant A, where Exchange Online and the mailboxes are hosted.
 
 ## Send a test email
 
