@@ -257,26 +257,16 @@ Do this step in Tenant A (App / Mailbox tenant).
    - `SmtpClientAuthenticationDisabled` is `False`.
    - `OAuth2ClientProfileEnabled` is `True`.
 
-## Set up the SMTP connector in Business Central
-
-Do this step in Tenant B (Business Central tenant).
-
-To learn more about the SMTP connector, go to [Set up email](admin-how-setup-email.md).
-
-1. In [!INCLUDE [prod_short](includes/prod_short.md)], [!INCLUDE [open-search-lowercase](includes/open-search-lowercase.md)], enter **Assisted Setup**, and then choose the related link.
-1. Choose **Set up SMTP Account**.
-1. Fill in the fields as described in the following table.
-
-   | Field | Example value | Notes |
-   |------|---------------|-------|
-   | Server | smtp.office365.com | |
-   | Server Port | 587 | |
-   | Authentication Type | OAuth 2.0 | |
-   | Client ID | 00001111-aaaa-2222-bbbb-3333cccc4444 | The application (client) ID from Tenant A. |
-   | Client Secret |  | The client secret generated for the app registration in Tenant A. |
-   | Tenant ID | aaaabbbb-0000-cccc-1111-dddd2222eeee | The Tenant ID of Tenant A (Exchange / mailbox tenant). |
-   | Redirect URI |  | This URI is only relevant for includes/prod_short.md] on-premises. You can customize the value, but if you do, you must update your app registration in the Azure portal. |
-   | Use custom app registration |  | Turn on this toggle if you want to use your own app registration. |
+   |Field  |Example value  |Notes  |
+   |---------|---------|---------|
+   |Server     | smtp.office365.com        |         |
+   |Server Port     |  587       |         |
+   |Authentication Type     | OAuth 2.0        |         |
+   |Client ID | 00001111-aaaa-2222-bbbb-3333cccc4444 | The application ID from Tenant A. |
+   |Client Secret     |         | The secret generated in the app from Tenant A.        |
+   |Tenant ID     | aaaabbbb-0000-cccc-1111-dddd2222eeee  | The ID of Tenant A (App / Mailbox tenant). |
+   |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |
+   |Use custom app registration| | If you want to use a custom app registration, turn on the toggle. |
 
 1. To complete the account setup, choose **Next**, and then give consent.
 
