@@ -1,5 +1,5 @@
 ---
-title: About Copilot in Business Central
+title: Copilot FAQ
 description: This article answers common questions about Copilot in Business Central.
 author: mikebc
 ms.author: mikebc
@@ -19,11 +19,9 @@ This article answers common questions about Microsoft Copilot in Dynamics 365 Bu
 
 ## What is Copilot in Business Central?
 
-[!INCLUDE[bc-app-agents](../bc-shared/bc-app-agents.md)]
+Copilot is an AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. Copilot in Business Central is the world's first AI-powered assistant across all lines of business. With Copilot in Business Central, small and medium-sized organizations empower their workers through intuitive AI tools that boost creativity and save time.
 
-## Where can I keep up on the latest Copilot features in Business Central?
-
-Take a look at [AI in Business Central](ai-in-bc.md).
+Get an overview of the Copilot and AI experiences in Business Central at [AI in Business Central](ai-in-bc.md).
 
 ## How does Copilot approach security, privacy, and compliance?
 
