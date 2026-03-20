@@ -6,15 +6,13 @@ ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263, 8898_Primary, 8897_Primary
-ms.date: 06/15/2025
+ms.date: 03/12/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
 # Set up email
-
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. Learn more at [Send Documents by Email](ui-how-send-documents-email.md).
 
@@ -71,8 +69,7 @@ If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](inclu
 > To use Auth 2.0 for SMTP authentication, consider the following:
 >
 > - All users must be on the same Microsoft Entra tenant.
-> - You can't use **Specific User** for the **Sender type**, as you can with Basic authentication. The reason is that OAUTH 2.0 uses the credentials of the current (signed-in) user.
-> - For Business Central on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> - For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We currently don't support certificate-based authentication. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 
@@ -152,13 +149,14 @@ You can use reports to include key information from sales, purchase, and service
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
 4. Select the **Use for Email Body** checkbox.
 5. Choose the **Email Body Layout Description** field, and then select a layout from the list.
-6. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Export Layout** action. If you customize the layout, use the **Import Layout** action to upload the new layout.
+6. To view or edit the layout that the email text is based on, select the layout on the **Report Layouts** page, and then choose the **Export Layout** action. If you customize the layout, use the **Import Layout** action to upload the new layout.
+
     > [!NOTE]
-    > To customize a standard report layout, such as 1306, you must make a copy of the report. [!INCLUDE [prod_short](includes/prod_short.md)] will help you create a copy when you import a custom layout for a standard report. The name of your new custom report layout will be prefixed with "Copy of."
+    > To customize a standard report layout, such as 1306, you must make a copy of the report. [!INCLUDE [prod_short](includes/prod_short.md)] creates a copy when you import your own layout for a standard report and prefixes its name with "Copy of."
 7. If you want to let customers use a payment service, such as PayPal, you have to set up the service. Afterward, the PayPal information and link are inserted in the email text. To learn more, go to [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 
-Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body contains the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
+Now, for example, when you choose the **Send** action on the **Posted Sales Invoice** page, the email body contains the document information of report 1306. The information is preceded by styled standard text according to the report layout that you selected in step 5.
 
 ## Use a substitute sender address on outbound email messages
 
