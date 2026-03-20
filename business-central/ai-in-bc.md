@@ -123,8 +123,8 @@ Formerly Copilot for Finance, this role-based solution for Copilot brings AI ass
 
 **Learn more in:**
 
-- [Finance solution in Microsoft 365 Copilot overview (external)](/dynamics365/finance/copilot/overview)
-- [Responsible AI FAQs for Finance (external)](/dynamics365/finance/copilot/responsible-ai)
+- [Finance solution in Microsoft 365 Copilot overview (external)](/copilot/finance/)
+- [Responsible AI FAQs for Finance (external)](/copilot/finance/responsible-ai/responsible-ai-overview)
 
 ## AI for inventory and supply chain management
 
