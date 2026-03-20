@@ -42,7 +42,7 @@ No matter your role, task, or the industry you work in, these Copilot features a
 
 Chat with Copilot to find your company data or learn how to do things in Business Central. With just a few words, Copilot will quickly locate the records you're looking for and provide links to get to the details, and will help you understand fields, processes and features of Business Central, including those from your add-on apps.
 
-[Video](https://www.youtube.com/watch?v=r1XeYKBjj3k&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=13)
+[Video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
 **Learn more in:**
 
@@ -53,7 +53,7 @@ Chat with Copilot to find your company data or learn how to do things in Busines
 
 Use natural language to transform a list of records into a more meaningful layout, so that you can make data-driven decisions. Copilot helps you arrange raw data into analysis views with grouping, pivots, filters and totals, without having to leave Business Central.
 
-[Video](https://www.youtube.com/watch?v=gLnFI_xAC_0&list=PL8_VXqhvJI9BQMAf1t1QRIBk_U8zABZSZ&index=11)
+[Video](https://www.youtube.com/watch?v=ofq4OBTuPvE)
 
 **Learn more in:**
 
@@ -168,7 +168,7 @@ The Sales Order Agent automates sales orders by handling customer requests via e
 
 Write a few words, paste in a conversation or upload a file, and Copilot will identify the matching line items to add to a quote or order, helping you build complete, accurate sales documents faster. 
 
-[Video](https://www.youtube.com/watch?v=mAe-Xi1uCxk)
+[Video](https://www.youtube.com/watch?v=qmGxeq5FJis)
 
 **Learn more in:**
 
