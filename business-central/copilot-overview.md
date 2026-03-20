@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 10/13/2025
+ms.date: 03/20/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -23,7 +23,7 @@ Copilot is an AI-powered assistant that helps spark creativity, boost productivi
 
 ## Where can I find the list of Copilot features in Business Central?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Learn more in [Work smarter with Microsoft Copilot in Dynamics 365 Business Central](https://aka.ms/BCAI).
+Take a look at [AI in Business Central](ai-in-bc.md).
 
 ## How does Copilot approach security, privacy, and compliance?
 
