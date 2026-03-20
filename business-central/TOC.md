@@ -164,6 +164,7 @@ ms.service: dynamics-365-business-central
 ### [Track document lines](across-how-to-track-document-lines.md)
 ### [Send documents by email](ui-how-send-documents-email.md)
 ### [Archive documents](across-how-to-archive-documents.md)
+### [Store document attachments in external file storage](across-store-document-attachments-externally.md)
 ### [Add extended item text](ui-how-define-ext-text.md)
 ### [Define user tasks](across-user-tasks.md)
 ### [Export your business data to Excel](about-export-data.md)

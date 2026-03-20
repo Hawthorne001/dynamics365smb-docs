@@ -13,11 +13,9 @@ ms.custom: bap-template
 
 # Store document attachments in external file storage
 
-[!INCLUDE [prod_short](includes/prod_short.md)] lets you store document attachments outside the [!INCLUDE [prod_short](includes/prod_short.md)] database external file storage such as Microsoft Azure or SharePoint. By offloading attachments to a connected external storage service, you can significantly reduce your database size and avoid reaching storage limits. You can access attachments in [!INCLUDE [prod_short](includes/prod_short.md)] as usual, but the files are in your external storage account.
+[!INCLUDE [prod_short](includes/prod_short.md)] lets you store document attachments, such as PDFs, images, and scanned documents, outside the [!INCLUDE [prod_short](includes/prod_short.md)] database. For example, in external file storage such as Microsoft Azure or SharePoint. By offloading attachments to a connected external storage service, you can significantly reduce your database size and avoid reaching storage limits. You can access attachments in [!INCLUDE [prod_short](includes/prod_short.md)], but the files are in your external storage account.
 
-## Why use external file storage for attachments?
-
-Storing files, such as PDFs, images, and scanned documents inside the [!INCLUDE [prod_short](includes/prod_short.md)] database can rapidly increase its size, which might affect performance and add costs. By moving attachments to external storage, you can:
+Keeping attachments in external storage can help you:
 
 * Stay within capacity limits. Each [!INCLUDE [prod_short](includes/prod_short.md)] tenant has a limited database capacity. For example, 80 GB by default for production and sandbox environments, plus per-license extra storage. Offloading attachments helps keep your database within these limits, preventing the need to purchase extra capacity.
 * Improve performance and backups. A smaller database can improve overall system performance and reduce backup and restoration times.
@@ -66,8 +64,10 @@ After you set up a file account for external storage, the next step is to assign
 
 1. Review your settings, and then choose **Close** to complete the scenario setup. The Document Attachments feature is now linked to your external storage account. From this point on, new attachments you add to records in [!INCLUDE [prod_short](includes/prod_short.md)] are stored in the external location instead of the [!INCLUDE [prod_short](includes/prod_short.md)] database.
 
-    > [!TIP]  
-    > If you need to disable external storage and revert to storing attachments in the [!INCLUDE [prod_short](includes/prod_short.md)] database, you can go to the **File Scenarios** or **External Storage Setup** pages and use the **Storage Sync** action to move all files back into the database from the external storage. Afterward, you can turn off external storage.
+    > [!NOTE]  
+    > Only attachments people add after you enable this feature are kept in your external storage. To move existing attachments from your [!INCLUDE [prod_short](includes/prod_short.md)] database to external storage, go to the **File Scenarios** or **External Storage Setup** pages and use the **Storage Sync** action. You can specify the direction you want to move files, and the operation to do so.
+    >
+    > You can also use the action if you need to stop using external storage and revert to storing attachments in the [!INCLUDE [prod_short](includes/prod_short.md)] database. The action can move all files back into the database from the external storage. Afterward, you can turn off external storage.
 
 ## Work with attachments after you offload them
 
