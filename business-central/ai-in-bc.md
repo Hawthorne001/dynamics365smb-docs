@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: overview 
-ms.date: 03/18/2025
+ms.date: 03/18/2026
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -30,9 +30,7 @@ This article gives a quick tour of AI in Business Central, covering Copilot and 
 - Designed for work and with the privacy, safety, and compliance that businesses expect, and built on Microsoft's Responsible AI principles.
 - Makes Business Central easier to learn and use, and accessible to more people.
 
-Check for [availability in your country/region and preferred language](https://learn.microsoft.com/dynamics365/business-central/copilot-agents-region-language-availability), or feature documentation to learn which features are currently in preview or have specific license requirements.
-
-<BR>
+Check for [availability in your country/region and preferred language](copilot-agents-region-language-availability.md), or feature documentation to learn which features are currently in preview or have specific license requirements.
 
 ## AI for everyone
 
@@ -199,7 +197,7 @@ Number series suggestions helps you quickly set up consistent, collision-free nu
 **Learn more in:**
 
 - [Suggest number series with Copilot](suggest-number-series-copilot.md)
-- [Responsible AI FAQ for number series suggestions](/dynamics365/business-central/faq-suggest-number-series-with-copilot)
+- [Responsible AI FAQ for number series suggestions](faq-suggest-number-series-with-copilot.md)
 
 ## Other AI and machine learning features
 
@@ -211,7 +209,7 @@ Navigate faster across Business Central's rich catalog of reports and pages by t
 
 **Learn more in:**
 
- - [Finding pages and information with Tell Me](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-search?tabs=advanced)
+- [Finding pages and information with Tell Me](ui-search.md)
 
 ### Inventory forecasting  
 
@@ -221,7 +219,7 @@ Inventory forecasting predicts future demand so you can plan replenishment, avoi
 
 **Learn more in:**
 
-- [Inventory Forecasting (Power BI report)](/dynamics365/business-central/inventory-powerbi-inventory-forecasting)
+- [Inventory Forecasting (Power BI report)](inventory-powerbi-inventory-forecasting.md)
 
 ### Late payment prediction  
 
@@ -231,7 +229,7 @@ Late payment prediction scores open invoices to identify which are likely to be 
 
 **Learn more in:**
 
-- [Late payment prediction extension](/dynamics365/business-central/ui-extensions-late-payment-prediction)
+- [Late payment prediction extension](ui-extensions-late-payment-prediction.md)
 
 ### Cash flow analysis  
 
@@ -241,7 +239,7 @@ Cash flow analysis projects cash inflows and outflows using historical data and 
 
 **Learn more in:**
 
-- [Analyze cash flow in your company](/dynamics365/business-central/finance-analyze-cash-flow)
+- [Analyze cash flow in your company](finance-analyze-cash-flow.md)
 
 ## Didn't find what you're looking for?
 
