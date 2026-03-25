@@ -2,11 +2,11 @@
 title: Manage database index usage
 description: Learn how to manage database indexes in Business Central to optimize performance, reduce storage costs, and improve write operations with enhanced tools.
 author: phduck
-ms.author: magram
+ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.collection: #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 03/10/2026
+ms.collection:
+ms.date: 03/25/2026
 ms.custom: bap-template
 ms.search.form: 8705_Primary, 8700, 9521,
 ---
@@ -37,7 +37,7 @@ You view table indexes from the **Table Information** page:
 1. The **Indexes** section displays details of each index on table for the selected company, including index storage size, index usage statistics, and index type (AL-defined or system-generated). Use the values in the columns to determine underused indexes in a specific company or environment, and then turn them off as appropriate.
 
 > [!NOTE]
-> The index information is sourced from a virtual table called [Database Index](https://learn.microsoft.com/en-us/dynamics365/business-central/application/system/table/system.diagnostics.database-index). This table exposes data from the corresponding [SQL dynamic management view (DMV)](/sql/relational-databases/system-dynamic-management-views/sys-dm-db-index-usage-stats-transact-sql), providing two sets of usage metrics: user* and last_user*.
+> The index information is sourced from a virtual table called [Database Index](/dynamics365/business-central/application/system/table/system.diagnostics.database-index). This table exposes data from the corresponding [SQL dynamic management view (DMV)](/sql/relational-databases/system-dynamic-management-views/sys-dm-db-index-usage-stats-transact-sql), providing two sets of usage metrics: user* and last_user*.
 
 ## Turn off or on indexes
 
