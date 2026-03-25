@@ -2617,6 +2617,7 @@ ms.service: dynamics-365-business-central
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Inspect pages](across-inspect-page.md)
 ### [View table information](admin-view-table-information.md)
+### [Managing database indexes](manage-indexes.md)
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
