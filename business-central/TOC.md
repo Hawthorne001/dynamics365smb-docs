@@ -259,9 +259,10 @@ ms.service: dynamics-365-business-central
 #### Financial reporting
 ##### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 ##### [Prepare financial reporting](bi-how-work-account-schedule.md)
+##### [Organize report data using account categories](bi-account-categories.md)
 ##### [Report selection for finance reports](finance-financial-reporting-report-selection.md)
 ##### [View a financial report](finance-financial-reporting-view-a-report.md)
-##### [Organize report data using account categories](bi-account-categories.md)
+##### [Integrate financial reports with Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md)
 ##### [Design your own financial reports](bi-design-financial-reports.md)
 ##### [Row definitions in financial reporting](bi-row-definitions.md)
 ##### [Column definitions in financial reporting](bi-column-definitions.md)
@@ -311,6 +312,8 @@ ms.service: dynamics-365-business-central
 ###### [Income Statement](reports/report-154.md) 
 ###### [Statement of Cashflows](reports/report-155.md) 
 ###### [Retained Earnings Statement](reports/report-156.md) 
+###### [Day Book Customer Ledger Entry](reports/report-2501.md)
+###### [Day Book Vendor Ledger Entry](reports/report-2502.md)
 
 ##### Deferral reports
 ###### [G/L Deferral Summary](reports/report-1700.md)
@@ -575,6 +578,7 @@ ms.service: dynamics-365-business-central
 
 ### [Accounting and bookkeeping overview](learn-accounting-bookkeeping-guide.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
+### [Accounting and bookkeeping](learn-accounting-bookkeeping-guide.md)
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -611,20 +615,24 @@ ms.service: dynamics-365-business-central
 #### Built-in sales reports
 ##### [Sales report overview](sales-reports.md)
 ##### [Customer Top List Excel](reports/report-4409.md)
-##### [Customer List](reports/report-101.md)
 ##### [Customer - Order Summary](reports/report-107.md)
 ##### [Customer - Order Detail](reports/report-108.md)
-##### [Sales Statistics](reports/report-112.md) 
 ##### [Customer/Item Sales](reports/report-113.md)
-##### [Customer - Sales list](reports/report-119.md) 
+##### [Salesperson - Sales Statistics](reports/report-114.md)
+##### [Salesperson - Commission](reports/report-115.md)
 ##### [Customer - Balance to date](reports/report-121.md) 
 ##### [Customer - Trial Balance](reports/report-129.md) 
-##### [Sales Reservation Availability](reports/report-209.md) 
+##### [Aged Accounts Receivables Excel](reports/report-4402.md)
+##### [Day Book Customer Ledger Entry](reports/report-2501.md)
 ##### [Inventory Order Details](reports/report-708.md) 
 ##### [Inventory Sales Back Orders](reports/report-718.md) 
 ##### [Inventory Picking List](reports/report-813.md) 
 #### Legacy reports (will be removed)
+##### [Customer List](reports/report-101.md)
 ##### [Customer - Top 10 list (legacy)](reports/report-111.md)
+##### [Sales Statistics](reports/report-112.md) 
+##### [Customer - Sales list](reports/report-119.md) 
+##### [Sales Reservation Availability](reports/report-209.md) 
 <!-- Sales analytics end -->
 
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
@@ -745,6 +753,7 @@ ms.service: dynamics-365-business-central
 ##### [Vendor/Item Purchases](reports/report-313.md)
 ##### [Vendor Item catalog](reports/report-320.md)
 ##### [Vendor - Trial Balance](reports/report-329.md) 
+##### [Day Book Vendor Ledger Entry](reports/report-2502.md)
 ##### [Purchase Reservation Availability](reports/report-409.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Vendor Purchases](reports/report-714.md)
@@ -1088,6 +1097,7 @@ ms.service: dynamics-365-business-central
 ##### [Quantity Explosion of BOM](reports/report-99000753.md)
 ##### [Where-Used (Top Level)](reports/report-99000757.md)
 ##### [Prod. Order - Job Card](reports/report-99000762.md) 
+##### [Production Order - List](reports/report-99000763.md)
 ##### [Prod. Order - Precalc. Time](reports/report-99000764.md) 
 ##### [Prod. Order Detailed Calc](reports/report-99000768.md) 
 ##### [Capacity Task list](reports/report-99000780.md)
@@ -1163,6 +1173,17 @@ ms.service: dynamics-365-business-central
 ##### [Design details: Integration with inventory](design-details-integration-with-inventory.md)
 ##### [Use documents to count and adjust inventory ](inventory-how-count-inventory-with-documents.md)
 ##### [Count, adjust, and reclassify inventory](inventory-how-count-adjust-reclassify.md)
+
+## Quality management
+### [Quality management overview](qms-overview.md)
+### [Inspect purchase receipts without warehouse handling](qms-purchase-receipt-testing-simple.md)
+### [Inspect purchase receipts with warehouse handling](qms-purchase-receipt-testing-warehouse.md)
+### [Inspect production output quality](qms-production-output-testing.md)
+### [Create inspections manually](qms-manual-test-creation.md)
+### [Create inspections on a schedule](qms-scheduled-test-creation.md)
+### [Block or unblock lots with quality inspections](qms-lot-blocking-unblocking.md)
+### [Process non-compliant goods](qms-non-compliant-processing.md)
+### [Troubleshoot quality management features](qms-troubleshooting.md)
 
 ## Service management
 ### [Service management](service-service.md)
@@ -1576,7 +1597,7 @@ ms.service: dynamics-365-business-central
 ##### [Export data for a digital audit](LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit.md)
 ##### [GDPDU filter examples](LocalFunctionality/Germany/gdpdu-filter-examples.md)
 ##### [Upgrade a .DTD definition file](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
-##### [Walkthrough: export data for a digital audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
+##### [Walkthrough: Export data for a digital audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
 #### Purchasing
 ##### [Set up delivery reminders](LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md)
 ##### [Set up delivery reminder terms, levels, and text](LocalFunctionality/Germany/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
@@ -2247,6 +2268,14 @@ ms.service: dynamics-365-business-central
 #### [Work with production families](production-how-work-family.md)
 #### [Set up standard routing lines](production-how-set-up-standard-routing-lines.md)
 #### [Subcontract manufacturing](production-how-to-subcontract-manufacturing.md)
+
+### Set up quality management
+#### [Quality management setup and configuration](qms-setup.md)
+#### [Configure quality inspection results](qms-configuring-grades.md)
+#### [Create quality inspection templates](qms-quality-templates.md)
+#### [Set up quality inspection generation rules](qms-test-generation-rules.md)
+#### [Quality management workflows](qms-quality-workflows.md)
+
 ### Set up service management
 #### [Set up service management](service-setup-service.md)
 #### [Create service items](service-how-to-create-service-items.md)
@@ -2262,11 +2291,11 @@ ms.service: dynamics-365-business-central
 #### [Set up statuses for service orders and repairs](service-order-repair-status.md)
 #### [Set up a loaner program](service-how-setup-loaner-program.md)
 #### [Set up service contracts](service-how-setup-service-contracts.md)
-### Set up best practices for complex application areas 
+### Setup best practices for complex application areas 
 #### [Setup best practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Get Business Central on your desktop](install-desktop-app.md)
-#### Setup best practices: supply planning
-##### [Setup supply planning](setup-best-practices-supply-planning.md)
+#### Setup best practices: Supply planning
+##### [Set up supply planning](setup-best-practices-supply-planning.md)
 ##### [Setup best practices: Planning parameters](setup-best-practices-planning-parameters.md)
 ##### [Setup best practices: Global planning setup](setup-best-practices-global-planning-setup.md)
 ##### [Setup best practices: Reordering policies](setup-best-practices-reordering-policies.md)
@@ -2661,7 +2690,8 @@ ms.service: dynamics-365-business-central
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot and agent capabilities
-## [Copilot overview](copilot-overview.md)
+## [AI in Business Central](ai-in-bc.md)
+## [Copilot FAQ](copilot-overview.md)
 ## [Copilot country/region and language availability](copilot-agents-region-language-availability.md)
 ## Manage Copilot and agent capabilities
 ### [Configure Copilot and agent capabilities](enable-ai.md)
@@ -2700,7 +2730,7 @@ ms.service: dynamics-365-business-central
 ## Payables Agent
 ### [Payables Agent overview](payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ### [Set up Payables Agent](payables-agent-setup.md?toc=/dynamics365/business-central/toc.json)
-### [Supervise agent activities](use-payables-agent.md?toc=/dynamics365/business-central/toc.json)
+### [Supervise agent activities](supervise-agent-tasks.md?toc=/dynamics365/business-central/toc.json)
 ### [Responsible AI FAQ for Payables Agent](faqs-payables-agent.md?toc=/dynamics365/business-central/toc.json)
 ## Suggest item substitutions (preview)
 ### [Find item substitutions with Copilot](suggest-item-substitutions-copilot.md)
