@@ -1,5 +1,5 @@
 ---
-title: Design details - item tracking availability
+title: Design details - Item tracking availability
 description: The Item Tracking Lines and Item Tracking Summary pages provide dynamic availability information for serial or lot numbers, increasing transparency for users.
 author: brentholtorf
 ms.topic: concept-article
@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
-# Design details: item tracking availability
+# Design details: Item tracking availability
 
 The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic availability information for serial or lot numbers. The information increases transparency on outbound documents. For example, on sales orders it shows which serial numbers or how many units of a lot number are already assigned on other open documents. This information helps reduce double allocation and gives confidence that you can fulfill the item tracking numbers and dates that they're promised for unposted sales orders. Learn more at [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md).  
 
