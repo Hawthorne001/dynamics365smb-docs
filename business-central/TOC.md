@@ -2618,6 +2618,7 @@ ms.service: dynamics-365-business-central
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Inspect pages](across-inspect-page.md)
 ### [View table information](admin-view-table-information.md)
+### [Managing database indexes](manage-indexes.md)
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
@@ -2690,7 +2691,8 @@ ms.service: dynamics-365-business-central
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot and agent capabilities
-## [Copilot overview](copilot-overview.md)
+## [AI in Business Central](ai-in-bc.md)
+## [Copilot FAQ](copilot-overview.md)
 ## [Copilot country/region and language availability](copilot-agents-region-language-availability.md)
 ## Manage Copilot and agent capabilities
 ### [Configure Copilot and agent capabilities](enable-ai.md)
