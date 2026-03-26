@@ -819,21 +819,25 @@ ms.service: dynamics-365-business-central
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
 ##### [Inventory - Transaction Detail](reports/report-704.md)
+##### [Inventory Availability](reports/report-705.md)
 ##### [Status](reports/report-706.md)
-##### [Inventory Availability Plan](reports/report-707.md)
 ##### [Inventory Order Details](reports/report-708.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Top 10 List](reports/report-711.md) 
 ##### [Inventory Customer Sales](reports/report-713.md) 
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Inventory Cost and price list](reports/report-716.md) 
-##### [Inventory Sales Back Orders](reports/report-718.md) 
+##### [Inventory Sales Back Orders](reports/report-718.md)
+##### [Inventory Availability Plan (Excel)](reports/report-719.md)
+
+##### [Item/Vendor Catalog](reports/report-720.md)
+
+
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
 ##### [Item Substitutions](reports/report-5701.md) 
 ##### [Item Charges - Specification](reports/report-5806.md) 
-##### [Item Age Composition - Quantity](reports/report-5807.md) 
-##### [Item Age Composition - Value](reports/report-5808.md) 
+##### [Item Age Composition - Quantity and Value (Excel)](reports/report-5808.md) 
 ##### [Item Expiration - Quantity](reports/report-5809.md) 
 ##### [Item Dimensions - Detail](reports/report-7150.md) 
 ##### [Item Dimensions - Total](reports/report-7151.md) 
@@ -842,6 +846,10 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 ##### [Planning Availability](reports/report-99001048.md)
 ##### [Production Forecast](reports/report-990003804.md)
+
+#### Legacy reports (will be removed)
+##### [Inventory Availability Plan](reports/report-707.md)
+##### [Item Age Composition - Quantity](reports/report-5807.md) 
 <!-- Inventory analytics end -->
 
 ### [Register new items](inventory-how-register-new-items.md)
