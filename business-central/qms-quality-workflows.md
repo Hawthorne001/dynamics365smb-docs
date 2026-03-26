@@ -117,6 +117,13 @@ The following sections describe the responses, or actions, that happen after an 
 > - Use **Warehouse Movement Worksheet** for directed put-away/pick movements.
 > - Use **Warehouse Reclass Journal Batch** for warehouse reclassifications.
 > - Use **Item Reclass Journal Batch** for nonwarehouse reclassifications.
+> 
+> When a disposition action creates multiple journal lines, for example, when the same lot exists in multiple bins, the system posts each line independently rather than as a single transaction. This means:
+> - Lines that post successfully are committed immediately.
+> - Lines that fail, for example, due to inventory shortages, locked records, or bin conflicts, remain in the journal for manual resolution.
+> - The inspection status still transitions, for example, to **Finished**, even if some disposition lines fail. A single failing line doesn't block the entire operation.
+>  
+> This partial posting behavior preserves forward progress in high-volume or semi-automated environments and avoids rolling back successfully posted lines when an unrelated line fails. After a partial posting, check the relevant journal (warehouse journal or item journal) for unposted lines. These lines require manual attention before the disposition is fully complete.
 
 
 ## Examples of workflow configuration
