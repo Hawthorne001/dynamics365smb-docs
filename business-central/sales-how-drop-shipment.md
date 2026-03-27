@@ -29,16 +29,23 @@ To prepare a drop shipment, you create a sales order for an item and indicate on
 > [!TIP]
 > By default, the Drop Shipment checkbox and Purchasing Code field aren't available on the lines. If they aren't, you can add them by personalizing the section of page that contains the lines. Learn more at [Personalize Your Workspace](ui-personalization-user.md).
 
+## Create purchase orders directly from sales orders
+
+You can create purchase orders directly from sales orders that are set up for drop shipment by choosing the **Create Purchase Orders** action.
+
+To create a purchase order from a sales order, follow these steps:
+
+1.  Open a sales order that has lines marked as **Drop Shipment**.
+2.  Choose the **Create Purchase Orders** action.
+3.  On the **Create Purchase Orders** page, review the suggested lines. The vendor is added based on information from the **Item Card** or the **Stockkeeping Unit Card** pages. You can change the vendor if needed.
+
 ## Create a purchase order for a drop shipment
 
-To prepare a drop shipment, you indicate on the purchase order that it must be shipped to your customer, not to yourself.
-
-1. Create a purchase order. Don't fill any fields on the lines. Learn more at [Record Purchases](purchasing-how-record-purchases.md).
-2. In the **Ship-to** field, select **Customer Address**.
-3. In the **Customer** field, select the customer that you're selling to.
-4. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
-5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](#create-a-sales-order-for-a-drop-shipment).
-6. Choose the **OK** button.
+1. In the **Ship-to** field, select **Customer Address**.
+2. In the **Customer** field, select the customer that you're selling to.
+3. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
+4. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](#create-a-sales-order-for-a-drop-shipment).
+5. Choose the **OK** button.
 
 The line information from the sales order is inserted on the purchase order lines.
 
@@ -48,15 +55,24 @@ If your vendor provides additional information, such as a tracking number, you c
 
 ## Create multiple purchase orders for drop shipments
 
-You can also use the requisition worksheet to create purchase orders. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments. You don't have to create each order individually.
+You can also use a requisition worksheet or planning worksheet to create purchase orders. The advantage of using a worksheet is that it can create purchase orders for all outstanding drop shipments. You don't have to create each order individually.
 
-1. [!INCLUDE[open-search](includes/open-search.md)], enter **Requisition Worksheets**, and then choose the related link.
+1. [!INCLUDE[open-search](includes/open-search.md)], enter **Requisition Worksheets** or **Planning Worksheets**, and then choose the related link.
 2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 3. If needed, enter filter criteria for the orders you wan to get, and then choose the **OK** button.
 4. Review the purchase order lines, and in the **Vendor No.** field, select the vendor that supplies the goods.
 5. Choose the **Carry Out Action Message** action to convert the lines to a purchase order.
 
-## View the linked purchase order from the sales order
+## Create purchase orders for drop shipments from the Order Planning page
+
+Drop shipment orders are taken into consideration by the Order Planning page, so drop shipment lines are included when calculating plans.
+
+- On the **Order Planning page**, use the **Calculate Plan** action. Drop shipment lines are included.
+
+To learn more about order planning, go to [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md).
+
+
+## Access the linked purchase order from the sales order
 
 Select the drop-shipment sales order line, choose the **Order** action, choose the **Drop Shipment** action, and then choose the **Purchase Order** action.
 
