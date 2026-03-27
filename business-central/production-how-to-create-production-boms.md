@@ -49,7 +49,13 @@ Before you can set up a routing, the following setups must be in place:
 11. Certify the production BOM.  
 
    > [!TIP]
-   > Certifying the BOM is optional, though we do recommend it if the BOM is ready to use. For example, if you're in the design phase, you can work with the BOM in a uncertified state. Learn more at [Work with uncertified production BOMs and routings](#work-with-uncertified-production-boms-and-routings).
+   > Production BOMs must be certified before they can be used in production or planning. While you design or maintain them, it’s common to work with uncertified structures for some time. For that reason, when you leave an uncertified production BOM or routing, [!INCLUDE [prod_short](includes/prod_short.md)] reminds you that the structure isn’t certified. The reminder helps prevent accidental use of incomplete data, but it can become noisy during design or maintenance work.
+   >
+   > If you’re intentionally working with uncertified BOMs or routings and don’t need the reminder, you can turn off the notification for yourself. On the **My Notifications** page, turn off the **Warn about non-certified production BOMs and routings** notification.
+
+If you’re intentionally working with uncertified BOMs or routings and don’t need the reminder, you can turn off the notification for yourself. Search for “Warn about non-certified production BOMs and routings” in My Notifications.
+
+Certifying the BOM is optional, though we do recommend it if the BOM is ready to use. For example, if you're in the design phase, you can work with the BOM in a uncertified state. Learn more at [Work with uncertified production BOMs and routings](#work-with-uncertified-production-boms-and-routings).
 
 12. You can now attach the new production BOM to the card of the parent item in question. To learn more, go to [Register New Items](inventory-how-register-new-items.md).  
 
