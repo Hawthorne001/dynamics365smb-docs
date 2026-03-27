@@ -43,7 +43,7 @@ In most cases, you can open ledger entries from the affected card or document. F
 
 ## Edit ledger entries
 
-You can edit certain fields on posted purchase documents, such as the **Package Tracking No.** field. To learn more, go to [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. To learn more, go to [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
+You can edit certain fields on posted sales documents, such as the **Package Tracking No.** field. To learn more, go to [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. To learn more, go to [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
 ## Send posted sales invoices by email
 
