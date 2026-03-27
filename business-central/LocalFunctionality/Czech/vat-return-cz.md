@@ -32,6 +32,9 @@ The generated return can be printed as a report.
 
 ![VAT Return Periods](Media/vat-return-period.png "VAT Return Periods")
 
+> [!Note]  
+> We aligned VAT periods with Microsoft standard in the Czech version. See [VAT Return Period](vat-return-periods.md) for details.  
+
 ## To set up VAT Statement in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **VAT Statement**, and then choose the related link.
@@ -66,6 +69,7 @@ The generated return can be printed as a report.
 [Czech local functionality](czech-local-functionality.md)  
 [VAT Control Report](vat-control-report.md)  
 [VAT Date](how-to-setup-vat-date.md)  
+[VAT Return Period](vat-return-periods.md)
 [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

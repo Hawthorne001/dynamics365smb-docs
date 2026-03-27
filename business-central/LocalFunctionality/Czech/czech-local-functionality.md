@@ -37,7 +37,6 @@ The following articles describe the local functionality in the Czech version of 
   
 * VAT
   * [VAT Date](how-to-setup-vat-date.md) **Available Now**
-  * [VAT Return Period](vat-return-periods.md) **Available Now**
   * [VAT Statement](vat-statement.md) **Available Now**
   * [Supplementary VAT Statement](supplementary-vat-statement.md) **Available Now**
   * [VIES CZ](vies-cz.md) **Available Now**
