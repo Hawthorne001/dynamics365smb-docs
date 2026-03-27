@@ -90,19 +90,6 @@ In most cases, you send sales quotes to prospective customers. You often have a 
 
 The conversion removes the sales quote from the database. A sales invoice or a sales order is created based on the information in the sales quote so that you can process the sale. The **Quote No.** field on the sales invoice or sales order shows the ID of the sales quote that it was made from. To learn more, go to [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).  
 
-## Create purchase quotes for contacts
-
-You can create purchase quotes for contacts that aren't yet associated with a vendor. This removes the need to set up a vendor record before you prepare a quote, which is useful when you're unsure whether the purchase will proceed. Postponing vendor creation reduces administrative overhead and speeds up quote registration, while ensuring vendor records are created when they're actually needed.
-
-When you convert the quote into an order or release the document, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates the vendor using a vendor template. [!INCLUDE [prod_short](includes/prod_short.md)] selects the appropriate template based on criteria such as territory code, country/region code, and contact type from the contact. If only one template matches, it's applied automatically, otherwise you're prompted to choose from available templates.
-
-Here's an overview of the process:
-
-1.  Create a purchase quote, and select a contact that isn't linked to a vendor.
-2.  If multiple templates are available, choose a vendor template.
-3.  Enter the details for the quote.
-4.  When you release the quote or convert it to an order, [!INCLUDE [prod_short](includes/prod_short.md)] creates the vendor record using the selected template.
-
 ## External document number
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
