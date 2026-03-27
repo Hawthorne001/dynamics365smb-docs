@@ -45,11 +45,11 @@ In most cases, you can open ledger entries from the affected card or document. F
 
 You can edit certain fields on posted purchase documents, such as the **Package Tracking No.** field. To learn more, go to [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. To learn more, go to [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
-## Send posted sales shipments or return receipts by email
+## Send posted sales invoices by email
 
-Sales shipments are important documents for customers, and often need to be delivered promptly and accurately. By sending posted shipments and return receipts by email, you reduce reliance on manual printing and mailing. This streamlined process improves communication with customers, and supports scenarios where you want to share shipment details with different contacts than the ones specified on the invoices.
+Sales shipments are important documents for customers, and often need to be delivered promptly and accurately. By sending posted shipments and invoices by email, you reduce reliance on manual printing and mailing. This streamlined process improves communication with customers, and supports scenarios where you want to share shipment or invoice details with different contacts than the ones specified on the invoices.
 
-The ability so send posted sales shipments and posted return receipts by email compliments the **Print** option and aligns the experience of handling these documents with posted sales invoices and credit memos. There are several options:
+The ability so send posted sales shipments and posted sales invoices by email compliments the **Print** option. There are several options:
 
 - **Send by Email**: Send the posted document by email to the customer.
 - **Send**: Use the standard sending options that are available for other posted documents.
