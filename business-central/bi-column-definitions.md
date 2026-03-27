@@ -178,6 +178,10 @@ Before you change a column definition, it can be helpful to know which reports u
 1. On the **(Financial Report) Column Definitions** page, select the definition, and then choose the **Edit Column Definition** action.
 1. To open a list of reports that use the definition, choose the **Where-Used** action.
 
+## Manage the lifecycle of a column definition
+
+[!INCLUDE [block-row-column-def](includes/block-row-column-def.md)]
+
 ## Best practices for working with column definitions
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]

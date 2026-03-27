@@ -22,6 +22,10 @@ To create a new financial report, choose the **New** action. You can then give t
 * **Column Definition**
 * **Analysis Views**
 
+## Use default settings for financial reports
+
+When you design new reports, remember that you can take advantage of default settings for them. On the **Reporting** FastTab of the **General Ledger Setup** page, you can specify a range of settings that apply to all financial reports. Learn more at [Specify default settings that apply to all financial reports](bi-how-work-account-schedule.md#specify-default-settings-that-apply-to-all-financial-reports).
+
 ## Copy an existing report
 
 To copy an existing report, use the **Copy Financial Report** action. When you choose this option, you can rename the copied report. You can also copy and rename individual row definitions and column definitions.  
