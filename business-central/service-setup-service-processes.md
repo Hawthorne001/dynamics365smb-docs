@@ -3,10 +3,10 @@ title: Set up service management processes
 description: Learn how to set up processes that help ensure your customers are satisfied with your services.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 10/03/2025
+ms.date: 03/18/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -60,6 +60,15 @@ The following table describes the effects on different documents.
 Your business probably deals with multiple customer and vendor contacts who are responsible for different areas of operation. For example, accountants, purchasers, and warehouse staff. Because their interests typically differ, you might want to generate and send different types of documents to them. You can save time when you send documents to different customer or vendor contacts by setting up specific contacts to use with specific documents. For example, send service invoices to accountant contacts and service orders to your customers' purchasers.
 
 You can use the **Document Layouts** page to specify who to send service quotes, orders, invoices, and credit memos to for vendors and customers based on settings on the **Report Selection** page. To send specific documents to specific company contacts, choose the company contacts to use for specific document layouts. Learn more in [Define document layouts for customers and vendors](ui-define-customer-vendor-document-layouts.md) for information about document layouts.
+
+## Allow only one service item per order
+
+On the **Service Management Setup** page, the **One Service Item Line/Order** toggle enforces a business rule that allows service orders to contain only one service item line. The restriction can help sharpen focus in your service workflow because it means you handle and track each service item individually. 
+
+The same logic applies to orders that you create in-bulk from service contracts. You can run the batch process without manual intervention or workarounds, which helps ensure consistency with your service management policies. The setting determines how orders are created for service contracts with several service items:
+
+- If the **One Service Item Line/Order** toggle is turned on, the batch process creates one service order per service item in the contract. For example, a contract with four service items results in four separate service orders.
+- If the **One Service Item Line/Order** toggle is turned off, the batch process creates a single service order that contains all service items from the contract.
 
 ## Related information  
 
