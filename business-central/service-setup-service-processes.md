@@ -3,10 +3,10 @@ title: Set up service management processes
 description: Learn how to set up processes that help ensure your customers are satisfied with your services.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: v-soumramani
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 10/03/2025
+ms.date: 03/18/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

@@ -3,9 +3,8 @@ title: How to create service orders
 description: Learn the different tasks involved in creating service orders in Business Central such as creating a new service order or orders based on a service contract.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: service order, create service order, service management, service management setup, service item, service contract, service quote
-ms.date: 10/03/2025
+ms.date: 03/18/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: v-soumramani
