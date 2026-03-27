@@ -43,8 +43,6 @@ You can automatically create service orders for the maintenance of service items
     > There's a limit to the number of days you can use as the date range each time you use this batch job. You set this limit in the **Contract Serv. Ord. Max. Days** field on the **Service Management Setup** page.  
 
 4. In the **Action** field, choose **Create Service Order**.  
-    > [!NOTE]  
-    > You can't create order with multiple service item, if you set **One Service Item Line/Order** field on the **Service Management Setup** page.
 
 ## Convert a service quote to a service order
 
