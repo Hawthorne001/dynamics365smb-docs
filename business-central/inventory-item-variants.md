@@ -6,8 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: item, variant, finished good, component, raw material, assembly item, item substitution
-ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 06/13/2024
+ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719, 5401_Primary
+ms.date: 03/04/2026
 ms.service: dynamics-365-business-central
 ---
 
@@ -38,13 +38,26 @@ You can open the **Item Variant Attribute Values** page from the **Item Variants
 
 There's also the **Update Variant Attributes** action on the **Item Card** page that lets you to force sync attributes from the item to its variants.
 
+## Add a picture to a variant
+
+Adding pictures of item variants can reduce confusion when working with large assortments of similar variants. Tiles and tall tiles modes on the list can help you quickly identify each variant, which improves accuracy in the variant selection, manufacturing, fulfillment, and sales processes.
+
+1. Open the **Item Card** and choose the **Variants** action.
+1. Select the variant that you want to update.
+1. On the **Item Variant Card**, in the **Picture** FactBox, choose one of the following actions: 
+
+   - **Import** to upload a file.
+   - **Take** to use your device camera to capture an image.
+   - **Export** if you want to save the current image.
+   - **Delete** if you don't want the picture.
+   
 ## Item availability by variant
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
 ## Require use of variants
 
-Starting in 2022 release wave 2, admins can require that users specify the variant in documents and journals for items that have variants. To activate the capability, on the **Inventory Setup** page, and select the **Variant Mandatory if Exists** field. You can override this global setting for specific items.  
+Administrators can require that users specify the variant in documents and journals for items that have variants. To activate the capability, on the **Inventory Setup** page, and select the **Variant Mandatory if Exists** field. You can override this global setting for specific items.  
 
 On item cards, the **Variant Mandatory if Exists** field has the following options:
 
