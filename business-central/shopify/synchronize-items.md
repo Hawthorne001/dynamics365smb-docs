@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central.
-ms.date: 03/04/2026
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -99,6 +99,17 @@ You manage the process of exporting items using these settings:
 ### Activate sales channels
 
 When you sync products from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify, you can choose which sales channels to activate directly from the **Shopify Sales Channels** page. The **Shopify Sales Channels** page shows all available channels in Shopify. Just activate the ones you want, and the Shopify Connector handles the rest. If you haven't set up this page yet, don't worry. Your products default to the Online Store.
+
+### Sync product collections from Shopify to Business Central
+
+Product collections in Shopify help organize products into logical groups, improving navigation and product discovery for buyers. Collections are often used to highlight seasonal items, group products by category, or apply specific tax rules. By enabling synchronization and default assignment of collections, you reduce manual work, ensure consistent product categorization, and support compliance scenarios such as applying reduced VAT rates.
+
+You can import available collections from your Shopify store and manage them on the **Shopify Custom Product Collections** page. From this page, you can:
+
+- Get a list of custom product collections from Shopify.
+- Assign the items you export from Shopify to the appropriate collections.
+
+One thing to note, however, is that Shopify lets you define **Custom** and **Smart** collections. This feature doesn't cover Smart collections because they're rule-based and can't be manually assigned.
 
 ### Sync product translations to Shopify
 
@@ -314,6 +325,10 @@ If you add item as a variant to product that already has options/variants define
 Alternatively, use the **Sync Products** action on the **Shopify Products** page or search for the **Sync Products** batch job.
 
 You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
+
+### Multiple product tax or VAT rates
+
+Some product categories are eligible for reduced tax rates, such as pharmaceutical products or children's clothing and footwear. You can use the tax override feature in Shopify to specify that and custom collection is a key element for that. Learn more at [Tax overrides and exemptions](https://help.shopify.com/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override).
 
 ### Ad-hoc updates of Shopify products
 
