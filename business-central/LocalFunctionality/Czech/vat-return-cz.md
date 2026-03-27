@@ -31,6 +31,9 @@ On VAT return lines, you must fill in the **Mailbox No.** field. Lines with the 
 
 ![VAT Return Periods](Media/vat-return-period.png "VAT Return Periods")
 
+> [!Note]  
+> We aligned VAT periods with Microsoft standard in the Czech version. See [VAT Return Period](vat-return-periods.md) for details.  
+
 ## To set up VAT Statement 
 
 1. [!INCLUDE[open-search](../../includes/open-search.md)], enter **VAT Statement**, and then choose the related link.
@@ -67,6 +70,7 @@ On VAT return lines, you must fill in the **Mailbox No.** field. Lines with the 
 [Czech local functionality](czech-local-functionality.md)  
 [VAT Control Report](vat-control-report.md)  
 [VAT Date](how-to-setup-vat-date.md)  
+[VAT Return Period](vat-return-periods.md)
 [Finance](../../finance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
