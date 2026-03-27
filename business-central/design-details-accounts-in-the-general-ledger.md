@@ -124,11 +124,7 @@ The tables in the following sections explain the accounts in more detail. They s
 
 |Account  |Balancing account  |
 |---------|---------|
-|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code comes from the production order line.|Page: Inventory Posting Setup<br>Field: Inventory Account<br><br>* The Inventory Posting Group comes from the component.<br>* The Location Code comes from the assembly order line.|
-
-|Account  |Balancing account  |
-|---------|---------|
-|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code is blank.|Page: General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the production order.<br>* The General Product Posting Group comes from the work center.<br><br>Page General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the subcontracting vendor.<br>* The General Product Posting Group comes from the work center.|
+|Page: Inventory Posting Setup<br>Field: WIP Account<br><br>* The Inventory Posting Group comes from the finished item.<br>* The Location Code comes from the production order line.|Page: Inventory Posting Setup<br>Field: Inventory Account<br><br>* The Inventory Posting Group comes from the component.<br>* The Location Code comes from the assembly.<br><br>Page: General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the production order.<br>* The General Product Posting Group comes from the work center.<br><br>Page General Posting Setup<br>Fields: Direct Cost Applied Account, Overhead Applied Account<br><br>* The General Business Posting Group comes from the subcontracting vendor.<br>* The General Product Posting Group comes from the work center.|
 
 ## Related information  
 

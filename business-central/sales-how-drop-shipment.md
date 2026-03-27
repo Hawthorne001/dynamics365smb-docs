@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: direct shipment
-ms.date: 06/10/2025
+ms.date: 03/05/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -19,7 +19,7 @@ When a sales order is marked for drop shipment, and you create a purchase order 
   
 > [!Video https://learn-video.azurefd.net/vod/player?id=58c81aa9-7190-476a-9fd9-75a9841549f7]
 
-## Create a sales order for drop shipment
+## Create a sales order for a drop shipment
 
 To prepare a drop shipment, you create a sales order for an item and indicate on the sales line that the sale requires drop shipment.
 
@@ -29,18 +29,15 @@ To prepare a drop shipment, you create a sales order for an item and indicate on
 > [!TIP]
 > By default, the Drop Shipment checkbox and Purchasing Code field aren't available on the lines. If they aren't, you can add them by personalizing the section of page that contains the lines. Learn more at [Personalize Your Workspace](ui-personalization-user.md).
 
-## Create the purchase order for drop shipment
+## Create a purchase order for a drop shipment
 
-To prepare a drop shipment, you indicate on the purchase order that it must be shipped to your customer, not to yourself.
+1. In the **Ship-to** field, select **Customer Address**.
+2. In the **Customer** field, select the customer that you're selling to.
+3. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
+4. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](#create-a-sales-order-for-a-drop-shipment).
+5. Choose the **OK** button.
 
-1. Create a purchase order. Don't fill any fields on the lines. Learn more at [Record Purchases](purchasing-how-record-purchases.md).
-2. In the **Ship-to** field, select **Customer Address**.
-3. In the **Customer** field, select the customer that you're selling to.
-4. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
-5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](#to-create-a-sales-order-for-drop-shipment).
-6. Choose the **OK** button.
-
-The line information from the sales order is inserted on the purchase order line(s).
+The line information from the sales order is inserted on the purchase order lines.
 
 You can now tell your vendor to ship the items directly to the customer. For example, you might send them the order by email.
 
@@ -48,7 +45,7 @@ If your vendor provides additional information, such as a tracking number, you c
 
 ## Create multiple purchase orders for drop shipments
 
-You can also use the requisition worksheet to create purchase orders. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments. That means you won't have to create each order individually.
+You can also use the requisition worksheet to create purchase orders. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments. You don't have to create each order individually.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Requisition Worksheets**, and then choose the related link.
 2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
@@ -81,12 +78,13 @@ From a planning worksheet, as follows:
 - On the **Planning Worksheet** page, use the new **Drop Shipment** action group and the **Get Sales Orders** action to include sales orders.
 
 ## Access the linked purchase order from the sales order
+## View the linked purchase order from the sales order
 
 Select the drop-shipment sales order line, choose the **Order** action, choose the **Drop Shipment** action, and then choose the **Purchase Order** action.
 
 ## Post a drop shipment
 
-After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
+After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until you invoice the sales order.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Sales Orders**, and then choose the related link.
 2. Open the sales order.
@@ -96,6 +94,12 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 
 > [!TIP]
 > Remember to post the purchase order invoice.
+
+## Reverse a drop shipment
+
+You can reverse posted drop shipments when both the sales shipment and the related purchase receipt aren't yet invoiced. You can undo a sales shipment that originates from a drop shipment. [!INCLUDE [prod_short](includes/prod_short.md)] reverts the linked purchase receipt, creates correction entries, and reapplies the purchase and sales entries to their reversal entries.
+
+To reverse a drop shipment, open a posted sales shipment for it, and choose **Undo Shipment**.
 
 ## Related information
 
