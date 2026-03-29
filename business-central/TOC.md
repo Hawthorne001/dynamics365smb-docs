@@ -88,10 +88,13 @@ ms.service: dynamics-365-business-central
 ### [Work with dates and times on calendars](ui-enter-date-ranges.md)
 ### [Detect mandatory fields](ui-mandatory-fields.md)
 ### [Change language and region](about-locale-language.md)
-### [View and edit in Excel](across-work-with-excel.md)
-### [Store and share files in OneDrive](across-share-onedrive.md)
+### Get the most out of Microsoft 365 apps
+#### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
+#### [Share records and page links in Teams](across-working-with-teams.md)
+#### [Store and share files in OneDrive](across-share-onedrive.md)
+#### [Use Word templates for bulk communication](ui-mail-merge.md)
+#### [View and edit in Excel](across-work-with-excel.md)
 ### [Manage attachments, links, and notes on cards and documents](ui-how-add-link-to-record.md)
-### [Use Word templates for bulk communication](ui-mail-merge.md)
 ### [Change basic settings](ui-change-basic-settings.md)
 ### [Switch to another company or environment](ui-organization-switch.md)
 ### [Manage notifications](ui-smart-notifications.md)
@@ -644,6 +647,7 @@ ms.service: dynamics-365-business-central
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
+### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 ### [Make sales quotes](sales-how-make-offers.md)
 ### [Invoice sales](sales-how-invoice-sales.md)
 ### [Sell products](sales-how-sell-products.md)
@@ -784,6 +788,7 @@ ms.service: dynamics-365-business-central
 ### [Receive and convert electronic documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ### [Date calculation for purchases](purchasing-date-calculation-for-purchases.md)
 ### [Merge duplicate records](sales-how-merge-duplicate-records.md)
+### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 ### [Work with blanket purchase orders](sales-how-to-create-blanket-sales-orders.md)
 ### [External document numbers on purchase documents](purchasing-ext-doc-no.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
@@ -1006,6 +1011,7 @@ ms.service: dynamics-365-business-central
 #### [Contacts](marketing-contacts.md)
 #### [Set up contacts](marketing-setup-contacts.md)
 #### [Create contacts](marketing-create-contact-companies.md)
+#### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 #### [Use profile questionnaires to classify business contacts](marketing-create-contact-profile-questionnaire.md)
 #### [Merge duplicate records](sales-how-merge-duplicate-records.md)
 ### Manage segments
@@ -2326,8 +2332,6 @@ ms.service: dynamics-365-business-central
 #### Set up your business inbox in Microsoft Outlook
 ##### [Get the Business Central add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as your business inbox in Outlook](work-outlook-addin.md)
-##### [Synchronize with contacts in Outlook](admin-synchronize-outlook-contacts.md)
-###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -2348,9 +2352,7 @@ ms.service: dynamics-365-business-central
 #### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
-##### [Overview](admin-outlook.md)
-##### [Synchronize with contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
+##### [Get the Business Central add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
@@ -2387,7 +2389,6 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Bulk invoices for Microsoft bookings](finance-bookings.md)
 <!-- Connectors end -->
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
