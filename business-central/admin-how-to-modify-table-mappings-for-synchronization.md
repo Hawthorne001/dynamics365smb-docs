@@ -37,14 +37,16 @@ On the **Integration Table Mappings** page, you can use the New Table Mapping ac
 The guide lets you map the tables in [!INCLUDE [prod_short](includes/prod_short.md)] with existing integration tables in Dataverse. You can also specify the Dataverse table's unique identifier in **Integration Table Unique Identifier Field Name** and the **Integration Table Modified on Field Name**, which are needed for data synchronization to work.
 
 > [!NOTE]
-> The lookup on the **Table** column shows all [!INCLUDE [prod_short](includes/prod_short.md)] tables, including custom tables, that aren't yet mapped. It excludes those that already exist on your **Integration Table Mappings** page. In [!INCLUDE [prod_short](includes/prod_short.md)] 2025 release wave 2 (v27.0) and earlier, the lookup on the **Integration Table** column shows only Dataverse tables (AL Proxy Tables) that are part of out-of-the-box integrations. To add new or custom Dataverse tables, you need help from a developer to create and deploy them through an extension. Starting with 2026 release wave 1 (v28), new and custom Dataverse tables and fields are available for mapping.
+> The lookup on the **Table** column shows all [!INCLUDE [prod_short](includes/prod_short.md)] tables, including custom tables, that aren't yet mapped. It excludes tables that already exist on your **Integration Table Mappings** page.
+>
+> In [!INCLUDE [prod_short](includes/prod_short.md)] 2025 release wave 2 (v27.0) and earlier, the lookup on the **Integration Table** column shows only Dataverse tables (AL Proxy Tables) that are part of out-of-the-box integrations. To add new or custom Dataverse tables, you need help from a developer to create and deploy them through an extension. Starting with 2026 release wave 1 (v28), new and custom Dataverse tables are readily available for mapping from the lookup on **Integration Table** column.
 
 The Advanced action opens extra table mapping settings that you can set up. In the **Advanced** section, the **Table Filter** field lets you specify filters for [!INCLUDE [prod_short](includes/prod_short.md)]. Use the **Integration Table Filter** field for Dataverse data to consider in data synchronization together with the configuration template codes in **Table Config. Template Code** and **Int. Tbl. Config. Code** to prefill missing data when new data comes from either application.
 
 The guide also helps you specify the fields you want the new mapping to contain. You can match a [!INCLUDE [prod_short](includes/prod_short.md)] field in the **Field Name** column with a Dataverse field name in the **Integration Field Name** column. You can also specify a **Direction**, whether the field always has the same value in the **Constant** column, and whether validations or transformations need to be applied during field mapping.
 
 > [!NOTE]
-> In 2025 release wave 2 (v27.0) and earlier, you can't map new or custom fields using the **Integration Table Field** column. Also, to reduce errors, the lookup for the **Integration Table Field** column filters to a list of available fields. To map fields that the filters don't include, you need help from a developer.
+> In 2025 release wave 2 (v27.0) and earlier, you can't map new or custom fields using the **Integration Table Field** column&mdash;you can in later versions. Also, to reduce errors, the lookup for the **Integration Table Field** column filters to a list of available fields. To map fields that the filters don't include, you need help from a developer.
 >
 > * Fields must be enabled.
 > * You can't use the guide to map FlowField and FlowFilter fields.
@@ -132,7 +134,7 @@ If you install the default synchronization setup, most of the time, two configur
 
 * **CDSACCOUNT** creates and synchronizes new accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)] based on an account in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-You can add more templates, and use filters to define conditions under which [!INCLUDE [prod_short](includes/prod_short.md)] applies them. The templates apply to data moving in either direction. For example, you might use a template for domestic customers in the United States, and another for foreign customers in the European Union, or vice versa. In that case, when the data synchronizes, [!INCLUDE [prod_short](includes/prod_short.md)] uses the country/region code for the customer to apply the appropriate template.
+You can add more templates, and use filters to define conditions under which [!INCLUDE [prod_short](includes/prod_short.md)] applies them. The templates apply to data moving in either direction. For example, you might use a template for domestic customers in the United States and another for foreign customers in the European Union&mdash;or vice versa. In that case, when the data synchronizes, [!INCLUDE [prod_short](includes/prod_short.md)] uses the country/region code for the customer to apply the appropriate template.
 
 ### To specify configuration templates on a table mapping  
 
