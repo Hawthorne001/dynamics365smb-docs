@@ -5,16 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805, 9813, 9814, 1262, 1263, 8898_Primary, 8897_Primary
-ms.date: 01/23/2026
+ms.search.form: 1805, 9813, 9814, 1262, 1263, 8898_Primary, 8897_Primary, 8893_Primary
+ms.date: 03/12/2026
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
 # Set up email
-
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. Learn more at [Send Documents by Email](ui-how-send-documents-email.md).
 
@@ -23,7 +21,7 @@ Email in [!INCLUDE[prod_short](includes/prod_short.md)] is only for sending mess
 > [!NOTE]
 > You can use the email capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] online only with Exchange Online. We don't support hybrid scenarios, such as connecting [!INCLUDE[prod_short](includes/prod_short.md)] online to an on-premises version of Exchange.
 >
-> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, before you can set up email you must create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)] in the Azure Portal. The app registration enables [!INCLUDE[prod_short](includes/prod_short.md)] to authorize and authenticate with your email provider. Learn more at [Set Up Email for Business Central on-premises](admin-how-setup-email.md#set-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online, we handle the app registration for you.
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, before you can set up email you must create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)] in the Azure portal. The app registration enables [!INCLUDE[prod_short](includes/prod_short.md)] to authorize and authenticate with your email provider. Learn more at [Set Up Email for Business Central on-premises](admin-how-setup-email.md#set-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online, we handle this step for you.
 
 ## Requirements
 
@@ -31,7 +29,7 @@ There are a couple of requirements for setting up and using the email features.
 
 * To set up email, you must have the **EMAIL SETUP** permission set. To learn more, go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 * Everyone who uses the email features must be a fully licensed [!INCLUDE [prod_short](includes/prod_short.md)]. For example, delegated admins and guest users can't use the tenant's email account.
-* Everyone who uses the email features must have a valid, paid license for Exchange Online. Otherwise, some features won’t work. For example, they can’t send emails because Exchange rejects their messages. You can’t use trial licenses.
+* Everyone who uses the email features must have a valid, paid license for Exchange Online. Otherwise, they can't use some features. For example, they can’t send emails because Exchange rejects their messages. You can’t use trial licenses.
 
 ## Add email accounts
 
@@ -47,7 +45,7 @@ The following table describes the email extensions that are available by default
 |**Current User Connector**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
 |**SMTP Connector**|Use Simple Mail Transfer Protocol (SMTP) protocol to send emails.|Allow communications through your SMTP mail server. |
 
-The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions, including the **Outlook REST API** extension, require that the **Allow HttpClient Requests** setting is enabled. To check whether it's enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
+The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions, including the **Outlook REST API** extension, require that the **Allow HttpClient Requests** setting is enabled. To check whether the setting is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
 
 External users, such as delegated admins and external accountants, can't use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -56,7 +54,7 @@ External users, such as delegated admins and external accountants, can't use the
 >
 > “You aren't authorized to access this resource: https:\//graph.microsoft.com/.default. Contact your system administrator."
 >
-> The problem is caused by the bound actions on the document APIs that send email. To learn more about the bound actions, go to [Bound Actions](/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_salesinvoice#bound-actions). 
+> The bound actions on the document APIs that send email cause the problem. To learn more about the bound actions, go to [Bound Actions](/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_salesinvoice#bound-actions). 
 >
 > If you want to use S2S authentication and the email features, use the SMTP connector option.
 <br><br>
@@ -73,7 +71,7 @@ If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](inclu
 > - All users must be on the same Microsoft Entra tenant.
 > - For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. Learn more at [Create an App Registration for Business Central in Azure portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH aren't affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We currently don't support certificate-based authentication. If you can't set up OAuth 2.0 authentication, we encourage you to explore non-Microsoft alternatives if you want to use SMTP email in earlier versions.
+> Exchange Online is deprecating use of Basic authentication for SMTP. This change doesn't affect tenants that are currently using SMTP AUTH. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We currently don't support certificate-based authentication. If you can't set up OAuth 2.0 authentication, we encourage you to explore non-Microsoft alternatives if you want to use SMTP email in earlier versions.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -127,7 +125,7 @@ On the **User Email View Policies**, choose a user, and then choose one of the f
 
 ## Specify how many messages an account can send per minute
 
-Some email providers (ISPs) limit the number of email messages an email account can send in one go, or within a certain amount of time, or both. This practice, which is known as *email throttling*, helps ISPs control traffic on their servers and prevent spam. If an email account exceeds the limit, the ISP might block the messages. To ensure that the number of messages that you send from [!INCLUDE [prod_short](includes/prod_short.md)] complies with your ISP's limit, specify the limit for each of your email accounts.
+Some email providers (ISPs) limit the number of email messages an email account can send in one go, or within a certain amount of time, or both. This practice, known as *email throttling*, helps ISPs control traffic on their servers and prevent spam. If an email account exceeds the limit, the ISP might block the messages. To ensure that the number of messages that you send from [!INCLUDE [prod_short](includes/prod_short.md)] complies with your ISP's limit, specify the limit for each of your email accounts.
 
 The default limit for the Microsoft 365 and Current User account types is 30, which matches the limit set by Exchange Online.
 
@@ -158,15 +156,15 @@ You can use reports to include key information from sales, purchase, and service
 1. If you want to let customers use a payment service, such as PayPal, you have to set up the service. Afterward, the PayPal information and link are inserted in the email text. To learn more, go to [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 1. Choose the **OK** button.
 
-Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body contains the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
+Now, for example, when you choose the **Send** action on the **Posted Sales Invoice** page, the email body contains the document information of report 1306. The information is preceded by styled standard text according to the report layout that you selected in step 5.
 
 ## Use a substitute sender address on outbound email messages
 
-If you're using the SMTP Connector extension, you can use the **Send As** or **Send on Behalf** capabilities from Microsoft Exchange to change the sender address on outbound messages. [!INCLUDE[prod_short](includes/prod_short.md)] uses the SMTP account to authenticate to Exchange, but either replaces the sender address with the one you specify or amends it with "on behalf of."
+If you're using the SMTP Connector extension, you can use the **Send As** or **Send on Behalf** capabilities from Microsoft Exchange to change the sender address on outbound messages. [!INCLUDE[prod_short](includes/prod_short.md)] uses the SMTP account to authenticate to Exchange, but either replaces the sender address with the one you specify, or amends it with "on behalf of."
 
 When you set up an account and you want to use the Send As or Send on Behalf capabilities from Exchange, in the **Sender Type** field, choose **Specific User**.
 
-Alternatively, you can choose **Current User** to allow people to send messages through the SMTP Connector. The message will appear to be sent from the email account specified in the Contact Email field on the User Card for the user they're signed in as. However, it will function similar to the Send As feature and will be sent from the account specified in the setup of the SMTP Connector.
+Alternatively, you can choose **Current User** to allow people to send messages through the SMTP Connector. The message appears to be sent from the email account specified in the Contact Email field on the User Card for the user they're signed in as. However, it functions similar to the Send As feature and is sent from the account specified in the setup of the SMTP Connector.
 
 The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -197,7 +195,7 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 
 ## Set up document sending profiles
 
-You can save time by setting up a preferred method of sending sales documents for each of your customers. You won't have to select a sending option, such as whether to send the document by email or as an electronic document, every time you send a document. To learn more, go to [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+You can save time by setting up a preferred method of sending sales documents for each of your customers. Setting a preferred method means you don't have to select a sending option every time you send a document. For example, such as whether to send the document by email or as an electronic document. To learn more, go to [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## Optional: Set up email logging in Exchange Online
 
@@ -249,7 +247,7 @@ If you're using the SMTP Connector and want to use OAuth 2.0 for authentication,
 |Microsoft Graph/SMTP.Send|Delegated|Send emails from mailboxes using SMTP AUTH.         |
 |Office 365 Exchange Online/User.Read |Delegated|Sign in and read user profile.         |
 
-When you create your app registration, note the following information. You need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
+When you create your app registration, note the following information. You use it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
 
 * Application (client) ID
 * Redirect URI (optional)

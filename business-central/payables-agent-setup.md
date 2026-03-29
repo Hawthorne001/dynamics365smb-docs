@@ -21,9 +21,7 @@ Learn more about the agent in [Payables Agent overview](payables-agent.md).
 
 Before configuring and activating the Payables Agent, ensure the following prerequisites are met:
 
-- The Business Central environment is one of these country/region versions: AU (Australia), CA (Canada), DE (Germany), DK (Denmark), ES (Spain), FR (France), GB (United Kingdom), IT (Italy), NZ (New Zealand), or US (United States).
-
-   Payables Agent is currently unavailable in other country/region versions. Learn more about geographic and language availability at [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+- The Business Central environment is a country/region version supported by the Payables Agent as listed in [Feature availability by country/region and language](/dynamics365/business-central/copilot-agents-region-language-availability#feature-availability-by-countryregion-and-language).
 
 - Set up the email account for receiving vendor invoices PDF documents.
 
@@ -133,6 +131,10 @@ Before you can add or delete permission sets applied to the agent, change the **
 1. To open the **Payables Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **PAYABLES AGENT - [COMPANY]**.
 1. Select **Agent User Settings**.
 1. Set **Language** to a supported English locale.
+
+## Next steps
+
+- [Supervise agent activities](supervise-agent-tasks.md)
 
 ## Related information
 
