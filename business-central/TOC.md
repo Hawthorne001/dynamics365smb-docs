@@ -167,6 +167,7 @@ ms.service: dynamics-365-business-central
 ### [Track document lines](across-how-to-track-document-lines.md)
 ### [Send documents by email](ui-how-send-documents-email.md)
 ### [Archive documents](across-how-to-archive-documents.md)
+### [Store document attachments in external file storage](across-store-document-attachments-externally.md)
 ### [Add extended item text](ui-how-define-ext-text.md)
 ### [Define user tasks](across-user-tasks.md)
 ### [Export your business data to Excel](about-export-data.md)
@@ -265,6 +266,7 @@ ms.service: dynamics-365-business-central
 ##### [Organize report data using account categories](bi-account-categories.md)
 ##### [Report selection for finance reports](finance-financial-reporting-report-selection.md)
 ##### [View a financial report](finance-financial-reporting-view-a-report.md)
+##### [Analyze data for some or all values of a dimension](bi-analyze-data-dimension-perspective.md)
 ##### [Integrate financial reports with Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md)
 ##### [Design your own financial reports](bi-design-financial-reports.md)
 ##### [Row definitions in financial reporting](bi-row-definitions.md)
@@ -539,7 +541,7 @@ ms.service: dynamics-365-business-central
 #### [Cash flow overview](finance-cash-flow-overview.md)
 #### [Analyze cash flows in your company](finance-analyze-cash-flow.md)
 #### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
+### [Register excise tax](finance-register-excise-tax.md)
 ### Working with Value Added Tax (VAT)
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
@@ -557,6 +559,10 @@ ms.service: dynamics-365-business-central
 ##### [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)
 ##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
 ##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
+
+### [Calculate withholding tax for vendors](finance-withholding-tax.md)
+### [View withholding tax entries](finance-withholding-tax-entries.md)
+
 
 ### Set up and use E-Documents
 #### [E-Documents overview](finance-edocuments-overview.md)
@@ -822,21 +828,25 @@ ms.service: dynamics-365-business-central
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
 ##### [Inventory - Transaction Detail](reports/report-704.md)
+##### [Inventory Availability](reports/report-705.md)
 ##### [Status](reports/report-706.md)
-##### [Inventory Availability Plan](reports/report-707.md)
 ##### [Inventory Order Details](reports/report-708.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Top 10 List](reports/report-711.md) 
 ##### [Inventory Customer Sales](reports/report-713.md) 
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Inventory Cost and price list](reports/report-716.md) 
-##### [Inventory Sales Back Orders](reports/report-718.md) 
+##### [Inventory Sales Back Orders](reports/report-718.md)
+##### [Inventory Availability Plan (Excel)](reports/report-719.md)
+
+##### [Item/Vendor Catalog](reports/report-720.md)
+
+
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
 ##### [Item Substitutions](reports/report-5701.md) 
 ##### [Item Charges - Specification](reports/report-5806.md) 
-##### [Item Age Composition - Quantity](reports/report-5807.md) 
-##### [Item Age Composition - Value](reports/report-5808.md) 
+##### [Item Age Composition - Quantity and Value (Excel)](reports/report-5808.md) 
 ##### [Item Expiration - Quantity](reports/report-5809.md) 
 ##### [Item Dimensions - Detail](reports/report-7150.md) 
 ##### [Item Dimensions - Total](reports/report-7151.md) 
@@ -845,6 +855,10 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 ##### [Planning Availability](reports/report-99001048.md)
 ##### [Production Forecast](reports/report-990003804.md)
+
+#### Legacy reports (will be removed)
+##### [Inventory Availability Plan](reports/report-707.md)
+##### [Item Age Composition - Quantity](reports/report-5807.md) 
 <!-- Inventory analytics end -->
 
 ### [Register new items](inventory-how-register-new-items.md)
@@ -2166,6 +2180,7 @@ ms.service: dynamics-365-business-central
 #### [Set up calculations and posting methods for value-added tax (VAT)](finance-setup-vat.md)
 #### [Set up unrealized VAT for cash-based accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
+#### [Set up withholding tax](finance-set-up-withholding-tax.md)
 #### [Set up source codes and reason codes for audit trails](finance-setup-trail-codes.md)
 #### [Enable application of ledger entries in different currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Set up an additional reporting currency](finance-how-setup-additional-currencies.md)
@@ -2177,6 +2192,7 @@ ms.service: dynamics-365-business-central
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
 #### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
+#### [Set up excise tax](finance-set-up-excise-tax.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)
@@ -2618,6 +2634,7 @@ ms.service: dynamics-365-business-central
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Inspect pages](across-inspect-page.md)
 ### [View table information](admin-view-table-information.md)
+### [Managing database indexes](manage-indexes.md)
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
