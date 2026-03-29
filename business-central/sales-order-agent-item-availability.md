@@ -1,5 +1,5 @@
 ---
-title: Item availability in Sales Order Agent
+title: Item availability in Sales Order Agent (preview)
 description: Learn about the item availability used by Sales Order Agent and how you can test results on your own.
 author: jswymer
 ms.author: jswymer
@@ -7,16 +7,20 @@ ms.reviewer: jswymer
 ms.topic: article
 ms.collection:
   - bap-ai-copilot
-ms.date: 02/17/2026
+ms.date: 03/29/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410_Primary
 ---
-# Item availability in Sales Order Agent
+# Item availability in Sales Order Agent (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The **Item Availability** page is part of Sales Order Agent for checking item availability during the sales order-taking process. This article provides a detailed overview of how the **Item Availability** page functions, including configuration and field descriptions.
 
 ![Screenshot of Item Availability page](media/soa-item-availability-page-clip.svg "Screenshot of Item Availability page")
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Overview
 
@@ -40,9 +44,11 @@ The agent creates an email about the unavailable items for your review.
 
 ## How to check item availability page
 
-Before the agent calculates the availability and prices for requested items, it searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page.
+Before the agent calculates the availability and prices for requested items, it searches for the customer making the request, retrieves the customer's specific location, and then sets the **Customer No.** and **Location Filter** fields on the **Item Availability** page:
 
-If you have assigned the customer to a location, the program copies the code automatically from the **Customer** table when you fill in the **Customer No.** field. If you have left the **Location** field in the **Customer** table blank, but have assigned a responsibility center to the user or , the program automatically copies the location code from the **Responsibility** Center table. Otherwise, the program copies the code from the **Location** field in the **Company Information** table.
+- If a location is assigned to the customer, the agent automatically copies the location code from the **Customer Card** page to the **Location Filter** field based on the value in the **Customer No.** field.
+- If the **Location Code** field on the **Customer Card** is blank, but a responsibility center is assigned to the user or customer, the agent copies the location code from the **Responsibility Center** page.
+- If neither of these applies, the agent copies the location code from the **Location Code** field on the **Company Information** page.
 
 After setting these fields, the agent calculates the availability of each item in the request one at a time. The agent sets the **Date filter** with the customer's requested delivery date, if any, and the **Quantity Filter** to the requested quantity, currently only in the base unit of measure.
 
