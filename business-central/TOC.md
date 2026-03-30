@@ -2131,8 +2131,8 @@ ms.service: dynamics-365-business-central
 ##### [Set up a posting date warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Enter statutory information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [Send fraud prevention data](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
-##### [The GetAddress.io UK postcodes extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
-##### [Set up the GetAddress.io UK postcodes extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
+##### [Get postal codes with the IdealPostcodes extension](LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes.md)
+##### [Set up the IdealPostcodes extension](LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service.md)
 
 ### United States
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -2666,7 +2666,7 @@ ms.service: dynamics-365-business-central
 #### [Quickbooks payroll file import](ui-extensions-quickbooks-payroll.md)
 #### [Sales and inventory forecast](ui-extensions-sales-forecast.md)
 #### [Service declaration extension](finance-how-setup-use-service-declaration.md)
-#### [UK - GetAddress.io UK postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [IdealPostcodes extension](LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes.md)
 #### [UK - VAT group management](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA - Send remittance advice](ui-extensions-send-remittance-advice.md)
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
