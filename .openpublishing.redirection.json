@@ -1003,6 +1003,11 @@
             "source_path": "business-central/use-payables-agent.md",
             "redirect_url": "/dynamics365/business-central/supervise-agent-tasks",
             "redirect_document_id": "false"
+         },
+         {
+            "source_path": "business-central/finance-bookings.md",
+            "redirect_url": "/dynamics365/business-central",
+            "redirect_document_id": "false"
          }               
         ]
 }
