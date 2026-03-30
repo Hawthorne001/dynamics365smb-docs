@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/14/2025
+ms.date: 03/30/2026
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -106,6 +106,7 @@ Choose the **Retrieved Shopify Data** action on one of the following pages:
 - **Shopify order**
 - **Shopify order line**
 - **Shopify completed fulfillment**
+- **Shopify fulfillment order**
 - **Shopify order shipping costs**
 - **Shopify order transactions**
 - **Shopify return**

@@ -153,7 +153,7 @@ The following table outlines the effects of the **Barcode** field.
 |Status|According to the **Status for Created Products** field in the **Shopify Shop Card**. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |Title | **Description**. If the language code is defined and a corresponding item translation exists, the item translation is used instead of the description.|**Description**|
 |Variant title | **Variant Code**.</br>The reason to use **Code** and not **Description** is because Shopify requires unique variant titles per product. In [!INCLUDE[prod_short](../includes/prod_short.md)] the **Code** is unique, while **Description** isn't. Descriptions that aren't unique cause issues during product export.|**Description** of variant|
-|Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Not used.|
+|Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Marketing text. Marketing text is only imported to newly created items, and doesn't update in later synchronizations.|
 |SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |Media|**Image**. Learn more in the [Sync item images](synchronize-items.md#sync-item-images) section|**Image**|
@@ -169,7 +169,6 @@ The following table outlines the effects of the **Barcode** field.
 |Vendor|**Name** of vendor from **Vendor No.**|**Vendor No.** Mapping by name.|
 |Weight|**Gross Weight**.|Not used.|
 |Taxable|Fixed value: enabled.|Not used.|
-|Tax codes|**Tax Group Code**. Only relevant for sales taxes. Learn more at [Set up Taxes](setup-taxes.md).|Not used.|
 
 ### Import and export product information using Shopify Metafields
 
