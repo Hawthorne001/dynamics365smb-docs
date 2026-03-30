@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 12/11/2025
+ms.date: 02/17/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
@@ -18,6 +18,9 @@ ms.search.form: 4400, 4410
 This article explains how to use Sales Order Agent to automate taking sales orders based on customer inquiries about products/items received via email.
 
 Sales Order Agent monitors a designated mailbox for incoming customer emails about item inquiries. When it identifies a potential request, it starts converting the request into an order. For example, it verifies the customer, checks item availability, creates a sales quote, and prepares an email response to the customer with the quote as a PDF attachment.
+
+> [!NOTE]
+> Sales Order Agent only processes unread email messages. Once an email is marked as read, the agent doesn't react to it.
 
 Some steps require your intervention, such as reviewing email correspondence and assisting the agent as needed. Until an order is created, the agent handles email exchanges with the customer to resolve any missing details and allow for modifications to the original request if necessary.
 

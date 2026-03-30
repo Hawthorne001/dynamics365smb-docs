@@ -16,7 +16,7 @@ ms.reviewer: bholtorf
 
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. Learn more at [Send Documents by Email](ui-how-send-documents-email.md).
 
-Email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] are for outbound messages only. You can't receive replies, that is, there's no "Inbox" page.
+Email in [!INCLUDE[prod_short](includes/prod_short.md)] is only for sending messages, except with AI agents like Sales Order Agent or Payables Agent. For users, there's no inbox page or reply capability inside [!INCLUDE[prod_short](includes/prod_short.md)]. Agents, on the other hand, can monitor and read incoming emails to a specific email account, and then formulate and send replies.
 
 > [!NOTE]
 > You can use the email capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] online only with Exchange Online. We don't support hybrid scenarios, such as connecting [!INCLUDE[prod_short](includes/prod_short.md)] online to an on-premises version of Exchange.
@@ -52,7 +52,7 @@ External users, such as delegated admins and external accountants, can't use the
 > [!NOTE]
 > If you’re using service-to-service (S2S) authentication, the Microsoft 365 and Current user connectors can’t authenticate the user when they send a sales or purchase document by email. When someone sends a document, the following error message displays:
 >
-> “You are not authorized to access this resource: https:\//graph.microsoft.com/.default. Contact your system administrator."
+> “You aren't authorized to access this resource: https:\//graph.microsoft.com/.default. Contact your system administrator."
 >
 > The bound actions on the document APIs that send email cause the problem. To learn more about the bound actions, go to [Bound Actions](/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_salesinvoice#bound-actions). 
 >
@@ -134,8 +134,8 @@ There are a few ways to specify the limit:
 * When you use the Set Up Email assisted setup guide to create a new account, specify the limit in the **Rate limit per minute** field.
 * For existing email accounts, specify:
 
-   * The number of messages an account can send per minute in the **Email rate limit** field on the account.
-   * The maximum number of messages an account can send simultaneously in the **Email Concurrency Limit** field. By default, the limit is **3**, but you can allow up to **10**.
+  * The number of messages an account can send per minute in the **Email rate limit** field on the account.
+  * The maximum number of messages an account can send simultaneously in the **Email Concurrency Limit** field. By default, the limit is **3**, but you can allow up to **10**.
 
 ## Set up reusable email texts and layouts
 
@@ -145,16 +145,16 @@ You can use reports to include key information from sales, purchase, and service
 > To use the layout to create content for email messages, you must use the Word file type for your layout.
 
 1. [!INCLUDE[open-search](includes/open-search.md)], enter **Report Selections - Sales**, and then choose the related link.
-2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
-3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
-4. Select the **Use for Email Body** checkbox.
-5. Choose the **Email Body Layout Description** field, and then select a layout from the list.
-6. To view or edit the layout that the email text is based on, select the layout on the **Report Layouts** page, and then choose the **Export Layout** action. If you customize the layout, use the **Import Layout** action to upload the new layout.
+1. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
+1. On a new line, in the **Report ID** field, select, for example, standard report 1306.
+1. Select the **Use for Email Body** checkbox.
+1. Choose the **Email Body Layout Description** field, and then select a layout from the list.
+1. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Export Layout** action. If you customize the layout, use the **Import Layout** action to upload the new layout.
 
-    > [!NOTE]
-    > To customize a standard report layout, such as 1306, you must make a copy of the report. [!INCLUDE [prod_short](includes/prod_short.md)] creates a copy when you import your own layout for a standard report and prefixes its name with "Copy of."
-7. If you want to let customers use a payment service, such as PayPal, you have to set up the service. Afterward, the PayPal information and link are inserted in the email text. To learn more, go to [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
-8. Choose the **OK** button.
+   > [!NOTE]
+   > To customize a standard report layout, such as 1306, you must make a copy of the report. [!INCLUDE [prod_short](includes/prod_short.md)] helps you create a copy when you import a custom layout for a standard report. The name of your new custom report layout is prefixed with "Copy of."
+1. If you want to let customers use a payment service, such as PayPal, you have to set up the service. Afterward, the PayPal information and link are inserted in the email text. To learn more, go to [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
+1. Choose the **OK** button.
 
 Now, for example, when you choose the **Send** action on the **Posted Sales Invoice** page, the email body contains the document information of report 1306. The information is preceded by styled standard text according to the report layout that you selected in step 5.
 
@@ -299,8 +299,8 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
-[Getting [!INCLUDE[prod_short](includes/prod_short.md)] on My Mobile Device](install-mobile-app.md)   
-[Getting [!INCLUDE[prod_short](includes/prod_short.md)] on My Mobile Device](install-mobile-app.md)   
+[Getting [!INCLUDE[prod_short](includes/prod_short.md)] on My Mobile Device](install-mobile-app.md)  
+[Getting [!INCLUDE[prod_short](includes/prod_short.md)] on My Mobile Device](install-mobile-app.md)  
 [Analyzing Email Telemetry (administration content)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
