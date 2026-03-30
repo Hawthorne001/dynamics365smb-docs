@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Inspect the quality of production output
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains how to set up quality management to automatically create quality inspections for production output when you post manufacturing operations. For example, these inspections enable:
 
 - Finished goods inspection

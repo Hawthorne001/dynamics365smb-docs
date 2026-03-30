@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Quality management workflows
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains how to set up and use workflows to automate quality management processes.
 
 Quality Management integrates with workflows in [!INCLUDE [prod_short](includes/prod_short.md)] to automate responses to quality inspection events. Workflows can automatically run business actions when quality inspections are created, finished, or when specific conditions are met. For example, quality management workflows can:
@@ -23,21 +21,6 @@ Quality Management integrates with workflows in [!INCLUDE [prod_short](includes/
 - Block and unblock lots.
 - Move inventory.
 - Create negative adjustments.
-
-## Enable workflow integration
-
-Before creating quality management workflows, ensure that workflow integration is enabled:
-
-1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Management Setup**, and then choose the related link.
-2. On the **Defaults** FastTab, turn on the **Workflow Integration Enabled** toggle.
-
-   > [!TIP]
-   > By default, the toggle is hidden. To access it, you might have to choose **Show more**.
-
-3. Configure the required journal batches for automated processes.
-
-> [!IMPORTANT]
-> If you don't enable workflow integration, quality inspection events aren't available when you configure your quality management workflows.
 
 ## Typical quality workflow events
 
@@ -78,7 +61,7 @@ The following sections describe the responses, or actions, that happen after an 
 
 ### Lot, serial, and package number blocking actions
 
-**Block the Lot (Serial, Package) in the Test**:
+**Block the Lot (Serial, Package) in the Inspection**:
 
 - Creates a **Lot No. Information Card** page with the status **Blocked**. The status prevents all transactions for the lot until you manually unblock it.
 - The standard lot blocking functionality in [!INCLUDE [prod_short](includes/prod_short.md)] applies. To learn more, go to [Block items or item variants from use in sales, purchasing, service, and production](inventory-how-block-items.md).
@@ -102,6 +85,11 @@ The following sections describe the responses, or actions, that happen after an 
 - Useful for quarantine or rework locations.
 - You can configure the action for automatic or manual posting.
 
+**Create Internal Put-away**:
+
+- Generates a warehouse put-away for inventory staging.
+- Supports quality inspection workflows in warehouse environments.
+
 ### Inventory adjustment actions
 
 **Create Negative Adjustment**:
@@ -119,10 +107,22 @@ The following sections describe the responses, or actions, that happen after an 
 - Useful for corrective action processes.
 - Can use the same or different inspection templates.
 
-**Create Internal Put-away**:
+> [!NOTE]
+> Some workflows actions require that you configure journal and worksheet batches on the **Quality Management Setup** page:
+>
+> - Use **Item Journal Batch** for nonwarehouse location adjustments.
+> - Use **Warehouse Item Journal Batch** for warehouse location adjustments.
+> - Use **Warehouse Movement Worksheet** for directed put-away/pick movements.
+> - Use **Warehouse Reclass Journal Batch** for warehouse reclassifications.
+> - Use **Item Reclass Journal Batch** for nonwarehouse reclassifications.
+> 
+> When a disposition action creates multiple journal lines, for example, when the same lot exists in multiple bins, the system posts each line independently rather than as a single transaction. This means:
+> - Lines that post successfully are committed immediately.
+> - Lines that fail, for example, due to inventory shortages, locked records, or bin conflicts, remain in the journal for manual resolution.
+> - The inspection status still transitions, for example, to **Finished**, even if some disposition lines fail. A single failing line doesn't block the entire operation.
+>  
+> This partial posting behavior preserves forward progress in high-volume or semi-automated environments and avoids rolling back successfully posted lines when an unrelated line fails. After a partial posting, check the relevant journal (warehouse journal or item journal) for unposted lines. These lines require manual attention before the disposition is fully complete.
 
-- Generates a warehouse put-away for inventory staging.
-- Supports quality inspection workflows in warehouse environments.
 
 ## Examples of workflow configuration
 
@@ -206,70 +206,8 @@ The following are outcomes of this example:
 - Accurate cost accounting for quality losses.
 - An audit trail for the disposed materials.
 
-## Advanced workflow scenarios
 
-The following sections describe examples of advanced scenarios in which quality management workflows are useful.
 
-### Conditional, result-based processing
-
-You can use multiple failure types:
-
-- Create separate workflows for different failure results.
-- Use different responses based on the severity of the failure.
-- Implement escalation procedures for critical failures.
-
-You can use location-specific processing:
-
-- Create different workflows for different locations.
-- Implement location-specific quarantine procedures.
-- Meet country/regional compliance requirements.
-
-### Integration with other features
-
-You can integrate your quality management workflows with purchase returns:
-
-- Automatically create purchase returns for vendor defects.
-- Link to vendor quality performance tracking.
-- Streamline vendor corrective action processes.
-
-You can integrate your quality management workflows with production processes:
-
-- Automatically create rework orders for repairable items.
-- Control the quality of production output.
-- Enable work center quality tracking.
-
-### Requirements for batches
-
-Workflows require that you configure journal batches on the **Quality Management Setup** page:
-
-- Use **Item Journal Batch** for nonwarehouse location adjustments.
-- Use **Warehouse Item Journal Batch** for warehouse location adjustments.
-- Use **Warehouse Movement Worksheet** for directed put-away/pick movements.
-- Use **Warehouse Reclass Journal Batch** for warehouse reclassifications.
-- Use **Item Reclass Journal Batch** for nonwarehouse reclassifications.
-
-## Validate your workflow configuration
-
-The following are high-level steps to validate your workflow configuration:
-
-1. Create an inspections scenario:
-   - Generate a quality inspection through a normal business process.
-   - Verify that the workflow events trigger correctly.
-   - Confirm that the conditions evaluate correctly.
-2. Check the response actions:
-   - Verify that the intended actions happen.
-   - Review the journal entries that you created.
-   - Confirm the blocking and unblocking behavior.
-3. Business process integration:
-   - Use inspections with actual business transactions.
-   - Verify that documents post correctly.
-   - Confirm that the user experience meets your expectations.
-
-## Best practices
-
-Be diligent when you design your workflow. Start simple, with basic scenarios and gradually add complexity. Be sure to thoroughly validate your workflows in a development environment before you use them in production. Document your process and keep clear records of your workflow business rules. Also, keep an eye on performance. Regularly review your workflow runs, and maintain override capabilities for exceptions.
-
-Monitor the business effects of your workflows, and set up audit trails and approval processes. Help your users engage by ensuring that they understand the automated process, and incorporate their suggestions for process improvements.
 
 ## Related information
 

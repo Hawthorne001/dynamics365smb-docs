@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Set up quality inspection generation rules
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 Quality inspection generation rules define when and how to automatically create quality inspections in response to business transactions. These rules connect your quality inspection templates to specific business processes.
 
 An inspection generation rule defines when you want to ask a set of questions or collect the data you want. You define the questions and data, such as measurements, in your quality inspection template. You connect a template to a source table, and set the criteria to use that template with the table filter. When a template meets the filter criteria, that template is used. If multiple templates meet the criteria, the template with the lowest sort order is used.
