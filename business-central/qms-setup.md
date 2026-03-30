@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Quality management setup and configuration
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains the initial setup and configuration of quality management features.
 
 ## Typical setup scenarios
@@ -119,11 +117,11 @@ The following steps describe settings you can use to get started with quality ma
 1. On the **Inventory Adjustments** FastTab, specify the item journal batch or warehouse item journal batch to use to reduce inventory quantities. Your choice depends on whether your warehouse is set up to use directed put-away and pick. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 1. On the **Item Tracking** FastTab, in the **Tracking Before Finishing** field, specify whether to require item tracking before finishing an inspection:
 
-   - **Allow without item tracking** allows inspections without lot or serial numbers.
-   - **Allow only posted item tracking** requires you to post lot or serial numbers.
-   - **Allow reserved or posted item tracking** allows lot or serial numbers that exist but aren't posted yet.
-   - **Allow any non-empty value** allows any lot or serial value, even if they aren't in inventory.
-
+   - **Allow without item tracking**: Use this option if you don't use lot or serial numbers, or if you have processes where inspections won't have known lot or serial numbers. For example, inspections created during production that prevent the product from being produced might not have a lot or serial number yet. Inspections without lot or serial numbers are permitted.
+   - **Allow only posted item tracking**: Use this option if all lot or serial numbers must be posted before you can finish an inspection. For example, if you inspect finished goods the lot or serial number should exist. If you inspect lots when they're moved to a bin, the lot or serial number must exist.
+   - **Allow reserved or posted item tracking**: Use this option if lot or serial numbers need to be in the system but might not yet be posted. For example, lots that are being received or produced might not yet be received or produced, but do exist on your item tracking lines.
+   - **Allow any non-empty value**: Use this option if you want to track lot or serial numbers that don't enter the system but need inspections to document why they didn't. For example, if you reject a lot during the receiving process and the failed lot is never put away. Or, if you're producing and know the intended lot or serial number but the in-progress item is discarded before it's posted to inventory. Inspections with lot or serial numbers that aren't in your inventory are permitted.
+     
 1. In the **Quality inspection selection criteria** field, specify the inspections to consider when evaluating whether to block a document-specific transaction.
    
    - **Any inspection that matches** considers any inspection.

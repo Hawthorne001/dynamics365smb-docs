@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Manual inspection creation
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains various ways to manually create quality inspections. Manual inspection creation provides flexibility for:
 
 - Reactive inspections, where you create inspections in response to discovered quality issues.
@@ -105,9 +103,19 @@ This method is best for creating inspections that are independent of specific do
 4. Set up parameters for your inspection, as follows:
 
    - **Source**: Enter the source document reference.
-   - **Item Number**: Select the item to inspect.
    - **Lot/Serial Number**: Enter a lot or serial number, if needed.
-   - **Quantity**: Specify the quantity to inspect.
+
+### Create an inspection by running the Schedule Inspection report
+
+This method is best for bulk-creating inspections across multiple items or generation rules at once. Unlike other manual methods, you don't need to select a specific source record such as a purchase line or item ledger entry - the report automatically finds matching source records based on the conditions defined in each generation rule. 
+
+> [!Important]
+> The report creates inspections for all enabled generation rules that match your filters. If you don't apply filters, it processes every enabled rule against all matching source records, which can generate a large number of inspections. Always filter by **Template Code** or other criteria to limit the scope before running the report.
+
+1. [!INCLUDE [open-search](includes/open-search.md)], enter **Quality Inspection - Schedule Inspection**, and then choose the related link.
+2. Use the **Template Code** filter to target generation rules linked to a specific template. Use additional filters to narrow the scope and avoid creating too many inspections.
+3. Choose **OK** to run the report. Inspections are created for all matching, enabled generation rules.
+
 
 <!--
 ## Scenarios where you might create inspections manually
