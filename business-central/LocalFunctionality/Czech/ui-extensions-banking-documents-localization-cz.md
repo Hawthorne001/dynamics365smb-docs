@@ -4,7 +4,7 @@ description: Learn about the features and functionality of the Banking Documents
 author: v-pejano
 ms.topic: concept-article
 ms.search.keywords: Czech, Finance, Banking, Localization
-ms.date: 03/17/2026
+ms.date: 03/30/2026
 ms.reviewer: v-soumramani
 ms.author: v-jurxova
 ---
@@ -26,7 +26,7 @@ This feature provides improved efficiency and prevents users from making mistake
 
 **Transfer journal line description to bank statements**:
 
-We added a **Keep Description** field to the Bank Account Card page with the following attributes:
+The **Keep Description** field has been added to the Bank Account Card page with the following attributes:
 
 - The field is also available on the request page of the Create General Journal report.
 - The default value on the report is inherited from the selected bank account.

@@ -1457,6 +1457,7 @@ ms.service: dynamics-365-business-central
 ##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
 ##### [Non-Deductible VAT](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [VAT Return CZ](LocalFunctionality/Czech/vat-return-cz.md)
+##### [VAT Return Period](LocalFunctionality/Czech/vat-return-periods.md)
 ##### [Functional Currency – Czechia](LocalFunctionality/Czech/functional-currency.md)
 ##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Fixed Assets

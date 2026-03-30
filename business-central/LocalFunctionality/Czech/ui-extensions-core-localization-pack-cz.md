@@ -5,7 +5,7 @@ author: brentholtorf
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 03/17/2026
+ms.date: 03/30/2026
 ms.reviewer: v-soumramani
 ms.author: v-jurxova
 ms.service: dynamics-365-business-central

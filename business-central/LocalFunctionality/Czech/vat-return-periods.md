@@ -6,7 +6,7 @@ ms.author: v-jurxova
 ms.reviewer: v-soumramani
 ms.search.keywords: CZ, Czech, Currency, Finance, Accounting, VAT Return Periods
 ms.topic: article
-ms.date: 03/17/2026
+ms.date: 03/30/2026
 ms.search.form: 118
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -14,15 +14,15 @@ ms.custom: bap-template
 
 # Align VAT periods with Microsoft standard in the Czech version
 
-The feature consolidates the Czech localization functionality VAT Period into the standard VAT Return Period table. All processes previously based on VAT Period—such as period generation, closing, and posting checks—will now operate on VAT Return Period.
+The feature consolidates the Czech localization functionality, VAT Period, into the standard VAT Return Period table. All processes previously based on VAT Period, such as period generation, closing, and posting checks operate on VAT Return Period.
 
 Key elements include:
 
-- Data Migration: Existing VAT Period records will be migrated to VAT Return Period during the upgrade.
+- Data Migration: Existing VAT Period records are migrated to VAT Return Period during the upgrade.
 - Synchronization: Bidirectional synchronization between VAT Period and VAT Return Period ensures data consistency.
-- New Report: Create VAT Return Periods report for generating periods with parameters (start date, number of periods, length, due date).
-- Report Updates: Reports such as VAT Statement Preparation, Calculate and Post VAT Settlement, and Export VAT Statement will reference VAT Return Period.
-- Feature Management: Controlled activation via Feature Management, allowing testing in sandbox environments before enabling in production.
+- New Report: Create VAT Return Periods report for generating periods with parameters (start date, number of periods, length, and due date).
+- Report Updates: Reports such as VAT Statement Preparation, Calculate and Post VAT Settlement, and Export VAT Statement reference VAT Return Period.
+- Feature Management: Controlled activation via Feature Management allows testing in sandbox environments before enabling in production.
 
 ## Related information
 

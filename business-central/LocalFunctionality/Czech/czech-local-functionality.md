@@ -5,7 +5,7 @@ author: v-pejano
 ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, Cash Desk
-ms.date: 03/17/2026
+ms.date: 03/30/2026
 ms.reviewer: v-soumramani
 ms.author: v-jurxova
 ---
@@ -49,6 +49,7 @@ The following articles describe the local functionality in the Czech version of 
   * [VAT Correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
   * [Non-deductible VAT](non-deductible-vat.md) **Available Now**
   * [VAT Return CZ](vat-return-cz.md) **Available Now**
+  * [VAT Return Period)](vat-return-periods.md) **Available Now**
   * [Functional Currency – Czechia](functional-currency.md) **Available Now**
   * [Intrastat CZ (Extension)](ui-extensions-intrastat-localization-cz.md) **Available Now**
 
