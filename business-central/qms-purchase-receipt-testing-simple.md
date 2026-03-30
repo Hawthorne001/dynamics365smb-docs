@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Purchase receipt inspections without warehouse handling
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains how to set up and use automatic quality inspection creation for purchase receipts in locations without warehouse handling. For example, the Silver location in the Contoso demo data.
 
 For locations without warehouse handling, quality inspections are created automatically when you post purchase receipts. This simpler workflow is ideal for:

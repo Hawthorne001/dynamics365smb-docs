@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Block or unblock lots
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains how to automatically block and unblock inventory lots (serial numbers and packages) using workflows and result-specific controls. 
 
 There are two main approaches for lot blocking:

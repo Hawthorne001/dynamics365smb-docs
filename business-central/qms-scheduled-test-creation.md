@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Create scheduled quality inspections
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains how to set up and use quality inspections that are created automatically and scheduled to run at regular intervals using job queue entries.
 
 Scheduled inspections enable proactive quality management. They automatically generate quality inspections based on time intervals, rather than business transactions. Using a scheduled inspection approach is ideal for:

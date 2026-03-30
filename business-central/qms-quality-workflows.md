@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Quality management workflows
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains how to set up and use workflows to automate quality management processes.
 
 Quality Management integrates with workflows in [!INCLUDE [prod_short](includes/prod_short.md)] to automate responses to quality inspection events. Workflows can automatically run business actions when quality inspections are created, finished, or when specific conditions are met. For example, quality management workflows can:
@@ -109,7 +107,7 @@ The following sections describe the responses, or actions, that happen after an 
 - Useful for corrective action processes.
 - Can use the same or different inspection templates.
 
->[!NOTE]
+> [!NOTE]
 > Some workflows actions require that you configure journal and worksheet batches on the **Quality Management Setup** page:
 >
 > - Use **Item Journal Batch** for nonwarehouse location adjustments.

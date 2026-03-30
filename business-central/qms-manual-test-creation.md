@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Manual inspection creation
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains various ways to manually create quality inspections. Manual inspection creation provides flexibility for:
 
 - Reactive inspections, where you create inspections in response to discovered quality issues.

@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Process items that failed a quality inspection
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains how to deal with items that don't pass quality inspection. When goods fail a quality inspection, there are options to manually or automatically handle the noncompliant items:
 
 - Block items to prevent the use of failed lots (serial and package numbers).
@@ -24,10 +22,10 @@ This article explains how to deal with items that don't pass quality inspection.
 - Transfer items to different locations.
 - Return defective items to suppliers.
 
-Same options can be triggered automatically using workflows. For more information, see [Quality management workflows](qms-quality-workflows).
+These options can be triggered automatically using workflows. To learn more, go to [Quality management workflows](qms-quality-workflows.md).
 
->[!Note]
->For items with lot, serial, or package tracking, you can specify how quality inspection results affect specific document transactions. For example, you can block purchase documents while inspections are in progress and block sales documents for failed inspections. Learn more at [Lot blocking and unblocking](qms-lot-blocking-unblocking.md)
+> [!Note]
+> For items with lot, serial, or package tracking, you can specify how quality inspection results affect specific document transactions. For example, you can block purchase documents while inspections are in progress and block sales documents for failed inspections. Learn more at [Lot blocking and unblocking](qms-lot-blocking-unblocking.md)
 
 
 The following sections describe some actions you can take when an item fails an inspection.
