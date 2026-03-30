@@ -13,8 +13,6 @@ ms.service: dynamics-365-business-central
 
 # Resources for help and support
 
-[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
-
 Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they might experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Learn how your AI-powered assistant [can guide and explain](#chat-with-copilot)
@@ -96,7 +94,7 @@ The **Find it** section includes two links to product Help:
   
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described in the [Dynamics 365 Business Central documentation](/dynamics365/business-central) Learn more in the [Learn more using the product documentation](#learn-more-using-the-product-documentation) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
+  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described in the [Dynamics 365 Business Central documentation](/dynamics365/business-central) Learn more in the [Learn more using the product documentation](#learn-more-using-the-product-documentation) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from Marketplace. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### Community
 

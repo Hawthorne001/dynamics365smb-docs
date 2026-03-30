@@ -5,10 +5,10 @@ author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/10/2025
+ms.date: 02/27/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: 103_Primary, 104_Primary, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
+ms.search.form: 103_Primary, 104_Primary, 195, 196, 197, 198, 489, 490, 764, 765, 766
 ms.service: dynamics-365-business-central
 ---
 
@@ -33,16 +33,25 @@ To edit the content of a row definition, follow these steps:
 1. Choose the **Insert G/L Accounts**, **Insert CF Accounts**, and **Insert Cost Types** actions to create a row for each financial element you want to analyze. For example, you might have one row for current assets and another row for fixed assets. For inspiration, explore the financial reports in the CRONUS demonstration company.
 
     > [!NOTE]
-    > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. You use these identifiers for calculated rows in the **Totalling** field. If needed, you can manually edit the identifiers after you insert the elements.
+    > The **Row No.** field can hold up to 10 characters and denote a row identifier, such as an account number or text, like "Revenue" or "R". You use these identifiers for calculated rows in the **Totalling** field. The **Row No.** values don't need to be unique in the row definition.
+    >
+    > If needed, you can manually edit the identifiers after you add elements, either directly on the page or in Excel.
+
+1. To format the rows, choose the **Bold**, **Italic**, **Underline**, and **Double Underline** checkboxes. To learn more about formatting, go to [Format your financial reporting](#format-rows-in-your-financial-reports).
 
    > [!NOTE]
    > The columns you define in a column definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
 
-1. To format the rows, choose the **Bold**, **Italic**, **Underline**, and **Double Underline** checkboxes. To learn more about formatting, go to [Format your financial reporting](#format-rows-in-your-financial-reports).
-
 ## Working with row formulas
 
 A powerful feature in Financial Reporting is that you can use values computed in previous rows in row formulas defined in subsequent rows. Set the **Totaling Type** to **Formula**, and then write your calculation in the **Totalling** field on the same row.
+
+> [!TIP]
+> The formula language supports basic arithmetic operations such as addition (+), subtraction (-), multiplication (*), and division (/). You can also use parenthesis to group terms in the calculation.
+> 
+> The *Row No.* referenced in these formulas are filters, so you can also write terms like 'R|L', and 'L..R'. If multiple lines share the same *Row No.*, you can sum them by writing that value (refer to the example in the table below).
+>
+> But, you can also calculate one value as a percentage of another using the syntax **A%B** (read A as a percentage of B).
 
 The following excerpt of a row definition illustrates how row formulas work. Your chart of accounts structure might differ from the accounts shown.
 
@@ -56,8 +65,9 @@ The following excerpt of a row definition illustrates how row formulas work. You
 | L       | Total liabilities  | Account Category     | Liabilities                  | | Yes |
 |         | Revenue to liabilities | Formula      | F1 / L                          | | Yes |
 
-The example illustrates some different tips and tricks:
+The example illustrates some tips and tricks:
 
+* Not all lines need to have a *Row No.*
 * You can use a formula row as a code comment. Remember to set the **Show** option to **No**.
 * The formula in row F1 summarizes all numbers from rows with **R** in the **Row No.** field (the Row No. setting doesn't have to be unique).
 * You can use results from previous calculations in new row formulas.

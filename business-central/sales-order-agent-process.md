@@ -1,5 +1,5 @@
 ---
-title: Process sales quotes and orders with Sales Order Agent (preview)
+title: Process sales quotes and orders with Sales Order Agent
 description: Learn how to use the Sales Order Agent to process sales quotes and orders from customer email requests.
 author: jswymer
 ms.author: jswymer
@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.collection:
   - bap-ai-copilot
-ms.date: 10/29/2025
+ms.date: 12/11/2025
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.search.form: 4400, 4410
@@ -25,7 +25,9 @@ Learn more about Sales Order Agent and its process flow in [How the agent proces
 
 ## Supported languages
 
-[!INCLUDE[soa-language-support](includes/soa-language-support.md)]
+<!--[!INCLUDE[soa-language-support](includes/soa-language-support.md)]-->
+
+[!INCLUDE[copilot-language-support](includes/copilot-language-support.md)]
 
 ## Prerequisites
 
@@ -70,7 +72,7 @@ Steps requiring intervention are listed under **Needs Attention** in the **Tasks
    - Review the email contents or the quote or order and make changes as needed. You can't edit incoming emails from the customer.
    - If the agent needs assistance, a message appears at the top of the text explaining the problem.
 
-     You often help the agent by making changes yourself, like making an item available, creating the right customer, contact, or vendor, or changing quantities in sales quotes. You can also [give instructions](use-payables-agent.md#give-instructions-to-the-agent) to guide the agent to make changes for you.
+     You often help the agent by making changes yourself, like making an item available, creating the right customer, contact, or vendor, or changing quantities in sales quotes. You can also [give instructions](supervise-agent-tasks.md#give-instructions-to-the-agent) to guide the agent to make changes for you.
 
 1. When you're satisfied with the content and want the process to continue, select **Confirm** in the **Review** pane. If you want to complete the task yourself, select **Stop** to halt the agent's processing of this task.
 
