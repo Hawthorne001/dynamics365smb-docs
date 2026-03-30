@@ -1000,5 +1000,10 @@
 
         
          
+         {
+            "source_path": "business-central/use-payables-agent.md",
+            "redirect_url": "/dynamics365/business-central/supervise-agent-tasks",
+            "redirect_document_id": "false"
+         }               
         ]
 }

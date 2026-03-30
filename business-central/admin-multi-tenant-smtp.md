@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 01/30/2026
+ms.date: 03/19/2026
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 
@@ -48,10 +48,10 @@ The following list gives an overview of the steps to use OAuth 2.0 with the SMTP
 |Step  |Action  |Tenant  |
 |------|---------|---------|
 |1     | [Create an application registration in Azure portal](#create-an-application-registration-in-azure-portal)  | Tenant A (App / Mailbox tenant)        |
-|2     |[Grant API permissions](#grant-api-permissions)|  Tenant A (App / Mailbox tenant)       |
-|3     |    [Create a client secret or certificate](#create-a-client-secret-or-certificate)     |Tenant A (App / Mailbox tenant)|
+|2     | [Grant API permissions](#grant-api-permissions)|  Tenant A (App / Mailbox tenant)       |
+|3     | [Create a client secret or certificate](#create-a-client-secret-or-certificate)     |Tenant A (App / Mailbox tenant)|
 |4     | [Register the service principal in Exchange Online](#register-the-service-principal-in-exchange-online)  | Tenant A (App / Mailbox tenant)        |
-|5     |[Grant the app permission to send as your mailbox](#grant-the-app-permission-to-send-as-your-mailbox)| Tenant A (App / Mailbox tenant)        |
+|5     | [Grant the app permission to send as your mailbox](#grant-the-app-permission-to-send-as-your-mailbox)| Tenant A (App / Mailbox tenant)        |
 |6     | [Verify your SMTP OAuth configuration](#verify-your-smtp-oauth-configuration) | Tenant A (App / Mailbox tenant)        |
 |7     | [Set up the SMTP connector in Business Central](#set-up-the-smtp-connector-in-business-central) | Tenant B (Business Central tenant)        |
 
@@ -142,7 +142,8 @@ To learn more about the service principal, go to [Register a Microsoft Entra app
 
    Import-Module ExchangeOnlineManagement
    # Login with Tenant A admin
-   
+   Connect-ExchangeOnline -UserPrincipalName admin@yourtenantA.onmicrosoft.com
+
    $AppId     = <your app ID> # The App ID of the enterprise app in Tenant A's Microsoft Entra admin center.
    $ServiceId = <your service ID> # The object ID of the enterprise app in Tenant A's Microsoft Entra admin center.
    $Display   = "SMTP_OAuth_App" # The name of the service principal you want to create.
@@ -277,7 +278,19 @@ To learn more about the SMTP connector, go to [Set up email](admin-how-setup-ema
    |Redirect URI     |         | This URI is only relevant for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. You can customize the value, but if you do, you must update your app registration in Azure portal.     |
    |Use custom app registration| | If you want to use a custom app registration, turn on the toggle. |
 
-2. To complete the account setup, choose **Next**, and then give consent.
+1. To complete the account setup, choose **Next**, and then give consent.
+
+### Important: Admin consent and tenant selection
+
+When the consent prompt appears, sign in with an *admin account from Tenant A*, not Tenant B. The account must have one of the following roles in Tenant A:
+
+  - **Global Administrator**  
+  - **Exchange Administrator**
+
+This consent grants the application the **SMTP.SendAsApp** permission in **Tenant A’s Exchange Online**.
+
+> [!NOTE]
+> Although you do the setup in Tenant B ([!INCLUDE [prod_short](includes/prod_short.md)] tenant), the consent always applies to Tenant A, which hosts Exchange Online and the mailboxes.
 
 ## Send a test email
 
@@ -418,12 +431,18 @@ if (-not $line.StartsWith("220")) {
     throw "STARTTLS failed: $line"
 }
 
-$sslStream = New-Object System.Net.Security.SslStream(
-    $networkStream,
-    $false,
-    { param($sender, $cert, $chain, $errors) return $true }
-)
-$sslStream.AuthenticateAsClient($server)
+#Define Tls12 forSsslTream 
+$sslStream = New-Object System.Net.Security.SslStream( 
+    $networkStream, 
+    $false 
+) 
+
+$sslStream.AuthenticateAsClient( 
+    $server,                                # Target host (must match cert) 
+    $null,                                  # Client certificates 
+    [System.Security.Authentication.SslProtocols]::Tls12, 
+    $false                                  # Check certificate revocation 
+) 
 
 $reader = New-Object System.IO.StreamReader($sslStream)
 $writer = New-Object System.IO.StreamWriter($sslStream)
