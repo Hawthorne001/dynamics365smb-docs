@@ -183,6 +183,10 @@ If you want to edit all the lines in a row definition, with the Edit in Excel ac
 
 To learn more, go to [Edit in Excel](across-work-with-excel.md#edit-in-excel).
 
+## Manage the lifecycle of row definitions
+
+[!INCLUDE [block-row-column-def](includes/block-row-column-def.md)] 
+
 ## Best practices for working with row definitions
 
 Row definitions aren't versioned. When you change a row definition, the old version is replaced when your change saves to the database. The following list contains some best practices for working with row definitions:
