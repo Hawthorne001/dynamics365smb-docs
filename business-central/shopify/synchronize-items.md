@@ -167,7 +167,7 @@ The following table outlines the effects of the **Barcode** field.
 |Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Marketing text. Marketing text is only imported to newly created items, and doesn't update in later synchronizations.|
 |SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
-|Media|**Image**. Learn more in the [Sync item images](synchronize-items.md#sync-item-images) section|**Image**|
+|Media|**Image**. Learn more in the [Sync images of items and item variants](#sync-images-of-items-and-item-variants) section|**Image**|
 |Price|The calculation of the end-customer price includes the item unit price, customer price group, customer discount group, and currency code. Learn more in the [Sync prices](synchronize-items.md#sync-prices-with-shopify) section|**Unit Price**. The price is only imported to newly created items and doesn't update in later synchronizations.|
 |Compare at price|The calculation of the price without a discount. If the value is less than or equal to **Price**, the connector sends 0 (null) instead of the actual value.|Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items and doesn't update in later synchronizations.|
