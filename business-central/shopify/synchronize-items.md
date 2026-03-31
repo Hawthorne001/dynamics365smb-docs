@@ -164,11 +164,11 @@ The following table outlines the effects of the **Barcode** field.
 |Status|According to the **Status for Created Products** field in the **Shopify Shop Card**. Learn more at [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Not used.|
 |Title | **Description**. If the language code is defined and a corresponding item translation exists, the item translation is used instead of the description.|**Description**|
 |Variant title | **Variant Code**.</br>The reason to use **Code** and not **Description** is because Shopify requires unique variant titles per product. In [!INCLUDE[prod_short](../includes/prod_short.md)] the **Code** is unique, while **Description** isn't. Descriptions that aren't unique cause issues during product export.|**Description** of variant|
-|Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Not used.|
-|SEO page title|Fixed value: empty. Learn more at [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Not used.|
-|SEO meta description|Fixed value: empty. Learn more at [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Not used.|
-|Media|**Image**. Learn more at [Sync images of items and item variants](#sync-images-of-items-and-item-variants).|**Image**|
-|Price|The calculation of the end-customer price includes the item unit price, customer price group, customer discount group, and currency code. Learn more at [Sync prices](synchronize-items.md#sync-prices-with-shopify).|**Unit Price**. The price is only imported to newly created items and doesn't update in later synchronizations.|
+|Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Marketing text. Marketing text is only imported to newly created items, and doesn't update in later synchronizations.|
+|SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
+|SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
+|Media|**Image**. Learn more in the [Sync images of items and item variants](#sync-images-of-items-and-item-variants) section|**Image**|
+|Price|The calculation of the end-customer price includes the item unit price, customer price group, customer discount group, and currency code. Learn more in the [Sync prices](synchronize-items.md#sync-prices-with-shopify) section|**Unit Price**. The price is only imported to newly created items and doesn't update in later synchronizations.|
 |Compare at price|The calculation of the price without a discount. If the value is less than or equal to **Price**, the connector sends 0 (null) instead of the actual value.|Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items and doesn't update in later synchronizations.|
 |SKU|Learn about SKUs under **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|Learn about SKUs in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
@@ -180,7 +180,6 @@ The following table outlines the effects of the **Barcode** field.
 |Vendor|**Name** of vendor from **Vendor No.**|**Vendor No.** Mapping by name.|
 |Weight|**Gross Weight**.|Not used.|
 |Taxable|Fixed value: enabled.|Not used.|
-|Tax codes|**Tax Group Code**. Only relevant for sales taxes. Learn more at [Set up Taxes](setup-taxes.md).|Not used.|
 
 ### Import and export product information using Shopify Metafields
 
