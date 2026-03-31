@@ -49,7 +49,7 @@ The following articles describe the local functionality in the Czech version of 
   * [VAT Correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
   * [Non-deductible VAT](non-deductible-vat.md) **Available Now**
   * [VAT Return CZ](vat-return-cz.md) **Available Now**
-  * [VAT Return Period)](vat-return-periods.md) **Available Now**
+  * [VAT Return Period](vat-return-periods.md) **Available Now**
   * [Functional Currency – Czechia](functional-currency.md) **Available Now**
   * [Intrastat CZ (Extension)](ui-extensions-intrastat-localization-cz.md) **Available Now**
 
