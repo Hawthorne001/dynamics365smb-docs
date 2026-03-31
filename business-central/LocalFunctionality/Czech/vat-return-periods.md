@@ -1,13 +1,13 @@
 ---
 title: VAT Return Periods in the Czech version
 description: Learn about VAT Return Periods in Czechia, and how it's used in Business Central for VAT reporting.
-author: jurxova
-ms.author: v-jurxova
-ms.reviewer: v-soumramani
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.search.keywords: CZ, Czech, Currency, Finance, Accounting, VAT Return Periods
-ms.topic: article
+ms.topic: concept-article
 ms.date: 03/30/2026
-ms.search.form: 118
+ms.search.form: 118,
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
