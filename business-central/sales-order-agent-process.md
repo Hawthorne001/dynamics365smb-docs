@@ -38,18 +38,18 @@ Sales Order Agent is activated, and you have permission to use it. Learn more in
 
 ## Get started
 
-You collaborate with Sales Order Agent to review and convert quotes into orders using the **Tasks** tab in the **Copilot** pane.
+You collaborate with Sales Order Agent to review and convert quotes into orders using the **Tasks** pane. This side pane shows tasks from a selected agent and lets you monitor task status, review agent‑generated drafts and suggestions, and provide confirmations or input to move tasks forward.
 
 To access this view, select ![Shows Sales Order Agent icon.](media/soa-activated-number-icon.png) **Sales Order Agent** on the upper right of the navigation menu. A red circle with a number on the icon indicates the tasks that need attention.
 
 ![Shows the task view with steps](media/soa-task-view-callouts.png "Shows the task view with steps")
 
-The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** tab opens in the **Copilot** pane to display tasks recently created by Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
+The ![Shows the task view icon](media/sot-task-view-icon.png) **Tasks** pane opens in the **Copilot** pane to display tasks recently created by Sales Order Agent. Tasks that require attention&mdash;like reviewing an incoming or outgoing email&mdash;are at the top of the list.  
 
 For each sales quote request, Sales Order Agent adds a task to track, review, and follow up on updates, eventually processing the quote into an order. Tasks can consist of multiple steps that form a timeline of the process.
 
 > [!TIP]
-> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the navigation menu or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** tab to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
+> Hover over the ![Shows Sales Order Agent icon with an open action.](media/soa-activated-icon.png) **Sales Order Agent** icon in the navigation menu or select the ![Show summary for Sales Order Agent icon](media/soa-summary-icon.png) **Show summary for Sales Order Agent** in the **Task** pane to get an overview of the agent's key performance indicators (KPIs) summarizing the impact of the agent's work in your organization. For example, view the number of sales quotes or orders created by the agent, the time saved by your team, and the total number of sales orders created.
 
 ## Review and assist
 
@@ -60,15 +60,15 @@ While the agent does the bulk of work autonomously, it asks for user interventio
 - Reviewing outgoing emails created by Sales Order Agent for the customer.
 - Providing assistance to Sales Order Agent when it needs to get unblocked—for example, to provide missing data.
 
-Steps requiring intervention are listed under **Needs Attention** in the **Tasks** tab. To review a step:
+Steps requiring intervention are listed under **Needs Attention** in the **Tasks** pane. To review a step:
 
-1. In the **Task** tab, select the step requesting review or assistance.
+1. In the **Task** pane, select the step requesting review or assistance.
 
    The task *timeline* opens, focused on the selected step. The timeline displays each step of a task, past and present, in chronological order.
 
 1. Select **Review** for the step.
 
-   The **Tasks** tab switches to **Review** mode, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
+   The **Tasks** pane switches to **Review** mode, and the Agent Task Message window opens to display the email contents or quote or order, depending on the task.
 
 1. Review the contents and make changes as needed.
 
@@ -92,7 +92,7 @@ You also have the opportunity to modify a quote or order during the review step 
 > [!NOTE]
 > **Discard step** is available only on review steps for outgoing emails.
 
-After you make the changes, return to the **Tasks** tab, select one of the following options for resuming the task, and then select **Send**:
+After you make the changes, return to the **Tasks** pane, select one of the following options for resuming the task, and then select **Send**:
 
 - **I have updated the quote** or **I have updated the order**: Select one of these options if you made changes to the quote or order. The agent generates a new PDF and email for the customer.
 - **Just resume**: Select this option if you didn't change the quote or order. The agent doesn't generate a new quote or order and keeps the original email as before.  
@@ -114,11 +114,11 @@ Depending on the agent's setup, it can check item availability in the requested 
 
 Learn more in [Item availability in Sales Order Agent (preview)](sales-order-agent-item-availability.md).
 
-## Stop a task
+## Stop tasks
 
-Most steps of a task include a **Stop** button that lets you terminate the process. When you select **Stop**, a task isn't terminated immediately—you're asked to confirm before the task is stopped.
+Most steps of a task include a **Stop** button that lets you terminate the process on that task only. To stop all active tasks at once, you can select the **Stop all tasks** action. This action is useful if the agent becomes blocked after importing too many tasks. It clears the task list and unblocks the agent.
 
-Before you stop a task, consider the following behavior:
+When you select **Stop**, a task isn't terminated immediately&mdash;you're asked to confirm before the task is stopped. Before you stop a task, consider the following behavior:
 
 - Stopped tasks can't be restarted.
 - Stopping the task might leave some results incomplete or unwanted, and it might require follow-up actions with the customers. Follow up actions depend on where in the process the task was stopped.

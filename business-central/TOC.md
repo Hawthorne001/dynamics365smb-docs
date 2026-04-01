@@ -88,10 +88,13 @@ ms.service: dynamics-365-business-central
 ### [Work with dates and times on calendars](ui-enter-date-ranges.md)
 ### [Detect mandatory fields](ui-mandatory-fields.md)
 ### [Change language and region](about-locale-language.md)
-### [View and edit in Excel](across-work-with-excel.md)
-### [Store and share files in OneDrive](across-share-onedrive.md)
+### Get the most out of Microsoft 365 apps
+#### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
+#### [Share records and page links in Teams](across-working-with-teams.md)
+#### [Store and share files in OneDrive](across-share-onedrive.md)
+#### [Use Word templates for bulk communication](ui-mail-merge.md)
+#### [View and edit in Excel](across-work-with-excel.md)
 ### [Manage attachments, links, and notes on cards and documents](ui-how-add-link-to-record.md)
-### [Use Word templates for bulk communication](ui-mail-merge.md)
 ### [Change basic settings](ui-change-basic-settings.md)
 ### [Switch to another company or environment](ui-organization-switch.md)
 ### [Manage notifications](ui-smart-notifications.md)
@@ -164,6 +167,7 @@ ms.service: dynamics-365-business-central
 ### [Track document lines](across-how-to-track-document-lines.md)
 ### [Send documents by email](ui-how-send-documents-email.md)
 ### [Archive documents](across-how-to-archive-documents.md)
+### [Store document attachments in external file storage](across-store-document-attachments-externally.md)
 ### [Add extended item text](ui-how-define-ext-text.md)
 ### [Define user tasks](across-user-tasks.md)
 ### [Export your business data to Excel](about-export-data.md)
@@ -262,6 +266,7 @@ ms.service: dynamics-365-business-central
 ##### [Organize report data using account categories](bi-account-categories.md)
 ##### [Report selection for finance reports](finance-financial-reporting-report-selection.md)
 ##### [View a financial report](finance-financial-reporting-view-a-report.md)
+##### [Analyze data for some or all values of a dimension](bi-analyze-data-dimension-perspective.md)
 ##### [Integrate financial reports with Excel](finance-financial-reporting-integrate-financial-reports-with-excel.md)
 ##### [Design your own financial reports](bi-design-financial-reports.md)
 ##### [Row definitions in financial reporting](bi-row-definitions.md)
@@ -536,7 +541,7 @@ ms.service: dynamics-365-business-central
 #### [Cash flow overview](finance-cash-flow-overview.md)
 #### [Analyze cash flows in your company](finance-analyze-cash-flow.md)
 #### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
+### [Register excise tax](finance-register-excise-tax.md)
 ### Working with Value Added Tax (VAT)
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
@@ -554,6 +559,10 @@ ms.service: dynamics-365-business-central
 ##### [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)
 ##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
 ##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
+
+### [Calculate withholding tax for vendors](finance-withholding-tax.md)
+### [View withholding tax entries](finance-withholding-tax-entries.md)
+
 
 ### Set up and use E-Documents
 #### [E-Documents overview](finance-edocuments-overview.md)
@@ -638,6 +647,7 @@ ms.service: dynamics-365-business-central
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
+### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 ### [Make sales quotes](sales-how-make-offers.md)
 ### [Invoice sales](sales-how-invoice-sales.md)
 ### [Sell products](sales-how-sell-products.md)
@@ -778,6 +788,7 @@ ms.service: dynamics-365-business-central
 ### [Receive and convert electronic documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ### [Date calculation for purchases](purchasing-date-calculation-for-purchases.md)
 ### [Merge duplicate records](sales-how-merge-duplicate-records.md)
+### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 ### [Work with blanket purchase orders](sales-how-to-create-blanket-sales-orders.md)
 ### [External document numbers on purchase documents](purchasing-ext-doc-no.md)
 ### [Enter external document numbers](across-enter-external-document-numbers.md)
@@ -817,21 +828,25 @@ ms.service: dynamics-365-business-central
 #### Built-in inventory and warehouse reports
 ##### [Inventory and warehouse report overview](inventory-WMS-reports.md)
 ##### [Inventory - Transaction Detail](reports/report-704.md)
+##### [Inventory Availability](reports/report-705.md)
 ##### [Status](reports/report-706.md)
-##### [Inventory Availability Plan](reports/report-707.md)
 ##### [Inventory Order Details](reports/report-708.md)
 ##### [Inventory Purchase Orders](reports/report-709.md)
 ##### [Inventory Top 10 List](reports/report-711.md) 
 ##### [Inventory Customer Sales](reports/report-713.md) 
 ##### [Inventory Vendor Purchases](reports/report-714.md)
 ##### [Inventory Cost and price list](reports/report-716.md) 
-##### [Inventory Sales Back Orders](reports/report-718.md) 
+##### [Inventory Sales Back Orders](reports/report-718.md)
+##### [Inventory Availability Plan (Excel)](reports/report-719.md)
+
+##### [Item/Vendor Catalog](reports/report-720.md)
+
+
 ##### [Inventory Picking List](reports/report-813.md) 
 ##### [Inventory Valuation](reports/report-1001.md) 
 ##### [Item Substitutions](reports/report-5701.md) 
 ##### [Item Charges - Specification](reports/report-5806.md) 
-##### [Item Age Composition - Quantity](reports/report-5807.md) 
-##### [Item Age Composition - Value](reports/report-5808.md) 
+##### [Item Age Composition - Quantity and Value (Excel)](reports/report-5808.md) 
 ##### [Item Expiration - Quantity](reports/report-5809.md) 
 ##### [Item Dimensions - Detail](reports/report-7150.md) 
 ##### [Item Dimensions - Total](reports/report-7151.md) 
@@ -840,6 +855,10 @@ ms.service: dynamics-365-business-central
 ##### [Warehouse Adjustment Bin](reports/report-7320.md) 
 ##### [Planning Availability](reports/report-99001048.md)
 ##### [Production Forecast](reports/report-990003804.md)
+
+#### Legacy reports (will be removed)
+##### [Inventory Availability Plan](reports/report-707.md)
+##### [Item Age Composition - Quantity](reports/report-5807.md) 
 <!-- Inventory analytics end -->
 
 ### [Register new items](inventory-how-register-new-items.md)
@@ -992,6 +1011,7 @@ ms.service: dynamics-365-business-central
 #### [Contacts](marketing-contacts.md)
 #### [Set up contacts](marketing-setup-contacts.md)
 #### [Create contacts](marketing-create-contact-companies.md)
+#### [Save business contacts to Outlook](save-business-contacts-to-outlook.md?toc=/dynamics365/business-central/toc.json)
 #### [Use profile questionnaires to classify business contacts](marketing-create-contact-profile-questionnaire.md)
 #### [Merge duplicate records](sales-how-merge-duplicate-records.md)
 ### Manage segments
@@ -1457,6 +1477,7 @@ ms.service: dynamics-365-business-central
 ##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
 ##### [Non-Deductible VAT](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [VAT Return CZ](LocalFunctionality/Czech/vat-return-cz.md)
+##### [VAT Return Period](LocalFunctionality/Czech/vat-return-periods.md)
 ##### [Functional Currency – Czechia](LocalFunctionality/Czech/functional-currency.md)
 ##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Fixed Assets
@@ -2111,8 +2132,8 @@ ms.service: dynamics-365-business-central
 ##### [Set up a posting date warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Enter statutory information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [Send fraud prevention data](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
-##### [The GetAddress.io UK postcodes extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
-##### [Set up the GetAddress.io UK postcodes extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
+##### [Get postal codes with the IdealPostcodes extension](LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes.md)
+##### [Set up the IdealPostcodes extension](LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service.md)
 
 ### United States
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -2160,6 +2181,7 @@ ms.service: dynamics-365-business-central
 #### [Set up calculations and posting methods for value-added tax (VAT)](finance-setup-vat.md)
 #### [Set up unrealized VAT for cash-based accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
+#### [Set up withholding tax](finance-set-up-withholding-tax.md)
 #### [Set up source codes and reason codes for audit trails](finance-setup-trail-codes.md)
 #### [Enable application of ledger entries in different currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Set up an additional reporting currency](finance-how-setup-additional-currencies.md)
@@ -2171,6 +2193,7 @@ ms.service: dynamics-365-business-central
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
 #### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
+#### [Set up excise tax](finance-set-up-excise-tax.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)
@@ -2310,8 +2333,6 @@ ms.service: dynamics-365-business-central
 #### Set up your business inbox in Microsoft Outlook
 ##### [Get the Business Central add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as your business inbox in Outlook](work-outlook-addin.md)
-##### [Synchronize with contacts in Outlook](admin-synchronize-outlook-contacts.md)
-###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -2332,9 +2353,7 @@ ms.service: dynamics-365-business-central
 #### [Connection overview](across-setup-connections.md)
 #### [Get the Business Central add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as your business inbox in Outlook 
-##### [Overview](admin-outlook.md)
-##### [Synchronize with contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
+##### [Get the Business Central add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
@@ -2371,7 +2390,6 @@ ms.service: dynamics-365-business-central
 ##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Bulk invoices for Microsoft bookings](finance-bookings.md)
 <!-- Connectors end -->
 ### Set up printers
 #### [Overview](admin-printer-setup-overview.md)
@@ -2617,6 +2635,7 @@ ms.service: dynamics-365-business-central
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Inspect pages](across-inspect-page.md)
 ### [View table information](admin-view-table-information.md)
+### [Managing database indexes](manage-indexes.md)
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
@@ -2648,7 +2667,7 @@ ms.service: dynamics-365-business-central
 #### [Quickbooks payroll file import](ui-extensions-quickbooks-payroll.md)
 #### [Sales and inventory forecast](ui-extensions-sales-forecast.md)
 #### [Service declaration extension](finance-how-setup-use-service-declaration.md)
-#### [UK - GetAddress.io UK postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [IdealPostcodes extension](LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes.md)
 #### [UK - VAT group management](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA - Send remittance advice](ui-extensions-send-remittance-advice.md)
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
