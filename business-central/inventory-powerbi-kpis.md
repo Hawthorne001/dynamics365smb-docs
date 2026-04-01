@@ -526,9 +526,8 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 ## ABC Classification Measures
 
 - [No. of Items in Class](#no-of-items-in-class)
-- [Sales Amount (ABC)](#sales-amount-abc)
-- [Sales Quantity (ABC)](#sales-quantity-abc)
-- [Percent of Sales Amount](#percent-of-sales-amount)
+- [Sales Amount (ABC)](#sales-amount-(abc))
+- [Sales Quantity (ABC)](#sales-quantity-(abc))
 
 ### No. of Items in Class
 
