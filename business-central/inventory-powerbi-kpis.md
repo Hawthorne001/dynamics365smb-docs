@@ -526,8 +526,8 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 ## ABC Classification Measures
 
 - [No. of Items in Class](#no-of-items-in-class)
-- [Sales Amount (ABC)](#sales-amount-(abc))
-- [Sales Quantity (ABC)](#sales-quantity-(abc))
+- [Sales Amount (ABC)](#sales-amount-abc)
+- [Sales Quantity (ABC)](#sales-quantity-abc)
 
 ### No. of Items in Class
 
@@ -539,7 +539,7 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 
 - Item Ledger Entry
 
-### Sales Amount (ABC)
+### Sales Amount ABC
 
 **Formula**  
 
@@ -549,7 +549,7 @@ This page provides a list of all Key Performance Indicators (KPIs) included in t
 
 - Item Ledger Entry
 
-### Sales Quantity (ABC)
+### Sales Quantity ABC
 
 **Formula** 
 
