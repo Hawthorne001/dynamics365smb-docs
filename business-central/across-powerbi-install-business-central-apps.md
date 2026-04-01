@@ -196,6 +196,12 @@ Learn more in [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] seman
 
 For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, the job queue entry that runs the *Update Dim. Set Entries* codeunit must run at least one time. If you change dimension sets or values, the codeunit must run again. Therefore, we recommend that you run the corresponding job queue entry one time each week, or maybe once a night outside normal working hours.
 
+## ABC Analysis Setup
+
+ABC Analysis reporting categories are driven by the **ABC Analysis Setup**. This setup represents the percentage boundaries for the ABC class categories in the Power BI inventory reports. WIth the default configuration, Category A accounts for 50 percent of the total sales value, Category B accounts for 30 percent, and Category C accounts for 20 percent.
+
+To customize the ABC Class Category percentage boundaries, go to the [ABC Analysis Setup](https://businesscentral.dynamics.com?page=7160) page. Category A typically represents the items with the highest contribution to the total sales amount. Category B represents items that moderately contribute. Category C represents the items that contribute the least. The sum of the percentages for all three categories must equal 100.
+
 ## Want links to show up in Report Explorer?
 
 The profiles (roles) selected to display in the Role Explorer control the functional areas that show in Report Explorer. To specify whether profiles display, turn on or turn off the **Enabled** and **Show in Role Explorer** toggles on the **Profiles** page.
