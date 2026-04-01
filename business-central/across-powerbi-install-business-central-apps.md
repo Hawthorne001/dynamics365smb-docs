@@ -11,9 +11,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]
+# Install Power BI apps for Business Central
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+<!-- [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)] -->
 
 This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]. The apps are specific to each functional area of [!INCLUDE [prod_short](includes/prod_short.md)]. The apps include:
 
@@ -88,31 +88,21 @@ When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] templat
 | Subscription Billing           | 27.0 and later | https://aka.ms/bc-pbi-subscription-billing-app   |
 | Sustainability                 | 27.0 and later | https://aka.ms/bc-pbi-sustainability-app         |
 
-#### Power BI apps (version 26.2 to 26.5)
+#### Power BI apps (version 26)
 
 | To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
 |--------------------------------| -------------- | ------------------------------------------------ |
-| Finance                        | 26.2 to 26.5 | https://aka.ms/bc-pbi-finance-app-26-2             |
-| Inventory                      | 26.2 to 26.5 | https://aka.ms/bc-pbi-inventory-app-26-2           |
-| Inventory Valuation            | 26.2 to 26.5 | https://aka.ms/bc-pbi-inventory-valuation-app-26-2 | 
-| Manufacturing                  | 26.2 to 26.5 | https://aka.ms/bc-pbi-manufacturing-app-26-2       |
-| Purchasing                     | 26.2 to 26.5 | https://aka.ms/bc-pbi-purchase-app-26-2            |
-| Projects                       | 26.2 to 26.5 | https://aka.ms/bc-pbi-projects-app-26-2            |
-| Sales                          | 26.2 to 26.5 | https://aka.ms/bc-pbi-sales-app-26-2               |
-| Subscription Billing           | 26.2 to 26.5 | https://aka.ms/bc-pbi-subscription-billing-app     |
-| Sustainability                 | 26.2 to 26.5 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
+| Finance                        | version 26 | https://aka.ms/bc-pbi-finance-app-26-2             |
+| Inventory                      | version 26 | https://aka.ms/bc-pbi-inventory-app-26-2           |
+| Inventory Valuation            | version 26 | https://aka.ms/bc-pbi-inventory-valuation-app-26-2 | 
+| Manufacturing                  | version 26 | https://aka.ms/bc-pbi-manufacturing-app-26-2       |
+| Purchasing                     | version 26 | https://aka.ms/bc-pbi-purchase-app-26-2            |
+| Projects                       | version 26 | https://aka.ms/bc-pbi-projects-app-26-2            |
+| Sales                          | version 26 | https://aka.ms/bc-pbi-sales-app-26-2               |
+| Subscription Billing           | version 26 | https://aka.ms/bc-pbi-subscription-billing-app     |
+| Sustainability                 | version 26 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
 
-#### Power BI apps (version 25.2 to 26.1)
 
-| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
-|--------------------------------| ------------ | -------------------------------------------------- |
-| Finance                        | 25.2 to 26.1 | https://aka.ms/bc-pbi-finance-app-25-2             |
-| Inventory                      | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-app-25-2           |
-| Inventory Valuation            | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-valuation-app-25-2 | 
-| Manufacturing                  | 25.2 to 26.1 | https://aka.ms/bc-pbi-manufacturing-app-25-2       |
-| Purchasing                     | 25.2 to 26.1 | https://aka.ms/bc-pbi-purchase-app-25.2            |
-| Projects                       | 25.2 to 26.1 | https://aka.ms/bc-pbi-projects-app-25-2            |
-| Sales                          | 25.2 to 26.1 | https://aka.ms/bc-pbi-sales-app-25-2               |
 
 ### Need Power BI apps for multiple companies?
 
@@ -205,6 +195,12 @@ Learn more in [Refresh [!INCLUDE [powerbi-name](includes/powerbi-name.md)] seman
 ## Job queue entry for updating dimension set entries
 
 For dimension set entries to show up in the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps, the job queue entry that runs the *Update Dim. Set Entries* codeunit must run at least one time. If you change dimension sets or values, the codeunit must run again. Therefore, we recommend that you run the corresponding job queue entry one time each week, or maybe once a night outside normal working hours.
+
+## ABC Analysis Setup
+
+ABC Analysis reporting categories are driven by the **ABC Analysis Setup**. This setup represents the percentage boundaries for the ABC class categories in the Power BI inventory reports. WIth the default configuration, Category A accounts for 50 percent of the total sales value, Category B accounts for 30 percent, and Category C accounts for 20 percent.
+
+To customize the ABC Class Category percentage boundaries, go to the [ABC Analysis Setup](https://businesscentral.dynamics.com?page=7160) page. Category A typically represents the items with the highest contribution to the total sales amount. Category B represents items that moderately contribute. Category C represents the items that contribute the least. The sum of the percentages for all three categories must equal 100.
 
 ## Want links to show up in Report Explorer?
 

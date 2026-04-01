@@ -14,8 +14,6 @@ ms.custom: bap-template
 
 # Configure quality inspection results
 
-[!INCLUDE [early-access-partners-only](includes/early-access-partners-only.md)]
-
 This article explains how to configure and use quality inspection results in quality management.
 
 Quality inspection results represent the possible outcomes of quality inspections. Examples of typical results are Incomplete, Fail, and Pass. However, you can configure as many results as you want, and in what circumstances.  If you're unsure what to configure, use the three defaults. To learn more about the defaults, go to [Result concepts](#result-concepts). 
