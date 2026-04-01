@@ -11,9 +11,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]
+# Install Power BI apps for Business Central
 
-[!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)]
+<!-- [!INCLUDE[applies-to-2024w2](includes/applies-to-2024w2.md)] -->
 
 This article describes how to install [!INCLUDE [powerbi-name](includes/powerbi-name.md)] apps for [!INCLUDE [prod_short](includes/prod_short.md)]. The apps are specific to each functional area of [!INCLUDE [prod_short](includes/prod_short.md)]. The apps include:
 
@@ -88,31 +88,21 @@ When you install the [!INCLUDE [powerbi-name](includes/powerbi-name.md)] templat
 | Subscription Billing           | 27.0 and later | https://aka.ms/bc-pbi-subscription-billing-app   |
 | Sustainability                 | 27.0 and later | https://aka.ms/bc-pbi-sustainability-app         |
 
-#### Power BI apps (version 26.2 to 26.5)
+#### Power BI apps (version 26)
 
 | To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
 |--------------------------------| -------------- | ------------------------------------------------ |
-| Finance                        | 26.2 to 26.5 | https://aka.ms/bc-pbi-finance-app-26-2             |
-| Inventory                      | 26.2 to 26.5 | https://aka.ms/bc-pbi-inventory-app-26-2           |
-| Inventory Valuation            | 26.2 to 26.5 | https://aka.ms/bc-pbi-inventory-valuation-app-26-2 | 
-| Manufacturing                  | 26.2 to 26.5 | https://aka.ms/bc-pbi-manufacturing-app-26-2       |
-| Purchasing                     | 26.2 to 26.5 | https://aka.ms/bc-pbi-purchase-app-26-2            |
-| Projects                       | 26.2 to 26.5 | https://aka.ms/bc-pbi-projects-app-26-2            |
-| Sales                          | 26.2 to 26.5 | https://aka.ms/bc-pbi-sales-app-26-2               |
-| Subscription Billing           | 26.2 to 26.5 | https://aka.ms/bc-pbi-subscription-billing-app     |
-| Sustainability                 | 26.2 to 26.5 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
+| Finance                        | version 26 | https://aka.ms/bc-pbi-finance-app-26-2             |
+| Inventory                      | version 26 | https://aka.ms/bc-pbi-inventory-app-26-2           |
+| Inventory Valuation            | version 26 | https://aka.ms/bc-pbi-inventory-valuation-app-26-2 | 
+| Manufacturing                  | version 26 | https://aka.ms/bc-pbi-manufacturing-app-26-2       |
+| Purchasing                     | version 26 | https://aka.ms/bc-pbi-purchase-app-26-2            |
+| Projects                       | version 26 | https://aka.ms/bc-pbi-projects-app-26-2            |
+| Sales                          | version 26 | https://aka.ms/bc-pbi-sales-app-26-2               |
+| Subscription Billing           | version 26 | https://aka.ms/bc-pbi-subscription-billing-app     |
+| Sustainability                 | version 26 | https://aka.ms/bc-pbi-sustainability-app-26-2      |
 
-#### Power BI apps (version 25.2 to 26.1)
 
-| To get the template app for... | In [!INCLUDE [prod_short](includes/prod_short.md)] versions | Use this install link |
-|--------------------------------| ------------ | -------------------------------------------------- |
-| Finance                        | 25.2 to 26.1 | https://aka.ms/bc-pbi-finance-app-25-2             |
-| Inventory                      | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-app-25-2           |
-| Inventory Valuation            | 25.2 to 26.1 | https://aka.ms/bc-pbi-inventory-valuation-app-25-2 | 
-| Manufacturing                  | 25.2 to 26.1 | https://aka.ms/bc-pbi-manufacturing-app-25-2       |
-| Purchasing                     | 25.2 to 26.1 | https://aka.ms/bc-pbi-purchase-app-25.2            |
-| Projects                       | 25.2 to 26.1 | https://aka.ms/bc-pbi-projects-app-25-2            |
-| Sales                          | 25.2 to 26.1 | https://aka.ms/bc-pbi-sales-app-25-2               |
 
 ### Need Power BI apps for multiple companies?
 

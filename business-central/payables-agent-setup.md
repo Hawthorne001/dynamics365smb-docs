@@ -1,7 +1,7 @@
 ---
 title: Set up Payables Agent
 description: Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
-ms.date: 01/05/2026
+ms.date: 02/16/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: sorenfriisalexandersen
@@ -45,7 +45,7 @@ The agent capability is on if the ![Shows the Payables Agent icon](media/payable
 
 ![Shows the Payables Agent icon on a role center](media/payables-agent-in-role-center.svg)
 
-If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Payables Agent is listed under **Production ready previews**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
+If the icon isn't present, turn it on from the **Copilot & agent capabilities** page, like other Copilot features in Business Central. The Payables Agent is listed under **Generally available**. Learn more in [Configure Copilot and AI agent capabilities](enable-ai.md).
 
 Next, configure and activate the agent so it can process vendor invoices.
 
@@ -131,6 +131,10 @@ Before you can add or delete permission sets applied to the agent, change the **
 1. To open the **Payables Agent** card page, search (<kbd>Alt</kbd>+<kbd>Q</kbd>) for  **Agents**, and then select **PAYABLES AGENT - [COMPANY]**.
 1. Select **Agent User Settings**.
 1. Set **Language** to a supported English locale.
+
+## Next steps
+
+- [Supervise agent activities](supervise-agent-tasks.md)
 
 ## Related information
 

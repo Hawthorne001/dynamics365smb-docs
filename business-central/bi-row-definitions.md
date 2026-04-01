@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 02/27/2026
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: 103_Primary, 104_Primary, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
+ms.search.form: 103_Primary, 104_Primary, 195, 196, 197, 198, 489, 490, 764, 765, 766
 ms.service: dynamics-365-business-central
 ---
 
@@ -182,6 +182,10 @@ To import or export financial report row definitions, follow these steps:
 If you want to edit all the lines in a row definition, with the Edit in Excel action, you can make all the changes in Excel and then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 To learn more, go to [Edit in Excel](across-work-with-excel.md#edit-in-excel).
+
+## Manage the lifecycle of row definitions
+
+[!INCLUDE [block-row-column-def](includes/block-row-column-def.md)] 
 
 ## Best practices for working with row definitions
 

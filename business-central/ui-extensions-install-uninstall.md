@@ -65,7 +65,7 @@ Microsoft provides the following apps:
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 * [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
-* [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
+* [IdealPostcodes extension in the British version](LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes.md)
 * [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
 ## Set up an app
