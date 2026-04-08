@@ -26,7 +26,7 @@ If you are using an on-premises deployment of [!INCLUDE[prod_short](includes/pro
 
 ## Dynamics GP
 
-If you are using Dynamics GP,  get the **Intelligent Cloud Base Extension** extension and the **Dynamics GP Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.  
+If you are using Dynamics GP,  get the **Dynamics GP Historical Data**, **Dynamics GP Intelligent Cloud**, and **Dynamics GP Intelligent Cloud - US** extension, and then run the **Cloud Migration Setup** assisted setup guide.  
 
 > [!IMPORTANT]
 > Migrating from Dynamics GP using the **Cloud Migration Setup** assisted setup guide is currently only supported for the following markets: United States, Canada, United Kingdom.
