@@ -4,7 +4,7 @@ description: A company's distribution strategy is reflected in the configuration
 author: brentholtorf
 ms.topic: concept-article
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
-ms.date: 09/07/2026
+ms.date: 04/07/2026
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
