@@ -1,5 +1,5 @@
 ---
-title: Cloud Migration Extensions
+title: Cloud Migration Extensions for Migrating to Business Central Online
 description: Use the cloud migration extensions to migrate your on-premises data to Business Central online. These extensions move your on-premises data to the cloud.
 author: brentholtorf
 ms.topic: article
@@ -7,12 +7,12 @@ ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, import, implement
 ms.search.form: 4021, 4026, 4031, 4090, 4091, 4092, 4093, 4094, 4095, 4096, 4097, 40027, 
 ms.reviewer: bholtorf
-ms.date: 06/23/2021
+ms.date: 04/08/2026
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Cloud Migration Extensions for Migrating to Business Central Online
+# Cloud migration extensions for migrating to Business Central Online
 
 Depending on your on-premises solution, you must use different extensions to connect your data with [!INCLUDE[prod_short](includes/prod_short.md)] online for purposes of migrating your solution to the cloud.  
 
@@ -30,10 +30,6 @@ If you are using Dynamics GP,  get the **Intelligent Cloud Base Extension** exte
 
 > [!IMPORTANT]
 > Migrating from Dynamics GP using the **Cloud Migration Setup** assisted setup guide is currently only supported for the following markets: United States, Canada, United Kingdom.
-
-## Dynamics SL
-
-If you are using Dynamics SL, get the **Intelligent Cloud Base** extension, the **Microsoft Dynamics SL Intelligent Cloud** extension and the **Microsoft Dynamics SL History SmartLists** extension, and then run the **Cloud Migration Setup** assisted setup guide.  
 
 ## Related information
 
