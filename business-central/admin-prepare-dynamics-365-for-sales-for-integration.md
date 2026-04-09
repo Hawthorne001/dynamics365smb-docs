@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 07/02/2024
+ms.date: 04/08/2026
 ms.service: dynamics-365-business-central
 ms.custom:
   - bap-template
