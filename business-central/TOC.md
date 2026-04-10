@@ -596,8 +596,8 @@ ms.service: dynamics-365-business-central
 ### Sales analytics 
 #### [Sales analytics overview](sales-analytics-overview.md)
 
-#### [Power BI sales app](sales-powerbi-app.md)
-##### [Sales overview](sales-powerbi-sales-overview.md)
+#### [Power BI Sales app](sales-powerbi-app.md)
+##### [Sales app overview](sales-powerbi-sales-overview.md)
 ##### [Key Sales Influencers](sales-powerbi-key-sales-influencers.md)
 ##### [Sales Decomposition](sales-powerbi-sales-decomposition.md)
 ##### [Sales Forecasting](sales-powerbi-sales-forecasting.md) 
@@ -618,6 +618,8 @@ ms.service: dynamics-365-business-central
 ##### [Sales Demographics](sales-powerbi-sales-demographics.md)
 ##### [Power BI Sales app semantic model](sales-powerbi-app-semantic-model.md)
 ##### [KPIs and measures in the Power BI Sales app](sales-powerbi-sales-kpis.md)
+##### [Customer Retention Overview (Power BI Report)](sales-powerbi-customer-retention-overview.md)
+##### [Customer Retention History (Power BI Report)](sales-powerbi-customer-retention-history.md)
 
 #### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
 #### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
