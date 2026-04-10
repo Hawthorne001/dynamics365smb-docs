@@ -51,8 +51,8 @@ If your admin or reselling partner prefers not to use the **Invite External Acco
 
 #### Add your accountant as a guest user
 
-1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) as at least a [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator).
-1. In the navigation pane, select **Users**.
+1. Sign in to [Microsoft Entra admin center](https://entra.microsoft.com) as at least a [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator).
+1. In the navigation pane, select **Entra ID** > **Users**.
 1. On the **Users** page, select **New user**, and then **Invite external user**.
 1. On the **Invite external user** page, add the accountant's email address and other information about them.  
 
