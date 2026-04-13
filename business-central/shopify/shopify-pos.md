@@ -46,7 +46,7 @@ Because the **Sell-to Customer No.** and **Bill-to Customer No.** fields are man
 
 ## Licensing considerations
 
-Depending on how Shopify POS is used with Business Central, some scenarios may require a Business Central Device license, such as configurations involving indirect access or multiplexing. Review the Dynamics 365 licensing guide for your specific setup. To learn more about licenses, go to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
+Depending on how Shopify POS is used with [!INCLUDE [prod_short](../includes/prod_short.md)], some scenarios may require a [!INCLUDE [prod_short](../includes/prod_short.md)] Device license, such as configurations involving indirect access or multiplexing. Review the Dynamics 365 licensing guide for your specific setup. To learn more about licenses, go to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 
 ## Related information
 
