@@ -81,7 +81,7 @@ The cues are based on the work date.
 
 ## Analytics in subscription billing
 
-The Power BI Subscription Billing app provides a set of reports that give you detailed insights into the performance and health of your subscription business. Use the app to monitor key metrics such as monthly recurring revenue, churn rates, and contract growth over time. The reports connect directly to your subscription billing data in Business Central, so you always have up-to-date information for analysis and decision-making. Learn more at [Power BI Subscription Billing app](https://learn.microsoft.com/en-us/dynamics365/business-central/srb/analytics/subscription-powerbi-app).
+The Power BI Subscription Billing app provides a set of reports that give you detailed insights into the performance and health of your subscription business. Use the app to monitor key metrics such as monthly recurring revenue, churn rates, and contract growth over time. The reports connect directly to your subscription billing data in Business Central, so you always have up-to-date information for analysis and decision-making. Learn more at [Power BI Subscription Billing app](analytics/subscription-powerbi-app.md).
 
 ## Get started
 
