@@ -23,9 +23,6 @@ To learn more about Ideal Postcodes, visit their [website](https://ideal-postcod
 
 ## Get started
 
-> [!NOTE]
-> If you're working in a sandbox environment, your Ideal Postcodes extension must allow HTTPClient requests. To verify that setting, open the **Extension Management** page, find the Ideal Postcodes extension, and then make sure that the **Allow HttpClient Requests** toggle is turned on.
-
 1. [!INCLUDE [open-search](../../includes/open-search.md)], enter **Service Connections**, and then choose the related link.
 1. On the **Service Connections** page, choose **UK Postcode Service**.
 1. On the **Postcode provider configuration page**, choose **Disabled**.
@@ -44,6 +41,10 @@ To learn more about Ideal Postcodes, visit their [website](https://ideal-postcod
    1. Select the **Enabled** checkbox, and then choose **OK**.
 
 1. To verify that your API key works, choose **Test Connection**.
+
+   > [!NOTE]
+   > If you're working in a sandbox environment, your Ideal Postcodes extension must allow HTTPClient requests. To verify that setting, open the **Extension Management** page, find the Ideal Postcodes extension, and then make sure that the **Allow HttpClient Requests** toggle is turned on.
+
 1. On the **Service Connections** page, verify that the **Address Provider** field contains **Ideal Postcodes**. If it does, the service is ready to use.
 
 ## Related information
