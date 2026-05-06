@@ -25,6 +25,13 @@ You can print or email 1099 copy substitutes to your vendors, including all the 
 
 [!INCLUDE [prod_short](../../includes/prod_short.md)] provides an API that integrates the IRS's Information Returns Intake System (IRIS) so that you can electronically file your returns. To learn more about IRIS, go to the [IRS website](https://go.microsoft.com/fwlink/?linkid=2334210).
 
+#### Set up your IRIS User ID
+
+Before you can send transmissions, every [!INCLUDE [prod_short](../../includes/prod_short.md)] user who submits 1099 forms must register with the IRS Consent App and connect their IRIS User ID to [!INCLUDE [prod_short](../../includes/prod_short.md)]. Open the **Setup IRIS User ID** page from **IRS Forms Setup** and follow the in-product instructions.
+
+> [!IMPORTANT]
+> The IRIS User ID is stored per [!INCLUDE [prod_short](../../includes/prod_short.md)] user, not per company. This is by design, because on the IRS side an IRIS User ID identifies a person, not a company. The same IRIS User ID is therefore visible across all companies the user signs in to. If the IRS issued you a separate IRIS User ID for another company, sign in as a different [!INCLUDE [prod_short](../../includes/prod_short.md)] user when you submit transmissions for that company.
+
 > [!NOTE]
 > After you create 1099 form documents for vendors, when you post invoices for vendors and apply payments to them, the **Amount** field on the **1099 Form Document** page updates. It's a good idea to review the amount before you submit the information.
 
@@ -47,6 +54,9 @@ To submit your 1099 form using IRIS, follow these steps:
 1. If the information is correct, choose the **Send** action.
 
 After you submit the document to the IRS by using the API, the status of the document on the **IRS 1099 Form Document** page changes to **Submitted**.  
+
+> [!TIP]
+> If amounts change after you create a transmission, or new released 1099 form documents appear for the same period, choose the **Update Transmission** action on the **IRIS Transmission** page to recalculate the related form documents and add the new ones to the transmission.
 
 ### Submit using magnetic media  
 
@@ -75,6 +85,52 @@ When you send information to the IRS, some checks happen in the background that 
 
 However, the background checks don't verify values, such as amounts. If you discover that you submitted an incorrect amount in a transmission that was accepted, you can correct the amount and resubmit. To learn more, go to [Correct an accepted transmission](#correct-an-accepted-transmission).
 
+### Transmission statuses
+
+After you send a transmission, the IRS returns one of the following statuses on the **IRIS Transmission** page:
+
+- **Accepted** – The IRS successfully processed and accepted the transmission.
+- **Rejected** – The IRS rejected the transmission because it could not be processed successfully. Use **Send Replacement** to resubmit the entire transmission.
+- **Processing** – The IRS hasn't completed processing the transmission. Check the status again later.
+- **Partially Accepted** – The IRS processed the transmission and accepted some submissions while rejecting others as unusable data.
+- **Accepted with Errors** – The IRS successfully processed and accepted the transmission, but with errors on one or more submissions.
+- **Not Found** – The Receipt ID or the UTID in the request was not found by the IRS.
+
+In addition to the statuses returned by the IRS, the **IRIS Transmission** page can show the following internal statuses:
+
+- **None** – The transmission has been created in [!INCLUDE [prod_short](../../includes/prod_short.md)] but has not yet been sent.
+- **Unknown** – The status returned by the IRS could not be interpreted.
+
+### Refresh the transmission status
+
+If the transmission is in **Processing** state, or the status didn't update automatically after sending, you can request the current status from the IRS on the **IRIS Transmission** page:
+
+- **Request Status** uses the **Receipt ID** that the IRS returned when you sent the transmission. Use this action in most cases.
+- **Request Status by UTID** uses the **Unique Transmission ID** instead of the Receipt ID. Use this action when the Receipt ID is missing – for example, when a pre-receipt validation error (such as an XML schema validation error) prevented [!INCLUDE [prod_short](../../includes/prod_short.md)] from saving it. The UTID is selected automatically from the latest transmission attempt.
+
+> [!NOTE]
+> The **Request Status by UTID** action is hidden by default. Use page personalization to show it when you need it.
+
+### Recover a lost Receipt ID
+
+If the **Receipt ID** is missing because the session was interrupted or the value was deleted, contact the IRIS help desk with your **Unique Transmission ID** (visible on the **Transmission History** page) to retrieve the Receipt ID. Then, on the **IRIS Transmission** page, choose **Assign Receipt ID** and enter the value. After the Receipt ID is assigned, you can use **Request Status** to refresh the transmission status.
+
+### Troubleshoot authentication errors
+
+If a **Send** or **Request Status** action fails with **401 Unauthorized**, your IRIS OAuth tokens may be stale. To recover:
+
+1. On the **IRIS Transmission** page, choose **Clear OAuth Tokens**. The action is hidden by default; use page personalization to show it.
+2. Try the action again. [!INCLUDE [prod_short](../../includes/prod_short.md)] requests new tokens automatically the next time you send or request status.
+3. If the error persists, on the **Setup IRIS User ID** page, re-enter your **IRIS User ID**.
+
+### Review transmission history
+
+The **Transmission History** page lists every send, replacement, correction, and status request for the period, together with the **Unique Transmission ID** assigned by [!INCLUDE [prod_short](../../includes/prod_short.md)] and the **Receipt ID** returned by the IRS. From this page, you can also download the raw payloads exchanged with the IRS for support and audit purposes:
+
+- **Download Transmission Content** – the XML file that [!INCLUDE [prod_short](../../includes/prod_short.md)] sent to the IRS.
+- **Download Response Content** – the immediate response returned by the IRS for the send request, in XML or JSON format.
+- **Download Acknowledgement Content** – the acknowledgement returned by the IRS once processing completed, in XML or JSON format. The acknowledgement contains the transmission and submission statuses, together with any errors reported by the IRS.
+
 ### Correct a rejected transmission
 
 If the IRS finds an error in your transmission, on the **IRIS Transmission** page, the status of the transmission becomes **Rejected**. If that happens, use the **Show error(s)** link to open the **Error Information** page, where you can find out what to fix. After you correct the error, choose the **Send Replacement** action to resubmit the information. Repeat these steps until the status of the transmission becomes **Accepted**. To view a history of your attempts to submit, choose the **Transmission History** action.
@@ -94,12 +150,28 @@ To correct a mistake and resubmit, follow these steps:
    > [!TIP]
    > The **Corrected** field is useful for double-checking that the correction was made. If a line was corrected and accepted by the IRS, the field contains **Yes**.
 
+> [!NOTE]
+> Use **Send Replacement** when the IRS rejected the entire transmission – it resubmits the original payload as a replacement. Use **Send Correction** after the IRS accepted the transmission – it submits only the lines that you marked with **Allow Correction** and re-released. Replacements address transmission-level rejections; corrections address per-record fixes after acceptance.
+
+#### Choose the right correction action
+
+The **IRIS Transmission** page provides three correction actions, depending on what you need to fix:
+
+| Action | When to use it |
+|--------|----------------|
+| **Send Correction** | A line was accepted with the wrong vendor name, TIN, or amount. [!INCLUDE [prod_short](../../includes/prod_short.md)] sends only the lines you marked with **Allow Correction** and re-released, with the corrected values. |
+| **Send Zero Amounts Correction** | A 1099 form should not have been filed for a vendor at all. [!INCLUDE [prod_short](../../includes/prod_short.md)] sends the marked lines as a correction with zero amounts, which removes the filing. |
+| **Two-Step Correction** | The form type itself was wrong (for example, you filed 1099-MISC but should have filed 1099-NEC). The two steps are:<br>**Step 1: Send Zero Amounts Correction** zeros out *all* lines in the original transmission (except open and abandoned ones).<br>**Step 2: Send Corrected** submits a new original transmission for the same period with the correct form type. |
+
+> [!TIP]
+> The **Two-Step Correction** group on the **IRIS Transmission** page also includes a **Help** action that describes the process inside the product.
+
 ## Email automation
 
 ### Prerequisites
 
 > [!NOTE]
-> You can only send the document via email if its **Status** is **Submitted**. This restriction helps you avoid sending an unsubmitted document to the vendor.
+> You can only send the document via email if its **Status** is **Released** or **Submitted**. This restriction helps you avoid sending an unreleased document to the vendor.
 
 To send forms to your vendor, you must set up the consent and the email on the **Vendor Card** page. These settings include enabling the **Receiving 1099 E-Form Consent** field to acknowledge that your vendor provided signed consent to receive their 1099 form electronically using email.  
 
